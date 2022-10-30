@@ -3,22 +3,30 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://iamjy.com",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Jiu Yang",
+    url: "https://iamjy.com",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "yszar/biancheng.pro",
 
   docsDir: "demo/theme-docs/src",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: [
+    "Author", 
+    "Original", 
+    "Date", 
+    "Category", 
+    "Tag", 
+    "ReadingTime", 
+    "Word"
+  ],
 
   locales: {
     "/en/": {
@@ -47,7 +55,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: '<a href="https://beian.miit.gov.cn/" target="_blank">陇ICP备15003024号</a>',
 
       displayFooter: true,
 
