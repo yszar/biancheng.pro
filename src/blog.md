@@ -3,6 +3,7 @@ home: true
 layout: Blog
 icon: blog
 title: 博客主页
+heroImage: https://static.iamjy.com/logo.png
 heroText: 九阳全栈博客
 heroFullScreen: false
 tagline: 好像什么都会，又好像什么都不会的——全干工程师。
