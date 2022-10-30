@@ -12,19 +12,19 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "https://static.iamjy.com/logo.png",
 
   repo: "yszar/biancheng.pro",
 
   docsDir: "demo/theme-docs/src",
 
   pageInfo: [
-    "Author", 
-    "Original", 
-    "Date", 
-    "Category", 
-    "Tag", 
-    "ReadingTime", 
+    "Author",
+    "Original",
+    "Date",
+    "Category",
+    "Tag",
+    "ReadingTime",
     "Word"
   ],
 
@@ -72,7 +72,16 @@ export default hopeTheme({
       "/en/demo/encrypt.html": ["1234"],
     },
   },
-
+  blog: {
+    roundAvatar: true,
+    description: "全干工程师 / 游戏爱好者 / C罗脑残粉",
+    medias: {
+      GitHub: "https://github.com/yszar",
+      Gmail: "mailto:yszaryszar@gmail.com",
+      Gitee: "https://gitee.com/yszaryszar",
+      Zhihu: "https://www.zhihu.com/people/iamjy.com"
+    },
+  },
   plugins: {
     // If you don't need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
@@ -205,6 +214,6 @@ export default hopeTheme({
         ],
       },
     },
-    blog:{}
+    blog: true
   },
 });
