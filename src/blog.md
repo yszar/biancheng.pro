@@ -1,7 +1,7 @@
 ---
 home: true
 layout: Blog
-icon: home
+icon: blog
 title: 博客主页
 heroText: 九阳全栈博客
 heroFullScreen: false
