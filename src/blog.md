@@ -5,7 +5,7 @@ icon: blog
 title: 博客主页
 heroText: 九阳全栈博客
 heroFullScreen: false
-tagline: 技术文通俗易懂，吹水文风趣幽默。
+tagline: 好像什么都会，又好像什么都不会的——全干工程师。
 projects:
   - icon: project
     name: 进阶之路
@@ -36,5 +36,4 @@ projects:
     name: 破解合集
     desc: 程序员常用工具聚集地
     link: /nice-article/itmind/
-
 ---
