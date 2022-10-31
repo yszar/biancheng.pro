@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/building-tutorial/VuePress.md",
+                "file": "src/building-tutorial/VuePress-Best-Practices.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/building-tutorial/VuePress.md",
+                "file": "src/building-tutorial/VuePress-Best-Practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/building-tutorial/VuePress.md",
+                "file": "src/building-tutorial/VuePress-Best-Practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/building-tutorial/VuePress.md"
+                "file": "src/building-tutorial/VuePress-Best-Practices.md"
               }
             }
           }
@@ -152,7 +152,7 @@
   "active": "60da83ff03ffe307",
   "lastOpenFiles": [
     "template.md",
-    "src/building-tutorial/VuePress.md",
+    "src/building-tutorial/VuePress-Best-Practices.md",
     "src/README.md",
     "src/home.md",
     "conflict-files-obsidian-git.md",
