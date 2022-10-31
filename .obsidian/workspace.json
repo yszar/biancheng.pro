@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/building-tutorial/本站搭建过程：VuePress.md",
+                "file": "src/building-tutorial/VuePress.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/building-tutorial/本站搭建过程：VuePress.md",
+                "file": "src/building-tutorial/VuePress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/building-tutorial/本站搭建过程：VuePress.md",
+                "file": "src/building-tutorial/VuePress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/building-tutorial/本站搭建过程：VuePress.md"
+                "file": "src/building-tutorial/VuePress.md"
               }
             }
           }
@@ -151,15 +151,15 @@
   },
   "active": "60da83ff03ffe307",
   "lastOpenFiles": [
+    "template.md",
+    "src/building-tutorial/VuePress.md",
     "src/README.md",
     "src/home.md",
     "conflict-files-obsidian-git.md",
     "src/about.md",
     "src/blog.md",
-    "template.md",
     "src/guide/foo/ray.md",
     "README.md",
-    "src/guide/foo/README.md",
-    "src/guide/README.md"
+    "src/guide/foo/README.md"
   ]
 }
