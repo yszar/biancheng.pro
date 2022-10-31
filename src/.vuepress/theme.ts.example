@@ -22,6 +22,16 @@ export default hopeTheme({
 
   /* ---------- 博客配置 ---------- */
   blog: {
+    // 博主姓名
+    // 类型: string
+    // 默认值: author
+    name: "",
+
+    // 博主头像
+    // 类型: string
+    // 默认值: logo
+    avatar: "",
+
     // 设置自己的一句话介绍、座右铭或口号
     // 类型: string
     // 必填: 否
@@ -47,6 +57,24 @@ export default hopeTheme({
     // 默认值: false
     roundAvatar: true,
 
+    // 是否在侧边栏展示博主信息。
+    // 类型: "mobile" | "none" | "always"
+    // 默认值: "mobile"
+    // "mobile": 在移动视图中显示在侧边栏中
+    // "always": 总是展示在侧边栏中
+    // "none": 永远不在侧边栏展示
+    sidebarDisplay: "mobile",
+
+    // 时间轴的顶部文字。
+    // 类型: string
+    // 默认值: "昨日不在"
+    timeline: "",
+
+    //每页的文章数量
+    // 类型: number
+    // 默认: 10
+    articlePerPage: 10,
+
     // 文章列表中展示的文章信息
     // 类型: ArticleInfo[]
     // 默认: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime"]
@@ -63,27 +91,27 @@ export default hopeTheme({
   },
 
   /* ---------- 加密配置 ---------- */
-  // encrypt: {
-  //   // 是否全局（整站）加密
-  //   // 类型: boolean
-  //   // 默认值: false
-  //   global: false,
+  encrypt: {
+    // 是否全局（整站）加密
+    // 类型: boolean
+    // 默认值: false
+    global: false,
 
-  //   // 最高权限密码，可以以数组的形式设置多个
-  //   // 类型: string | string[]
-  //   // 必填: 否
-  //   admin: [],
+    // 最高权限密码，可以以数组的形式设置多个
+    // 类型: string | string[]
+    // 必填: 否
+    admin: [],
 
-  //   // 加密配置，为一个对象，键名为匹配的路径，键值为对应的密码，接受字符串或字符串数组。
-  //   // 类型: Record<string, string | string[]>
-  //   // 必填: 否
-  //   config: {
-  //     // 这会加密整个 i-am-test 目录，并且两个密码都是可用的
-  //     "/i-am-test/": ["1234", "5678"],
-  //     // 这只会加密 i-am-test/test.html
-  //     "/i-am-test/test.html": "1234"
-  //   }
-  // },
+    // 加密配置，为一个对象，键名为匹配的路径，键值为对应的密码，接受字符串或字符串数组。
+    // 类型: Record<string, string | string[]>
+    // 必填: 否
+    config: {
+      // 这会加密整个 i-am-test 目录，并且两个密码都是可用的
+      "/i-am-test/": ["1234", "5678"],
+      // 这只会加密 i-am-test/test.html
+      "/i-am-test/test.html": "1234"
+    }
+  },
 
   /* ======================== 主题布局选项 ======================== */
 
@@ -93,6 +121,18 @@ export default hopeTheme({
   // 类型: HopeThemeNavbarConfig | false
   // 默认值: false
   navbar: zhNavbar,
+
+  // 是否在导航栏显示图标
+  // 类型: boolean
+  // 默认值: true
+  navbarIcon: true,
+
+  // 自定义导航栏布局
+  navbarLayout: {
+    left: ["Brand"],
+    center: ["Links"],
+    right: ["Language", "Repo", "Outlook", "Search"]
+  },
 
   // 导航栏图标，应位于 .vuepress/public 文件夹，使用绝对路径。也可以使用网络图片
   // 类型: string
@@ -109,10 +149,36 @@ export default hopeTheme({
   // 必填: 否
   repo: "yszar/biancheng.pro",
 
+  // 是否在导航栏显示仓库链接
+  // 类型: boolean
+  // 默认值: true
+  repoDisplay: true,
+
+  // 用于导航栏仓库按钮的无障碍标签
+  // 主题可以正确识别 GitHub, Gitlab, Gitee, Bitbucket 的链接
+  // 类型: string
+  // 必填: 否
+  repoLabel: "",
+
+  // 是否在向下滚动时自动隐藏导航栏。
+  // 类型: "always" | "mobile" | "none"
+  // 默认值: "mobile"
+  navbarAutoHide: "mobile",
+
+  // 是否在移动视图下隐藏站点名称
+  // 类型: boolean
+  // 默认值: true
+  hideSiteNameonMobile: true,
+
   /* ---------- 侧边栏配置 ---------- */
   // 侧边栏配置， 在 src/.vuepress/sidebar 目录下单独设置, 详见
   // https://vuepress-theme-hope.github.io/v2/zh/guide/layout/sidebar.html
   sidebar: zhSidebar,
+
+  // 是否在侧边栏显示图标
+  // 类型: boolean
+  // 默认值: true
+  sidebarIcon: true,
 
   // 结构化侧边栏排序器, 详见
   // https://vuepress-theme-hope.github.io/v2/zh/config/theme/layout.html#sidebarsorter
@@ -124,7 +190,34 @@ export default hopeTheme({
   // 默认值: 2
   headerDepth: 2,
 
+  /* ---------- 路径导航配置 ---------- */
+
+  // 是否全局启用路径导航
+  // 类型: boolean
+  // 默认值: true
+  breadcrumb: true,
+
+  // 是否在路径导航显示图标
+  // 类型: boolean
+  // 默认值: true
+  breadcrumbIcon: true,
+
+  // 是否显示 上一篇 链接
+  // 类型: boolean
+  // 默认值: true
+  prevLink: true,
+
+  // 是否显示 下一篇 链接
+  // 类型: boolean
+  // 默认值: true
+  nextLink: true,
+
   /* ---------- 标题配置 ---------- */
+
+  // 是否在页面标题旁显示图标
+  // 类型: boolean
+  // 默认值: true
+  titleIcon: true,
 
   // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序。填入 false 使其被禁用。
   // 类型: ArticleInfo[] | false
@@ -142,10 +235,36 @@ export default hopeTheme({
 
   /* ---------- Meta配置 ---------- */
 
+  // 是否显示页面最后更新时间
+  // 类型: boolean
+  // 默认值: true
+  lastUpdated: true,
+
+  // 是否显示页面贡献者
+  // 类型: boolean
+  // 默认值: true
+  contributors: true,
+
+  // 是否展示编辑此页链接
+  // 类型: boolean
+  // 默认值: true
+  editLink: true,
+
   // page meta
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
+
+
+  // 编辑链接的匹配，主题已经为 GitHub、Gitlab、Gitee 和 Bitbucket 提供了内置支持
+  // :repo :branch :path 会被自动替换为 docsRepo docsBranch 和 docsDir + filePath
+  // 类型: string
+  editLinkPattern: "",
+
+  // 文档仓库
+  // 类型: string
+  // 默认值: repo
+  docsRepo: "",
 
   // 文档所在分支
   // 类型: string
@@ -167,12 +286,24 @@ export default hopeTheme({
   // 默认的版权信息，设置为 false 可禁用它
   // 类型: string | boolean
   // 默认值: "Copyright © <作者>"
-  // copyright: "",
+  copyright: "",
 
   // 是否默认显示页脚
   // 类型: boolean
   // 默认值: false
   displayFooter: true,
+
+  /* ---------- 杂项 ---------- */
+
+  // 当前语言的主页路径，用于导航栏图标和返回主页按钮的链接
+  // - 类型: string
+  // - 默认值: 当前 locale 的键名
+  home: "",
+
+  // 是否在桌面模式下右侧展示标题列表
+  // - 类型: boolean
+  // - 默认值: true
+  toc: true,
 
   /* ======================== 主题外观选项 ======================== */
 
@@ -181,6 +312,18 @@ export default hopeTheme({
   // 必填: 否
   // 详情: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html
   iconAssets: "iconfont",
+
+  // 主题深色模式
+  // 类型: "switch" | "toggle" | "auto" | "enable" | "disable"
+  // 默认值: "switch"
+  // 详情: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/darkmode.html
+  // 深色模式支持选项:
+  // "switch": 在深色模式，浅色模式和自动之间切换
+  // "toggle": 在深色模式和浅色模式之间切换
+  // "auto": 自动根据用户设备主题或当前时间决定是否应用深色模式
+  // "enable": 强制深色模式"
+  // disable": 禁用深色模式
+  darkmode: "switch",
 
   // 主题色选项配置
   // 类型: Record<string, string> | false
@@ -198,6 +341,25 @@ export default hopeTheme({
   // 默认值: false
   fullscreen: true,
 
+  // 是否显示返回顶部按钮。
+  // 如果设置为数字，则该数字为触发临界值 (默认临界值为 300px)
+  // 类型: boolean | number
+  // 默认值: true
+  backToTop: true,
+
+  // 切换桌面布局和移动布局的窗口宽度，单位像素
+  // 类型: number
+  // 默认值: 719
+  // 你需要将此选项和 .vuepress/config.scss 中的 $tablet 保持一致。
+  mobileBreakPoint: 719,
+
+  // 是否开启纯净模式
+  // 启用此功能将禁用一些花哨的样式
+  // 当你想提供“纯文档站点”时很有用
+  // 类型: boolean
+  // 默认值: false
+  pure: false,
+
   /* ======================== 主题多语言选项 ======================== */
   // 目前不打算配置多语言，有需要可以去官网好看
   // https://vuepress-theme-hope.github.io/v2/zh/config/theme/i18n.html
@@ -211,6 +373,50 @@ export default hopeTheme({
       // 是否为每个页面生成摘录
       autoExcerpt: true,
 
+      // 文章列表路由路径
+      // 类型: string
+      // 默认值: /article/
+      article: "",
+
+      // 分类地图路由路径
+      // 类型: string
+      // 默认值: /category/
+      category: "",
+
+      // 分类列表路由路径。:name 会被自动替换为分类名称
+      // 类型: string
+      // 默认值: /category/:name/
+      categoryItem: "",
+
+      // 标签地图路由路径。
+      // 类型: string
+      // 默认值: /tag/
+      tag: "",
+
+      // 标签列表路由路径。:name 会被自动替换为标签名称
+      // 类型: string
+      // 默认值: /tag/:name/
+      tagItem: "",
+
+      // 加密文章列表路由路径
+      // 类型: string
+      // 默认值: /encrypted/
+      encrypted: "",
+
+      // 幻灯片列表路由路径
+      // 类型: string
+      // 默认值: /slide/
+      slide: "",
+
+      // 收藏文章列表路由路径
+      // 类型: string
+      // 默认值: /star/
+      star: "",
+
+      // 时间线列表路由路径
+      // 类型: string
+      // 默认值: /timeline/
+      timeline: "",
     },
 
     /* ---------- 评论插件 ---------- */
@@ -258,10 +464,26 @@ export default hopeTheme({
       // 必填: 否
       license: "「署名 4.0 国际（CC BY 4.0）」",
 
+      // 触发附加版权的最小字数
+      // 类型: number
+      // 默认值: 100
+      triggerWords: 100,
+
       // 是否全局启用
       // 类型: boolean
       // 默认值: false
       global: true,
+
+      // 禁用复制
+      // 类型: boolean
+      // 默认值: false
+      disableCopy: false,
+
+      // 禁用选择
+      // 类型: boolean
+      // 默认值: false
+      disableSelection: false,
+
     },
 
     /* ---------- Feed 插件 ---------- */
@@ -336,6 +558,11 @@ export default hopeTheme({
       // 默认值: false
       // 是否通过 KaTeX\KaTeXKATE​X 启用 TeX\TeXTE​X 语法支持。你可以传入一个对象作为 KaTeX\KaTeXKATE​X 的配置选项
       katex: true,
+
+      // 是否启用链接检查。
+      // 类型: "always" | "dev" | "build" | "never" | boolean
+      // 默认值: "dev"
+      linkCheck: "dev",
 
       // 是否启用标记格式支持
       // 类型: boolean
