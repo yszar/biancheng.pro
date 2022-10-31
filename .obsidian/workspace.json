@@ -71,8 +71,12 @@
             "id": "7c4535e29886c76d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -160,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +203,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/README.md"
+              }
             }
           }
         ]
@@ -207,13 +215,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "667fbb734af9d89a",
+  "active": "7c4535e29886c76d",
   "lastOpenFiles": [
+    "src/home.md",
     "conflict-files-obsidian-git.md",
     "src/README.md",
     "src/about.md",
     "src/blog.md",
-    "src/home.md",
     "template.md",
     "src/guide/foo/ray.md",
     "README.md",
