@@ -1,6 +1,7 @@
 ---
 icon: info
 article: false
+date updated: 2022-10-31 15:20
 ---
 
 # 关于我
@@ -11,7 +12,7 @@ article: false
 
 📜 全栈程序猿，说白了其实是啥都会啥都不精。目前侧重于从事前端开发。
 
-📧  [yszaryszar@gmail.com](mailto:yszaryszar@gmail.com)
+📧  <yszaryszar@gmail.com>
 
 ---
 

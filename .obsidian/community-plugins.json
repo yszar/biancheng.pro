@@ -1,5 +1,7 @@
 [
   "table-editor-obsidian",
   "obsidian-git",
-  "obsidian-livesync"
+  "obsidian-livesync",
+  "url-into-selection",
+  "markdown-prettifier"
 ]
