@@ -13,27 +13,84 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/about.md",
+                "file": "src/README.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
+          },
+          {
+            "id": "8dac6c3edb009c53",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4ca9437eb8bc6b22",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "775c5cf5302ac4bb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0d085ee162fcb7b0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b4c455e9050c2411",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "43df799128f4dc08",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c4535e29886c76d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
-        "id": "466f2cc6c8f5efdf",
+        "id": "00f7c026cad2eb93",
         "type": "tabs",
         "children": [
           {
-            "id": "a60533e9198895fa",
+            "id": "9ad45b826fd435af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/about.md",
+                "file": "src/blog.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           }
@@ -103,7 +160,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +176,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/about.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -154,12 +207,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "37c25e63d04320bd",
+  "active": "667fbb734af9d89a",
   "lastOpenFiles": [
-    "src/blog.md",
-    "src/about.md",
+    "conflict-files-obsidian-git.md",
     "src/README.md",
-    "src/slides.md",
-    "README.md"
+    "src/about.md",
+    "src/blog.md",
+    "src/home.md",
+    "template.md",
+    "src/guide/foo/ray.md",
+    "README.md",
+    "src/guide/foo/README.md",
+    "src/guide/README.md"
   ]
 }
