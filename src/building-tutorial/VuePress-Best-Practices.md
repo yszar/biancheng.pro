@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 手把手教你用 VuePress 打造自己的
+title: 手把手教你用 VuePress 打造自己的文档网站
 # 这是页面的图标
 icon: page
 # 是否原创
