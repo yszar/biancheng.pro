@@ -1,7 +1,7 @@
 ---
 # 这是文章的标题
-title: 手把手教你用V
-# 这是页面的图标
+title: 手把手教你用 VuePress
+#  这是页面的图标
 icon: page
 # 是否原创
 isOriginal: true
