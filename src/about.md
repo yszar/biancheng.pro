@@ -36,6 +36,6 @@ article: false
 
 ### 关于本站
 
-本站是我的试验田，我会在本站进行各种试验。本站主要用到的技术及搭建教程，[点这里查看](https://localhost)。
+本站是我的试验田，我会在本站进行各种试验。本站主要用到的技术及搭建教程，[点这里查看](https://biancheng.pro/building-tutorial/)。
 
 ---
