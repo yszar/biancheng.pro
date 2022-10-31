@@ -5,6 +5,8 @@ title: 页面配置
 icon: page
 # 是否原创
 isOriginal: true
+# 是否加入文章列表
+article: true
 # 展开深度
 headerDepth: 2
 # 这是侧边栏的顺序
