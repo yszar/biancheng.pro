@@ -13,4 +13,26 @@ export default defineUserConfig({
   theme,
 
   shouldPrefetch: false,
+
+  head: [
+    // [
+    //   "script",{},
+    //   `
+    //     var _hmt = _hmt || [];
+    //     (function() {
+    //       var hm = document.createElement("script");
+    //       hm.src = "https://hm.baidu.com/hm.js?5230ac143650bf5eb3c14f3fb9b1d3ec";
+    //       var s = document.getElementsByTagName("script")[0]; 
+    //       s.parentNode.insertBefore(hm, s);
+    //     })();
+    //   `
+    // ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "//at.alicdn.com/t/font_3180624_7cy10l7jqqh.css",
+      },
+    ],
+  ],
 });
