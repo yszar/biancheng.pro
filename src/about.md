@@ -32,7 +32,7 @@ article: false
 
 坚持写有用的、原创的技术文章并不是一件容易的事，如果你认为我的文章对你有帮助，欢迎将本站推荐给你的小伙伴！
 
-![打赏我](https://cloudbase-baas-1g2qg82f5ef557f8-1258306312.tcloudbaseapp.com/qr.png?imageMogr2/thumbnail/!30p)
+![微信公众号](https://static.iamjy.com/gzh-qr.jpg-webp)![打赏我](https://cloudbase-baas-1g2qg82f5ef557f8-1258306312.tcloudbaseapp.com/qr.png?imageMogr2/thumbnail/!30p)![微信公众号](https://static.iamjy.com/gzh-qr.jpg-webp)
 
 ---
 
