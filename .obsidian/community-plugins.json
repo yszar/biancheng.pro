@@ -3,5 +3,7 @@
   "obsidian-git",
   "obsidian-livesync",
   "url-into-selection",
-  "markdown-prettifier"
+  "markdown-prettifier",
+  "quickadd",
+  "cmenu-plugin"
 ]
