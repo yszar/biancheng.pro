@@ -66,8 +66,24 @@
     "vuepress": {
       "vuepress": {
         "internalLink": {
+          "count": 3,
+          "lastUpdated": 1667337910643
+        }
+      }
+    },
+    "github-actions": {
+      "github-actions": {
+        "internalLink": {
           "count": 1,
-          "lastUpdated": 1667337489953
+          "lastUpdated": 1667338024431
+        }
+      }
+    },
+    "obsidian": {
+      "obsidian": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1667338233280
         }
       }
     }
