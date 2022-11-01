@@ -43,7 +43,7 @@ tag: [工具软件, obsidian]
 
 * [点我安装](obsidian://show-plugin?id=obsidian-git)  |  [**Obsidian git**](https://github.com/denolehov/obsidian-git) 用来同步 github 和多平台
 >注意不要同步. obsidian 文件夹，在 gitignore 里面配置一下就可了，有很多文件实时变更每次都冲突
-*   **show current file path** 右下角显示文件路径点击可复制
+* [点我安装]  **show current file path** 右下角显示文件路径点击可复制
 *   **Advanced Tables** 表格辅助插件
     *   Excel to Markdown Table 可以直接从excel粘贴
     *   obsidian-table-editor 还未发布从github上找的
