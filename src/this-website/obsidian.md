@@ -64,13 +64,11 @@ tag: [工具软件, obsidian]
         *   [样式参考 (opens new window)](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks)
     *   主要用的参数写在内容第一行,`collapse:open/none`,`title:xxx`，一般只用这俩就行
 * [点我安装](obsidian://show-plugin?id=note-refactor-obsidian)  [**Note Refactor**](https://github.com/lynchjames/note-refactor-obsidian) 大文档拆分 wiki 链接 
-* 点我安装  **Auto Link Title** 粘贴链接的时候自动抓取网页的标题，填充为文字
+* [点我安装](obsidian://show-plugin?id=obsidian-auto-link-title)  [**Auto Link Title**](https://github.com/zolrath/obsidian-auto-link-title) 粘贴链接的时候自动抓取网页的标题，填充为文字
     *   关闭自动替换链接
-*   **Paste URL into Selection** 链接粘贴自动标题
+* [点我安装](obsidian://show-plugin?id=url-into-selection)  [**Paste URL into Selection**](https://github.com/denolehov/obsidian-url-into-selection) 链接粘贴自动标题
     *   剪贴板链接「[https://example.com (opens new window)](https://example.com/)」选中一段文字「TEXT」粘贴，这个链接就会和文字结合在一起成为  
         `[TEXT](https://example.com)`
-*   **Obsidian-Charts** 命令行输入chart 从表创建和自己创建图
-    *   在vuepress里面会简单渲染为一个不认识的代码块
 *   脚注
     *   **Obsidian Tidy Footnotes** 生成脚注\[^1\]，我设置快捷键为`ctrl+6`直接在光标处插入脚注\[^2\]
         *   修改main.js,在footnoteDetail字符串添加`\n`,脚注后带俩空格，但是用的时候需要向前两下粘贴
