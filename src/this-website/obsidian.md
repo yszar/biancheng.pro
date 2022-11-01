@@ -8,7 +8,7 @@ isOriginal: true
 # 是否加入文章列表
 article: true
 # 展开深度
-headerDepth: 2
+headerDepth: 1
 # 这是侧边栏的顺序
 # order: 1
 # 设置作者
@@ -16,7 +16,7 @@ author: Jiu Yang
 # 设置写作时间
 date: 2022-11-02 03:26:33
 # 页面内容描述
-description
+description: 这个库是用来写技术笔记打造个人知识库的，为避免忘记以及其他人下载之后能够看懂，特此记录
 # 一个页面可以有多个分类
 category: [工具软件]
 # 一个页面可以有多个标签
