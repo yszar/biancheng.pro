@@ -83,7 +83,7 @@ tag: [工具软件, obsidian]
 * [点我安装](obsidian://show-plugin?id=tag-wrangler)  [**Tag Wrangler**](https://github.com/pjeby/tag-wrangler) 标签管理，tag 可以批量重命名，但是 tag 必须**不能含有符号**，可以有 emoji
 * [点我安装](obsidian://show-plugin?id=various-complements)  [**Various Complements**](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) 一些自动补全打开当前文件夹和 dict，IME 选项，关掉 space after
 *   **Media Extended** 多媒体嵌入插件
-    *   **Media Extended BiliBili Plugin** 支持bilibili
+    * [点我安装](obsidian://show-plugin?id=mx-bili-plugin)  [**Media Extended BiliBili Plugin**](https://github.com/aidenlx/mx-bili-plugin) 支持 bilibili
     *   插入链接即可，在预览模式中点击链接就会有一个单独的播放器播放，再切回编辑模式就可以一边看一边写
     *   设置快捷键`command+t`通过播放器获得时间戳，可以生成一个带时间戳的链接，点击就可以跳转，渲染之后也可以点开。
 
