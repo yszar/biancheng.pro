@@ -91,6 +91,20 @@ inputs:
 
 现在将你的项目部署到 Github，部署好之后进入 Settings-->Secrets-->Actions
 
+点右上角新建两个 `secret`
+
+`Name` 分别为 
+- `TENCENT_SECRET_ID`
+- `TENCENT_SECRET_KEY`
+
+`Secret` 分别对应刚才的
+- `SecretId`
+- `SecretKey`
+
+![](https://static.iamjy.com/blog-images/20221101224233.png-webp)
+
+
+
 ![](https://static.iamjy.com/blog-images/20221101223313.png-webp)
 
 接下来顺着刚刚的思路，开始想象一个干净的的 `linux docker` 容器中, 需要哪些前置条件来支撑部署这个行为呢？

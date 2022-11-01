@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/building-tutorial/github-actions.md",
+                "file": "src/building-tutorial/vuepress.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/building-tutorial/github-actions.md",
+                "file": "src/building-tutorial/vuepress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/building-tutorial/github-actions.md",
+                "file": "src/building-tutorial/vuepress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/building-tutorial/github-actions.md"
+                "file": "src/building-tutorial/vuepress.md"
               }
             }
           }
@@ -138,9 +138,9 @@
   },
   "active": "85ca233dca61df17",
   "lastOpenFiles": [
+    "src/building-tutorial/github-actions.md",
     "src/building-tutorial/vuepress.md",
     "src/home.md",
-    "src/building-tutorial/github-actions.md",
     "Internal link.md",
     "[Progressive.md",
     "https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FProgressive_web_application.md",
