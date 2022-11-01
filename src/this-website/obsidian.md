@@ -63,7 +63,6 @@ tag: [工具软件, obsidian]
         *   `note`,`abstract`,`info`,`tip`,`success`,`question`,`warning`,`failure`,`danger`,`bug`,`example`,`quote`
         *   [样式参考 (opens new window)](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks)
     *   主要用的参数写在内容第一行,`collapse:open/none`,`title:xxx`，一般只用这俩就行
-*   **Sliding panes** 多栏侧边划的
 *   **Note Refactor** 大文档拆分wiki链接
 *   **Auto Link Title** 粘贴链接的时候自动抓取网页的标题，填充为文字
     *   关闭自动替换链接
