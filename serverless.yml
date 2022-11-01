@@ -6,6 +6,6 @@ inputs:
     src: src/.vuepress/dist
     index: index.html
     error: index.html
-  region: ap-shanghai
+  region: accelerate
   bucket: iamjy-hexo-1258306312
   protocol: https
