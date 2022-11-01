@@ -63,8 +63,8 @@ tag: [工具软件, obsidian]
         *   `note`,`abstract`,`info`,`tip`,`success`,`question`,`warning`,`failure`,`danger`,`bug`,`example`,`quote`
         *   [样式参考 (opens new window)](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks)
     *   主要用的参数写在内容第一行,`collapse:open/none`,`title:xxx`，一般只用这俩就行
-* [点我安装](obsidian://show-plugin?id=note-refactor-obsidian)  [**Note Refactor**](https://github.com/lynchjames/note-refactor-obsidian) 大文档拆分 wiki 链接
-*   **Auto Link Title** 粘贴链接的时候自动抓取网页的标题，填充为文字
+* [点我安装](obsidian://show-plugin?id=note-refactor-obsidian)  [**Note Refactor**](https://github.com/lynchjames/note-refactor-obsidian) 大文档拆分 wiki 链接 
+* 点我安装  **Auto Link Title** 粘贴链接的时候自动抓取网页的标题，填充为文字
     *   关闭自动替换链接
 *   **Paste URL into Selection** 链接粘贴自动标题
     *   剪贴板链接「[https://example.com (opens new window)](https://example.com/)」选中一段文字「TEXT」粘贴，这个链接就会和文字结合在一起成为  
