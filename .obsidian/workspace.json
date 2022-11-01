@@ -11,8 +11,12 @@
             "id": "b699f4fe84d277f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/my-website/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/my-website/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/my-website/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/my-website/README.md"
+              }
             }
           }
         ],
@@ -128,10 +136,10 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "b699f4fe84d277f8",
+  "active": "667fbb734af9d89a",
   "lastOpenFiles": [
-    "src/building-tutorial/vuepress.md",
-    "src/building-tutorial/github-actions.md",
+    "src/my-website/vuepress.md",
+    "src/my-website/github-actions.md",
     "template.md",
     "src/demo/markdown.md",
     "src/demo/encrypt.md",
