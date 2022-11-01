@@ -57,15 +57,12 @@ tag: [工具软件, obsidian]
     *   配合日记
     * [点我安装](obsidian://show-plugin?id=periodic-notes)  [obsidian-periodic-notes](https://github.com/liamcain/obsidian-periodic-notes) 自动日报周报分类，看插件 github 官网怎么配置的路径
     *   `MM[月]/[第]WW[周]/YY-MM-DD[日报]`,`MM[月]/[第]WW[周]/[周报]YYYY-WW`
-*   **Admonition** 功能提示块 ^5925eb
+* [点我安装](obsidian://show-plugin?id=obsidian-admonition)  [**Admonition**](https://github.com/valentine195/obsidian-admonition) 功能提示块
     *   语法在vuepress上可能会渲染为白色代码块可以接受
     *   类型有ad-(type)
         *   `note`,`abstract`,`info`,`tip`,`success`,`question`,`warning`,`failure`,`danger`,`bug`,`example`,`quote`
         *   [样式参考 (opens new window)](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks)
     *   主要用的参数写在内容第一行,`collapse:open/none`,`title:xxx`，一般只用这俩就行
-*   **dynamic table of contents** 生成大纲，暂时用不着
-    *   默认是toc代码块渲染，用脚本直接更改为双括号\[\[toc\]\] 就可以在vuepress中渲染
-    *   有BUG不能用行数错误，有些行无法复制,作者自己不修复，寄了，插件是个好插件
 *   **Sliding panes** 多栏侧边划的
 *   **Note Refactor** 大文档拆分wiki链接
 *   **Auto Link Title** 粘贴链接的时候自动抓取网页的标题，填充为文字
