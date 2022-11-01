@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "15b14bfad19a1751",
+        "id": "1a40dfb66ce019ad",
         "type": "tabs",
         "children": [
           {
-            "id": "b1829d8710f953ea",
+            "id": "ec47c97254589179",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,17 +144,17 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "b1829d8710f953ea",
+  "active": "ec47c97254589179",
   "lastOpenFiles": [
+    "未命名思维导图.md",
+    "src/this-website/obsidian.md",
     "src/this-website/README.md",
     "template.md",
-    "src/this-website/obsidian.md",
     "src/demo/disable.md",
     "src/this-website/github-actions.md",
     "src/README.md",
     "src/guide/bar/README.md",
     "src/demo/README.md",
-    "src/demo/page.md",
-    "src/demo/markdown.md"
+    "src/demo/page.md"
   ]
 }
