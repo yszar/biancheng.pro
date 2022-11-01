@@ -80,8 +80,8 @@ tag: [工具软件, obsidian]
     *   进入JS`main.js` 把`join(" ")`替换为`join("_")` 这样就可以随便渲染了
     *   ~还是没解决图片路径前面加一个`./` 的问题~ 脚本解决了
 *   **dataview** 最核心的插件之一，但我不会//TODO
-*   **Tag Wrangler** 标签管理，tag可以批量重命名，但是tag必须**不能含有符号**，可以有emoji
-*   **Various Complements** 一些自动补全 打开当前文件夹和dict，IME选项，关掉space after
+* [点我安装](obsidian://show-plugin?id=tag-wrangler)  [**Tag Wrangler**](https://github.com/pjeby/tag-wrangler) 标签管理，tag 可以批量重命名，但是 tag 必须**不能含有符号**，可以有 emoji
+* [点我安装](obsidian://show-plugin?id=various-complements)  [**Various Complements**](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin) 一些自动补全打开当前文件夹和 dict，IME 选项，关掉 space after
 *   **Media Extended** 多媒体嵌入插件
     *   **Media Extended BiliBili Plugin** 支持bilibili
     *   插入链接即可，在预览模式中点击链接就会有一个单独的播放器播放，再切回编辑模式就可以一边看一边写
