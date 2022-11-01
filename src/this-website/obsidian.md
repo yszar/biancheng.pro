@@ -55,7 +55,7 @@ tag: [工具软件, obsidian]
     *   `YYYY-MM-DD dddd` 表示年-月-日星期
 * [点我安装](obsidian://show-plugin?id=calendar)  [**calendar**](https://github.com/liamcain/obsidian-calendar-plugin) 日历
     *   配合日记
-    *   obsidian-periodic-notes 自动日报周报分类，看插件github官网怎么配置的路径
+    * [点我安装](obsidian://show-plugin?id=periodic-notes)  [obsidian-periodic-notes](https://github.com/liamcain/obsidian-periodic-notes) 自动日报周报分类，看插件 github 官网怎么配置的路径
     *   `MM[月]/[第]WW[周]/YY-MM-DD[日报]`,`MM[月]/[第]WW[周]/[周报]YYYY-WW`
 *   **Admonition** 功能提示块 ^5925eb
     *   语法在vuepress上可能会渲染为白色代码块可以接受
