@@ -180,7 +180,9 @@ export default hopeTheme({
   // 类型: "iconfont" | "fontawesome" | `//${string}` | `http://${string}` | `https://${string}` 
   // 必填: 否
   // 详情: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/icon.html
-  iconAssets: "iconfont",
+  iconAssets: "//at.alicdn.com/t/c/font_3743716_60ojqf10j4u.css",
+
+  iconPrefix: "iconfont icon-",
 
   // 主题色选项配置
   // 类型: Record<string, string> | false

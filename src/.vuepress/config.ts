@@ -10,10 +10,6 @@ export default defineUserConfig({
   
   description: "快来！一起来学编程！",
 
-  theme,
-
-  shouldPrefetch: false,
-
   head: [
     // [
     //   "script",{},
@@ -27,12 +23,18 @@ export default defineUserConfig({
     //     })();
     //   `
     // ],
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "//at.alicdn.com/t/font_3180624_7cy10l7jqqh.css",
-      },
-    ],
+    // [
+    //   "link",
+    //   {
+    //     rel: "stylesheet",
+    //     href: "//at.alicdn.com/t/c/font_3743716_60ojqf10j4u.css",
+    //   },
+    // ],
   ],
+
+  theme,
+
+  shouldPrefetch: false,
+
+
 });

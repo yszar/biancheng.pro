@@ -24,8 +24,19 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "V2 文档",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
+    text: "关于我",
+    icon: "gyw",
+    children: [
+      {
+        text: "关于我这个站",
+        icon: "creative",
+        link: "/this-website",
+      },
+      {
+        text: "关于我这个人",
+        icon: "config",
+        link: "/about.html",
+      },
+    ],
   },
 ]);
