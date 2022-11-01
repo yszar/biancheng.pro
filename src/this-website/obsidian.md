@@ -69,10 +69,6 @@ tag: [工具软件, obsidian]
 * [点我安装](obsidian://show-plugin?id=url-into-selection)  [**Paste URL into Selection**](https://github.com/denolehov/obsidian-url-into-selection) 链接粘贴自动标题
     *   剪贴板链接「[https://example.com (opens new window)](https://example.com/)」选中一段文字「TEXT」粘贴，这个链接就会和文字结合在一起成为  
         `[TEXT](https://example.com)`
-*   脚注
-    *   **Obsidian Tidy Footnotes** 生成脚注\[^1\]，我设置快捷键为`ctrl+6`直接在光标处插入脚注\[^2\]
-        *   修改main.js,在footnoteDetail字符串添加`\n`,脚注后带俩空格，但是用的时候需要向前两下粘贴
-    *   **Tidy Footnotes** 脚注整理，命令行输入tidy，不过好像没怎么用到
 *   **Consistent attachments and links** 转换插件
 *   使用双链接时需要回来重新嵌入一下为文件格式以便兼容
 *   设置快捷键为`ctrl+l` 把双链全转为标准md，双链都转换,但是只会在本目录下配合下面使用
