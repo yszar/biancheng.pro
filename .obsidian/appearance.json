@@ -5,5 +5,5 @@
   "interfaceFontFamily": "Microsoft YaHei UI",
   "monospaceFontFamily": "Consolas,JetBrains Mono",
   "textFontFamily": "Segoe UI,Microsoft YaHei UI",
-  "translucency": true
+  "translucency": false
 }

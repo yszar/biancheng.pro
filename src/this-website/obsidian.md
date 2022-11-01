@@ -37,9 +37,7 @@ tag: [工具软件, obsidian]
 
 库用的 blog 会被 vuepress 渲染，所以在满足需求的情况下尽量使用兼容的 Markdown+插件的语法
 
-## 库所使用的插件
-
-### 插件
+## 库所使用的插件 
 
 * [点我安装](obsidian://show-plugin?id=obsidian-git)  | [**Obsidian git**](https://github.com/denolehov/obsidian-git) 用来同步 github 和多平台
 >注意不要同步. obsidian 文件夹，在 gitignore 里面配置一下就可了，有很多文件实时变更每次都冲突
@@ -85,18 +83,7 @@ tag: [工具软件, obsidian]
 *   **Media Extended** 多媒体嵌入插件
     * [点我安装](obsidian://show-plugin?id=mx-bili-plugin)  [**Media Extended BiliBili Plugin**](https://github.com/aidenlx/mx-bili-plugin) 支持 bilibili
     *   插入链接即可，在预览模式中点击链接就会有一个单独的播放器播放，再切回编辑模式就可以一边看一边写
-    *   设置快捷键`command+t`通过播放器获得时间戳，可以生成一个带时间戳的链接，点击就可以跳转，渲染之后也可以点开。
-
-### [#](#css) CSS
-
-下面有附代码，建立一个css文件他自己会读取
-
-1.  主题使用的是Obsidian Nord
-2.  圆点调整，不同层级用不同的样式没有实现，但是修改之后可接受
-3.  添加链接的小文件图标
-4.  大纲连接线和文件层级连接线
-5.  背景图片太复杂而且还要多一个文件直接放弃，可自定义透明度
-6.  所使用的自定义[CSS (opens new window)](https://1drv.ms/u/s!Ave4mfYaItDJhMdWWLsPoUdrShE2lw?e=H3snSQ)
+    *   设置快捷键 `command+t` 通过播放器获得时间戳，可以生成一个带时间戳的链接，点击就可以跳转，渲染之后也可以点开。 
 
 [#](#库的部署与同步) 库的部署与同步
 ---------------------
