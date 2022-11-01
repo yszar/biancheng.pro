@@ -41,17 +41,15 @@ tag: [工具软件, obsidian]
 
 ### 插件
 
-* [点我安装](obsidian://show-plugin?id=obsidian-git)  |  [**Obsidian git**](https://github.com/denolehov/obsidian-git) 用来同步 github 和多平台
+* [点我安装](obsidian://show-plugin?id=obsidian-git)  | [**Obsidian git**](https://github.com/denolehov/obsidian-git) 用来同步 github 和多平台
 >注意不要同步. obsidian 文件夹，在 gitignore 里面配置一下就可了，有很多文件实时变更每次都冲突
-* [点我安装](obsidian://show-plugin?id=obsidian-show-file-path)  [**show current file path**](https://github.com/ravimashru/obsidian-show-file-path) 右下角显示文件路径点击可复制
-*   **Auto pair chinese symbol** 中文符号自动成对
-*   **Remember cursor position** 切换文件时记住鼠标位置
-*   **Search on Internet** 搜索
+* [点我安装](obsidian://show-plugin?id=obsidian-show-file-path)  | [**show current file path**](https://github.com/ravimashru/obsidian-show-file-path) 右下角显示文件路径点击可复制
+* [点我安装](obsidian://show-plugin?id=obsidian-auto-pair-chinese-symbol)  | [**Auto pair chinese symbol**](https://github.com/renmu123/obsidian-auto-pair-chinese-symbol) 中文符号自动成对
+* [点我安装](obsidian://show-plugin?id=remember-cursor-position)  | [**Remember cursor position**](https://github.com/dy-sh/obsidian-remember-cursor-position) 切换文件时记住鼠标位置
+* [点我安装](obsidian://show-plugin?id=search-on-internet)  | [**Search on Internet**](https://github.com/HEmile/obsidian-search-on-internet) 搜索
 *   **Mind Map** 思维导图
     *   **enhancing-mindmap** 可以编辑的思维导图，兼容md语法
         *   mindmap-plugin: basic 在formatter里面加入这一个启用
-    *   **markmind** ~批注pdf，不能手写，其他的都可以，可以类似于marginnote3那种。~
-    *   直接配合OneNote使用思维导图，不需要批注了，可开启大纲表格视图
 *   **Editor Syntax Highlight** 代码高亮
 *   **Natural Language Dates** 按@输出日期
     *   YYYY-MM-DD dddd 表示 年-月-日 星期

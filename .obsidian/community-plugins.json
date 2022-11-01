@@ -8,5 +8,7 @@
   "remember-cursor-position",
   "easy-typing-obsidian",
   "obsidian-linter",
-  "obsidian-show-file-path"
+  "obsidian-show-file-path",
+  "obsidian-auto-pair-chinese-symbol",
+  "search-on-internet"
 ]
