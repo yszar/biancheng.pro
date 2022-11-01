@@ -40,4 +40,12 @@ date: 2022-11-02 00:35:45
 #       content: 
 ---
 
+这个站搭建过程，用到的工具，都记录到这里。
 
+## 用到的技术栈
+
+## 用到的工具
+
+## 搭建过程
+
+- [VuePress 安装与配置](file:///D:/biancheng.pro/src/this-website/vuepress.md)D:\biancheng.pro\src\this-website\vuepress.md
