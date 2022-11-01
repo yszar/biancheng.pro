@@ -33,7 +33,8 @@ tag: [工具软件, obsidian]
 
 ## 库的目的
 
-这个库是用来写技术笔记打造个人知识库的，为避免忘记以及其他人下载之后能够看懂，特此记录  
+这个库是用来写技术笔记打造个人知识库的，为避免忘记以及其他人下载之后能够看懂，特此记录 
+
 库用的 blog 会被 vuepress 渲染，所以在满足需求的情况下尽量使用兼容的 Markdown+插件的语法
 
 ## 库所使用的插件
@@ -42,7 +43,6 @@ tag: [工具软件, obsidian]
 
 * [点我安装](obsidian://show-plugin?id=obsidian-git)  |  [**Obsidian git**](https://github.com/denolehov/obsidian-git) 用来同步 github 和多平台
 >注意不要同步. obsidian 文件夹，在 gitignore 里面配置一下就可了，有很多文件实时变更每次都冲突
-*   **show whitespace** 显示空格 选项全打开
 *   **show current file path** 右下角显示文件路径点击可复制
 *   **Advanced Tables** 表格辅助插件
     *   Excel to Markdown Table 可以直接从excel粘贴
