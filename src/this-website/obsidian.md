@@ -48,9 +48,9 @@ tag: [工具软件, obsidian]
 * [点我安装](obsidian://show-plugin?id=remember-cursor-position)  | [**Remember cursor position**](https://github.com/dy-sh/obsidian-remember-cursor-position) 切换文件时记住鼠标位置
 * [点我安装](obsidian://show-plugin?id=search-on-internet)  | [**Search on Internet**](https://github.com/HEmile/obsidian-search-on-internet) 搜索
 *   **Mind Map** 思维导图
-    *   **enhancing-mindmap** 可以编辑的思维导图，兼容md语法
-        *   mindmap-plugin: basic 在formatter里面加入这一个启用
-*   **Editor Syntax Highlight** 代码高亮
+    *  [点我安装](obsidian://show-plugin?id=obsidian-enhancing-mindmap)  | [**enhancing mindmap**](https://github.com/MarkMindCkm/obsidian-enhancing-mindmap) 可以编辑的思维导图，兼容 md 语法
+    >mindmap-plugin: basic 在 formatter 里面加入这一个启用
+* [点我安装](obsidian://show-plugin?id=cm-editor-syntax-highlight-obsidian)  [**Editor Syntax Highlight**](https://github.com/deathau/cm-editor-syntax-highlight-obsidian) 代码高亮
 *   **Natural Language Dates** 按@输出日期
     *   YYYY-MM-DD dddd 表示 年-月-日 星期
 *   **calendar** 日历
