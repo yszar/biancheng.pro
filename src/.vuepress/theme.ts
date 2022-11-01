@@ -54,7 +54,7 @@ export default hopeTheme({
       "Author",
       "Original",
       "Date",
-      "PageView",
+      // "PageView",
       "Category",
       "Tag",
       "Word",
@@ -137,7 +137,7 @@ export default hopeTheme({
     "Tag",
     "Word",
     "ReadingTime",
-    "PageView"
+    // "PageView"
   ],
 
   /* ---------- Meta配置 ---------- */
