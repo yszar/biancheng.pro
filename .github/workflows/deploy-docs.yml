@@ -58,7 +58,6 @@ jobs:
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
-          BUCKET: ${{ secrets.BUCKET }}
           SERVERLESS_PLATFORM_VENDOR: tencent
         run: |
           pnpm add -D @serverless/components
