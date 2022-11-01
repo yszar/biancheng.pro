@@ -28,5 +28,4 @@ Thumbs.db
 # VSCode settings
 .vscode/settings.json
 
-pnpm-lock.yaml
 .obsidian/workspace
