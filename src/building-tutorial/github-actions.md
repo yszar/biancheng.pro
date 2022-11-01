@@ -1,6 +1,24 @@
 ---
-date created: 2022-11-01 20:08
-date updated: 2022-11-01 20:17
+title: Github-Actions持续集成部署VuePress到COS
+icon: page
+isOriginal: true
+article: true
+headerDepth: 2
+author: Jiu Yang
+category:
+  - 建站指南
+tag:
+  - vuepress
+  - Github-Actions
+  - 持续集成
+  - 自动部署
+head:
+  - - meta
+    - name: keywords
+      content: github, github-actions, 建站, 教程, 指南, VuePress, COS, 持续集成, 自动部署
+    - name: description
+      content: 利用Github-Actions部署VuePress到COS
+date updated: 2022-11-01 14:34
 ---
 
 ## 前言

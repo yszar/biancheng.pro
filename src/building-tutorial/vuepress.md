@@ -1,5 +1,5 @@
 ---
-title: 手把手教你用 VuePress 打造自己的文档站
+title: VuePress安装与配置
 icon: page
 isOriginal: true
 article: true
@@ -8,10 +8,10 @@ author: Jiu Yang
 category:
   - 建站指南
 tag:
-  - vuepress
+  - VuePress
   - 建站
   - 教程
-  - github
+  - Github
 # head:
 #   - - meta
 #     - name: keywords
