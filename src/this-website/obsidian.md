@@ -103,25 +103,3 @@ tag: [工具软件, obsidian]
 *   高亮前面加一个空格才能被渲染,必须前面有空格后面没有,出问题的时候查找一下是不是 `==` 的问题
 *   dataview //TODO
 *   生成日报周报
-
-[#](#关于环境备份) 关于环境备份
--------------------
-
-*   将整个valut环境养老备份,就是valut下的Obsidian
-*   软件本体 mac windows linux安装包，ios没有，版本为0.13.23
-*   插件都在.obsidian中，自己修改的插件Attachment Name Formatting-%3Emain.js,还有custom.css
-*   .obsidian备份为obsidian搞新库的时候就替换掉就行
-*   博客的备份本地一份，github一份和本能同步，养老库备份一份没有node\_modules的
-*   转换脚本养老库备份一份，本地一份放着
-*   上传OneDrive
-
-[#](#一些示例) 一些示例
----------------
-
-ad-note collapse: true title: ▪️CSS 我能吞下玻璃而不伤身体  
-I can eat glass, it does not hurt me
-
-[dataview的教程 (opens new window)](https://zhuanlan.zhihu.com/p/393550306) [领导年终奖50万，却只分给我100块\_哔哩哔哩\_bilibili (opens new window)](https://www.bilibili.com/video/BV1eS4y1C7wu)
-
-\[^1\]: [Django 文档 | Django 文档 | Django (opens new window)](https://docs.djangoproject.com/zh-hans/2.2/)  
-\[^2\]: [目录结构 | VuePress (opens new window)](https://v1.vuepress.vuejs.org/zh/guide/directory-structure.html)>)
