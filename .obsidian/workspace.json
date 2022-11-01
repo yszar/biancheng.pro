@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e00144cc88decf66",
+        "id": "15b14bfad19a1751",
         "type": "tabs",
         "children": [
           {
-            "id": "41279b539629b746",
+            "id": "b1829d8710f953ea",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -128,8 +128,9 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "41279b539629b746",
+  "active": "b1829d8710f953ea",
   "lastOpenFiles": [
+    "src/README.md",
     "src/this-website/github-actions.md",
     "src/this-website/vuepress.md",
     "src/this-website/README.md",
@@ -138,7 +139,6 @@
     "src/demo/encrypt.md",
     "src/home.md",
     "Internal link.md",
-    "[Progressive.md",
-    "https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FProgressive_web_application.md"
+    "[Progressive.md"
   ]
 }
