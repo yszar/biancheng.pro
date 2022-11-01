@@ -40,8 +40,8 @@ tag: [工具软件, obsidian]
 
 ### 插件
 
-*   **Obsidian git**用来同步github和多平台
-    *   注意不要同步.obsidian文件夹，在gitignore里面配置一下就可了，有很多文件实时变更每次都冲突
+* [点我安装](obsidian://show-plugin?id=obsidian-git)  |  [**Obsidian git**](https://github.com/denolehov/obsidian-git) 用来同步 github 和多平台
+>注意不要同步. obsidian 文件夹，在 gitignore 里面配置一下就可了，有很多文件实时变更每次都冲突
 *   **show whitespace** 显示空格 选项全打开
 *   **show current file path** 右下角显示文件路径点击可复制
 *   **Advanced Tables** 表格辅助插件
