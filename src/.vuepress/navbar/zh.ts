@@ -25,16 +25,16 @@ export const zhNavbar = navbar([
   },
   {
     text: "关于我",
-    icon: "gyw",
+    icon: "guanyuwo",
     children: [
       {
         text: "关于我这个站",
-        icon: "creative",
-        link: "/this-website",
+        icon: "guanyuzhan",
+        link: "/this-website/",
       },
       {
         text: "关于我这个人",
-        icon: "config",
+        icon: "guanyuren",
         link: "/about.html",
       },
     ],
