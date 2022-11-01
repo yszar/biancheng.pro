@@ -20,31 +20,46 @@ export const zhSidebar = sidebar({
   ],
   "/this-website/": [
     {
-      text: "用到的工具",
-      link: "obsidian.md",
-      prefix: "/this-website/",
-      icon: "creative",
-    },
-    {
-      text: "搭建过程",
+      text: "关于我这个站",
       link: "",
       prefix: "/this-website/",
       icon: "creative",
       collapsable: true,
-      // 仅在 `/zh/guide/` 激活
-      // activeMatch: "^/zh/guide/$",
       children: [
         {
-          text: "1. VuePress安装与配置",
-          link: "vuepress.md",
+          text: "用到的工具",
           icon: "creative",
-          // 仅在 `/zh/guide/` 激活
-          // activeMatch: "^/zh/guide/$",
+          collapsable: true,
+          children: [
+            {
+              text: "Obsidian",
+              link: "obsidian.md",
+              icon: "creative",
+            }
+          ]
         },
         {
-          text: "2. Github Actions 持续集成部署",
-          link: "github-actions.md",
+          text: "搭建过程",
+          link: "",
+          prefix: "/this-website/",
           icon: "creative",
+          collapsable: true,
+          // 仅在 `/zh/guide/` 激活
+          // activeMatch: "^/zh/guide/$",
+          children: [
+            {
+              text: "1. VuePress安装与配置",
+              link: "vuepress.md",
+              icon: "creative",
+              // 仅在 `/zh/guide/` 激活
+              // activeMatch: "^/zh/guide/$",
+            },
+            {
+              text: "2. Github Actions 持续集成部署",
+              link: "github-actions.md",
+              icon: "creative",
+            },
+          ]
         },
       ]
     },
