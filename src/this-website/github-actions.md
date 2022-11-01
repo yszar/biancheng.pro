@@ -25,7 +25,7 @@ date updated: 2022-11-01 14:34
 ## 前言
 
 上一部分讲了如何安装配置 VuePress，这部分重点开始讲如何持续集成。
-<!-- more -->
+
 本篇的技术栈：
 
 > `COS` + `CDN` + `Serverless Framework` + `GitHub Actions`

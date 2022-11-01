@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cee374908429b5b3",
+        "id": "e00144cc88decf66",
         "type": "tabs",
         "children": [
           {
-            "id": "b699f4fe84d277f8",
+            "id": "41279b539629b746",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/this-website/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/this-website/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/this-website/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/this-website/README.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -136,17 +128,17 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "667fbb734af9d89a",
+  "active": "41279b539629b746",
   "lastOpenFiles": [
-    "src/this-website/vuepress.md",
     "src/this-website/github-actions.md",
+    "src/this-website/vuepress.md",
+    "src/this-website/README.md",
     "template.md",
     "src/demo/markdown.md",
     "src/demo/encrypt.md",
     "src/home.md",
     "Internal link.md",
     "[Progressive.md",
-    "https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FProgressive_web_application.md",
-    "src/README.md"
+    "https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FProgressive_web_application.md"
   ]
 }
