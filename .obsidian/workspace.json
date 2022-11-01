@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/README.md",
+                "file": "src/this-website/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/README.md",
+                "file": "src/this-website/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/README.md",
+                "file": "src/this-website/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/README.md"
+                "file": "src/this-website/README.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "b1829d8710f953ea",
   "lastOpenFiles": [
-    "src/guide/bar/README.md",
     "src/demo/disable.md",
+    "src/this-website/github-actions.md",
+    "src/README.md",
+    "src/guide/bar/README.md",
     "src/demo/README.md",
     "src/demo/page.md",
     "src/demo/markdown.md",
     "src/demo/encrypt.md",
     "src/guide/bar/baz.md",
-    "src/this-website/github-actions.md",
-    "src/README.md",
     "src/this-website/vuepress.md"
   ]
 }

@@ -9,8 +9,8 @@ actions:
   - text: 我要学习 👉
     link: /home.html
     type: primary
-  - text: 来公众号领福利 🎁
-    link: /guide/
+#   - text: 来公众号领福利 🎁
+#     link: /guide/
 features:
   - title: 建设中...
     icon: markdown
