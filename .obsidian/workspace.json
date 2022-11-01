@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ce33a35db2fa9677",
+        "id": "cee374908429b5b3",
         "type": "tabs",
         "children": [
           {
-            "id": "e4bb97468a804279",
+            "id": "b699f4fe84d277f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/building-tutorial/vuepress.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/building-tutorial/vuepress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/building-tutorial/vuepress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/building-tutorial/vuepress.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -136,17 +128,17 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "e4bb97468a804279",
+  "active": "b699f4fe84d277f8",
   "lastOpenFiles": [
-    "src/building-tutorial/github-actions.md",
     "src/building-tutorial/vuepress.md",
+    "src/building-tutorial/github-actions.md",
+    "template.md",
     "src/demo/markdown.md",
     "src/demo/encrypt.md",
     "src/home.md",
     "Internal link.md",
     "[Progressive.md",
     "https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FProgressive_web_application.md",
-    "src/README.md",
-    "template.md"
+    "src/README.md"
   ]
 }

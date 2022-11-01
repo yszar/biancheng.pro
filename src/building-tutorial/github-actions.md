@@ -5,6 +5,7 @@ isOriginal: true
 article: true
 headerDepth: 2
 author: Jiu Yang
+description: 上一部分讲了如何安装配置 VuePress，这部分重点开始讲如何持续集成。
 category:
   - 建站指南
 tag:

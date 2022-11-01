@@ -15,6 +15,8 @@ headerDepth: 2
 author: Jiu Yang
 # 设置写作时间
 date: {{date}} {{time}}
+# 页面内容描述
+description
 # 一个页面可以有多个分类
 category:
   - 
