@@ -20,6 +20,12 @@ export const zhSidebar = sidebar({
   ],
   "/this-website/": [
     {
+      text: "用到的工具",
+      link: "obsidian.md",
+      prefix: "/this-website/",
+      icon: "creative",
+    },
+    {
       text: "搭建过程",
       link: "",
       prefix: "/this-website/",
@@ -42,6 +48,5 @@ export const zhSidebar = sidebar({
         },
       ]
     },
-
   ]
 });
