@@ -128,6 +128,14 @@
                 "file": "src/this-website/obsidian.md"
               }
             }
+          },
+          {
+            "id": "c1ec896f1a4d0f7c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -136,7 +144,7 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "667fbb734af9d89a",
+  "active": "b1829d8710f953ea",
   "lastOpenFiles": [
     "src/this-website/README.md",
     "template.md",

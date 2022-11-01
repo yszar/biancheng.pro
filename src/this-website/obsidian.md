@@ -51,9 +51,9 @@ tag: [工具软件, obsidian]
     *  [点我安装](obsidian://show-plugin?id=obsidian-enhancing-mindmap)  | [**enhancing mindmap**](https://github.com/MarkMindCkm/obsidian-enhancing-mindmap) 可以编辑的思维导图，兼容 md 语法
     >mindmap-plugin: basic 在 formatter 里面加入这一个启用
 * [点我安装](obsidian://show-plugin?id=cm-editor-syntax-highlight-obsidian)  [**Editor Syntax Highlight**](https://github.com/deathau/cm-editor-syntax-highlight-obsidian) 代码高亮
-*   **Natural Language Dates** 按@输出日期
-    *   YYYY-MM-DD dddd 表示 年-月-日 星期
-*   **calendar** 日历
+* [点我安装](obsidian://show-plugin?id=nldates-obsidian)  [**Natural Language Dates**](https://github.com/argenos/nldates-obsidian) 按@输出日期
+    *   `YYYY-MM-DD dddd` 表示年-月-日星期
+* [点我安装](obsidian://show-plugin?id=calendar)  [**calendar**](https://github.com/liamcain/obsidian-calendar-plugin) 日历
     *   配合日记
     *   obsidian-periodic-notes 自动日报周报分类，看插件github官网怎么配置的路径
     *   `MM[月]/[第]WW[周]/YY-MM-DD[日报]`,`MM[月]/[第]WW[周]/[周报]YYYY-WW`
