@@ -85,6 +85,9 @@ inputs:
 ### Github Acitons
 
 打开腾讯云 API 秘钥管理[控制台](https://console.cloud.tencent.com/cam/capi)
+记录下你的 `SecretId` 和 `SecretKey`
+
+![](https://static.iamjy.com/blog-images/20221101223656.png-webp)
 
 现在将你的项目部署到 Github，部署好之后进入 Settings-->Secrets-->Actions
 
