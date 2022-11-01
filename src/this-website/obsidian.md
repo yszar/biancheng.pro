@@ -14,13 +14,16 @@ headerDepth: 2
 # 设置作者
 author: Jiu Yang
 # 设置写作时间
-date: {{date}} {{time}}
+date: 2022-11-02 03:26:33
 # 页面内容描述
 description
 # 一个页面可以有多个分类
-# category: []
+# category:
+  - 
 # 一个页面可以有多个标签
-# tag: []
+tag:
+  - 
+  - 
 # 此页面会在文章列表置顶
 # sticky: true
 # 此页面会出现在文章收藏中
@@ -29,12 +32,12 @@ description
 # footer: 这是测试显示的页脚
 # 你可以自定义版权信息
 # copyright: 无版权
-# head:
-#   - - meta
-#     - name: keywords
-#       content: 
-#     - name: description
-#       content: 
+head:
+  - - meta
+    - name: keywords
+      content: 
+    - name: description
+      content: 
 ---
 
 `more` 注释之前的内容被视为文章摘要。

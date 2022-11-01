@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a02d7ac4571ab44f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/this-website/README.md",
+                "file": "template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/this-website/README.md",
+                "file": "template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/this-website/README.md"
+                "file": "template.md"
               }
             }
           }
@@ -136,8 +149,10 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "b1829d8710f953ea",
+  "active": "a02d7ac4571ab44f",
   "lastOpenFiles": [
+    "src/this-website/obsidian.md",
+    "src/this-website/README.md",
     "src/demo/disable.md",
     "src/this-website/github-actions.md",
     "src/README.md",
@@ -145,8 +160,6 @@
     "src/demo/README.md",
     "src/demo/page.md",
     "src/demo/markdown.md",
-    "src/demo/encrypt.md",
-    "src/guide/bar/baz.md",
-    "src/this-website/vuepress.md"
+    "src/demo/encrypt.md"
   ]
 }
