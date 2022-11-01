@@ -1,9 +1,11 @@
 [
   "table-editor-obsidian",
   "obsidian-git",
-  "obsidian-livesync",
   "url-into-selection",
   "markdown-prettifier",
   "quickadd",
-  "cmenu-plugin"
+  "cmenu-plugin",
+  "remember-cursor-position",
+  "easy-typing-obsidian",
+  "obsidian-linter"
 ]

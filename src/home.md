@@ -28,12 +28,12 @@ date: 2022-11-01 02:11:59
 # footer: 这是测试显示的页脚
 # 你可以自定义版权信息
 # copyright: 无版权
-head:
-  - - meta
-    - name: keywords
-      content: 222
-    - name: description
-      content: 222
+# head:
+#   - - meta
+#     - name: keywords
+#       content: 222
+#     - name: description
+#       content: 222
 ---
 
 `more` 注释之前的内容被视为文章摘要。

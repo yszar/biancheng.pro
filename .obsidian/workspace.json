@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1454d0a292f48e31",
+        "id": "12060327e378fcf3",
         "type": "tabs",
         "children": [
           {
-            "id": "7c4535e29886c76d",
+            "id": "85ca233dca61df17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60da83ff03ffe307",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/building-tutorial/VuePress-Best-Practices.md",
+                "file": "src/building-tutorial/github-actions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/building-tutorial/VuePress-Best-Practices.md",
+                "file": "src/building-tutorial/github-actions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/building-tutorial/VuePress-Best-Practices.md",
+                "file": "src/building-tutorial/github-actions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,28 +125,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/building-tutorial/VuePress-Best-Practices.md"
+                "file": "src/building-tutorial/github-actions.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 240.5
   },
-  "active": "60da83ff03ffe307",
+  "active": "85ca233dca61df17",
   "lastOpenFiles": [
-    "template.md",
-    "src/building-tutorial/VuePress-Best-Practices.md",
-    "src/README.md",
+    "src/building-tutorial/vuepress.md",
     "src/home.md",
+    "src/building-tutorial/github-actions.md",
+    "Internal link.md",
+    "[Progressive.md",
+    "https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FProgressive_web_application.md",
+    "src/README.md",
+    "template.md",
     "conflict-files-obsidian-git.md",
-    "src/about.md",
-    "src/blog.md",
-    "src/guide/foo/ray.md",
-    "README.md",
-    "src/guide/foo/README.md"
+    "src/about.md"
   ]
 }

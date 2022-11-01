@@ -1,5 +1,9 @@
 {
   "accentColor": "",
   "cssTheme": "Blue Topaz",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "interfaceFontFamily": "Microsoft YaHei UI",
+  "monospaceFontFamily": "Consolas,JetBrains Mono",
+  "textFontFamily": "Segoe UI,Microsoft YaHei UI",
+  "translucency": true
 }
