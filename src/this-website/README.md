@@ -9,7 +9,6 @@ isOriginal: true
 article: false
 # 展开深度
 headerDepth: 1
-sidebar: heading
 # 这是侧边栏的顺序
 # order: 1
 # 设置作者

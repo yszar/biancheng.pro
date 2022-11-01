@@ -8,6 +8,7 @@ isOriginal: true
 # 是否加入文章列表
 article: true
 # 展开深度
+sidebar: heading
 headerDepth: 1
 # 这是侧边栏的顺序
 # order: 1
