@@ -44,8 +44,10 @@ date: 2022-11-02 00:35:45
 
 ## 用到的技术栈
 
+-  [[vuepress]] 
 ## 用到的工具
 
 ## 搭建过程
 
-- [VuePress 安装与配置](file:///D:/biancheng.pro/src/this-website/vuepress.md)D:\biancheng.pro\src\this-website\vuepress.md
+-  [VuePress 安装与配置](./vuepress.md)
+-  [Github + Serverless + COS 持续集成自动部署文档](./github-actions.md)
