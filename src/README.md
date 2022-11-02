@@ -7,10 +7,10 @@ heroText: 编程学习网
 tagline: 学习！来学习！快来学习！
 actions:
   - text: 我要学习 👉
-    link: /home.html
+    link: /home.md
     type: primary
-#   - text: 来公众号领福利 🎁
-#     link: /guide/
+#   - text: 博客 🎁
+#     link: /blog.md
 features:
   - title: 建设中...
     icon: markdown
