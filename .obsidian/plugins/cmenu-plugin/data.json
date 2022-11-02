@@ -55,6 +55,11 @@
       "id": "obsidian-admonition:insert-callout",
       "name": "Admonition: Insert Callout",
       "icon": "info"
+    },
+    {
+      "id": "quickadd:runQuickAdd",
+      "name": "QuickAdd: Run QuickAdd",
+      "icon": "remix-AddLine"
     }
   ],
   "appendMethod": "workspace",
