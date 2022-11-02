@@ -41,7 +41,11 @@ tag: [WSL2, 代理]
 
 WSL 每次启动的时候都会有不同的 IP 地址，所以并不能直接用静态的方式来设置代理。WSL2 会把 IP 写在 `/etc/resolv.conf` 中，因此可以用 `cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }'` 这条指令获得宿主机 IP 。
 
+![](https://static.iamjy.com/blog-images/20221102152541.png-webp)
+
 WSL2 自己的 IP 可以用 `hostname -I | awk '{print $1}'` 得到。
+
+![](https://static.iamjy.com/blog-images/20221102152636.png-webp)
 
 ## 设置代理
 
