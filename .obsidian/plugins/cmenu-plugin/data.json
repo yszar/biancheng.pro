@@ -50,6 +50,11 @@
       "id": "cmenu-plugin:editor:insert-tag",
       "name": "cMenu: Add tag",
       "icon": "price-tag-glyph"
+    },
+    {
+      "id": "obsidian-admonition:insert-callout",
+      "name": "Admonition: Insert Callout",
+      "icon": "info"
     }
   ],
   "appendMethod": "workspace",
