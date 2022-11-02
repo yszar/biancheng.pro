@@ -61,6 +61,11 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 > [!info]+ test11111 
 > 
 
+```ad-success
+collapse: closed
+
+
+```
 
 
 你可以自由在这里书写你的 Markdown。
