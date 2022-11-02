@@ -8,23 +8,23 @@ heroText: 九阳全栈博客
 heroFullScreen: false
 tagline: 好像什么都会，又好像什么都不会的——全干工程师。
 projects:
-  - icon: project
-    name: 进阶之路
-    desc: Java程序员进阶之路
-    link: /home.md
+  - icon: vuejs
+    name: Vue.js
+    desc: 易学易用，性能出色，适用场景丰富的 Web 前端框架。
+    link: https://cn.vuejs.org/
 
-  - icon: link
-    name: 知识星球
-    desc: 二哥的编程学习圈子
-    link: /zhishixingqiu/
+  - icon: https://static.iamjy.com/blog-images/20221102160355.png-webp
+    name: VuePress
+    desc: Vue 驱动的静态网站生成器
+    link: https://v2.vuepress.vuejs.org/zh/
 
-  - icon: book
-    name: Java电子书下载
-    desc: Java程序员常读书单，附下载地址
-    link: /download/java.md
+  - icon: https://static.iamjy.com/blog-images/20221102160937.png-webp
+    name: vuepress-theme-hope
+    desc: 一个具有强大功能的 vuepress 主题✨
+    link: https://vuepress-theme-hope.github.io/v2/zh/
 
-  - icon: article
-    name: 学习路线
-    desc: CS 学习指南
-    link: /xuexiluxian/
+  - icon: https://static.iamjy.com/logo.png
+    name: 关于我
+    desc: 关于这个文档站的一些...
+    link: /this-website/
 ---
