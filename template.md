@@ -77,6 +77,8 @@ collapse: closed
 > [!success]
 > None, no title 
 
+> [!example] Success
+> 
 
 
 
