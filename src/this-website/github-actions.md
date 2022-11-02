@@ -12,7 +12,6 @@ tag:
   - vuepress
   - Github-Actions
   - 持续集成
-  - 自动部署
 head:
   - - meta
     - name: keywords
@@ -126,6 +125,8 @@ inputs:
 
 
 ![](https://static.iamjy.com/blog-images/20221101223313.png-webp)
+
+
 
 接下来顺着刚刚的思路，开始想象一个干净的的 `linux docker` 容器中, 需要哪些前置条件来支撑部署这个行为呢？
 
