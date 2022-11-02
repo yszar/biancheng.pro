@@ -404,7 +404,7 @@ export default hopeTheme({
       // 是否启用 v-pre 容器
       // 类型: boolean
       // 默认值: false
-      vpre: true,
+      // vpre: false,
 
       // 是否启用 Vue 交互演示支持
       // 类型: VuePlaygroundOptions | boolean
