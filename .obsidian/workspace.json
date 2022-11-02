@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "268325bf4189d7ba",
+        "id": "53faf520df3adb94",
         "type": "tabs",
         "children": [
           {
-            "id": "d3135ea9ef5dde7e",
+            "id": "eed8b712e1a008af",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "d3135ea9ef5dde7e",
+  "active": "eed8b712e1a008af",
   "lastOpenFiles": [
+    "src/demo/README.md",
+    "src/slides.md",
     "src/guide/README.md",
     "src/guide/foo/README.md",
     "src/guide/foo/ray.md",
     "src/guide/bar/README.md",
     "src/guide/bar/baz.md",
-    "src/slides.md",
     "src/demo/disable.md",
     "src/demo/encrypt.md",
-    "src/demo/markdown.md",
-    "src/demo/page.md"
+    "src/demo/markdown.md"
   ]
 }
