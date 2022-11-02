@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "85f3922b3b2332a7",
+        "id": "ae9dd404dfd5912d",
         "type": "tabs",
         "children": [
           {
-            "id": "b907b12db8f96558",
+            "id": "3c1c01726724e1e8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/demo/page.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/demo/page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/demo/page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/demo/page.md"
+              }
             }
           },
           {
@@ -136,17 +144,17 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "b907b12db8f96558",
+  "active": "3c1c01726724e1e8",
   "lastOpenFiles": [
+    "src/demo/README.md",
+    "template.md",
+    "src/demo/page.md",
+    "src/super-article/WSL2-Windows-proxy.md",
     "src/blog.md",
     "src/this-website/README.md",
     "src/this-website/obsidian.md",
-    "src/super-article/WSL2-Windows-proxy.md",
-    "template.md",
     "src/this-website/github-actions.md",
     "src/this-website/vuepress.md",
-    "未命名思维导图.md",
-    "src/demo/disable.md",
-    "src/README.md"
+    "未命名思维导图.md"
   ]
 }
