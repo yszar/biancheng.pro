@@ -9,8 +9,8 @@ actions:
   - text: 我要学习 👉
     link: /home.html
     type: primary
-   - text: 博客 🎁
-     link: /blog.html
+  - text: 博客 🎁
+    link: /blog.html
 features:
   - title: 建设中...
     icon: markdown

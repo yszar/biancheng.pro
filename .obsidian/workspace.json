@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "916b5e0394f977a6",
+        "id": "911822edfde5c2e6",
         "type": "tabs",
         "children": [
           {
-            "id": "0f77d8485c25a621",
+            "id": "5b696330819b2d73",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,17 +144,17 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "0f77d8485c25a621",
+  "active": "5b696330819b2d73",
   "lastOpenFiles": [
-    "src/demo/page.md",
+    "src/home.md",
+    "src/blog.md",
     "src/README.md",
+    "src/demo/page.md",
     "src/slides.md",
     "src/demo/README.md",
     "template.md",
     "src/super-article/WSL2-Windows-proxy.md",
-    "src/blog.md",
     "src/this-website/README.md",
-    "src/this-website/obsidian.md",
-    "src/this-website/github-actions.md"
+    "src/this-website/obsidian.md"
   ]
 }
