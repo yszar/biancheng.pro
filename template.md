@@ -54,8 +54,8 @@ date: {{date}} {{time}}
 
 ```ad-note
 title: title
-collapse: +
-icon: # Override the icon. color: # Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. 
+collapse: -
+Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. 
 ```
 
 你可以自由在这里书写你的 Markdown。
