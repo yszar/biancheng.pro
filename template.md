@@ -87,7 +87,7 @@ collapse: closed
 
 /ins
 
-/in
+/insert
 
 你可以自由在这里书写你的 Markdown。
 
