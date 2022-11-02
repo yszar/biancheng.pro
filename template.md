@@ -80,7 +80,7 @@ collapse: closed
 > [!success]+
 > Open no title
 
-> [!success] 11
+> [!success]- 11
 > 
 
 
