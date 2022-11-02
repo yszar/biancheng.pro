@@ -126,124 +126,66 @@ inputs:
 
 ![](https://static.iamjy.com/blog-images/20221101223313.png-webp)
 
+在项目中新建 `.github/workflows/deploy-docs.yml` 新建文件，如果按照我们[之前的步骤](http://localhost:8080/this-website/vuepress.html#%E5%AE%89%E8%A3%85)安装了主题的话，应该已经有这个文件了，将下面代码粘贴进去
 
+```yml
 
-接下来顺着刚刚的思路，开始想象一个干净的的 `linux docker` 容器中, 需要哪些前置条件来支撑部署这个行为呢？
+name: 部署文档
 
-显然，`nodejs` 环境是必须安装的，`serverless framework` 也是需要的，而 `yarn` 就看个人喜好了
+on:
+  push:
+    branches:
+      # 确保这是你正在使用的分支名称
+      - master
+  pull_request:
+    branches:
+      # 确保这是你正在使用的分支名称
+      - master
 
-笔者个人比较喜欢使用 `yarn.lock` 的文件 hash 值作为 cache key 的一部分，于是 `yarn` 在此处我也安装了
+env: # 设置环境变量
+  TZ: Asia/Shanghai
 
-于是就很容易写出以下的流程：
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
 
-```
-setup-node
-// 限定一下 yarn 的版本
-npm install -g yarn@^1.x
-// 安装依赖包 npm ci 同理
-yarn --prod
-yarn add -D @serverless/components
-// 生成与部署 npx 同理
-yarn generate
-yarn components deploy 
-```
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
 
-> 这里为什么安装了 `@serverless/components` 可以见 [@serverless/components 代码简析](https://zhuanlan.zhihu.com/p/371259078) 这篇文章
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 7
 
-然而 , 按照这个流程写 Github Actions 的 Yaml 还是行不通的
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
 
-因为容器内的 `serverless framework` ，缺少云厂商的授权
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
 
-此时呢，就可以把我们的 `TENCENT_SECRET_ID` 和 `TENCENT_SECRET_KEY` 写入项目仓库中的 `Actions secrets` 中
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          pnpm run docs:build
+          > src/.vuepress/dist/.nojekyll
 
-具体操作可以使用，仓库的 `Settings` > `Secrets` > `New repository secret` 菜单
-
-> 这种方式可以保护我们的秘钥, 见 [详细文档](https://docs.github.com/en/actions/reference/encrypted-secrets)\
-> 重要：一定要保护好我们的秘钥!!! 不要显示在 action 的输出里 !!!
-
-因为从本质上来说使用 Serverless Framework `.env` 的部署方式，其实就是环境变量的部署方式
-
-所以我们给 `action` 中的 `env` 直接赋值也是可以的，即
-
-```
- - name: Serverless deploy
-        shell: bash
+      - name: 部署文档
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
-        run: yarn components deploy 
+          SERVERLESS_PLATFORM_VENDOR: tencent
+        run: |
+          pnpm add -D @serverless/components
+          pnpm components deploy
 ```
 
-### [](#%E9%83%A8%E7%BD%B2%E5%A4%B1%E8%B4%A5)部署失败?
-
-然而此时，会发现去执行 `yarn components deploy` 部署，还是会部署失败，还提醒我们，需要 `serverless login` , 难道我们授权的腾讯云凭证不起作用？
-
-其实并非如此，因为之前做 [源码简析](( <https://zhuanlan.zhihu.com/p/371259078> )) 的时候，也说过，国内国外跑的是不同的命令，且请求的也是不同的域名，判断的方式，在部署的时候，主要依靠 `isChinaUser` 这个方法来区分
-
-我们来看看这个方法都做了什么？
-
-```
-const isChinaUser = () => {
-  let result;
-  if (
-    process.env.SERVERLESS_PLATFORM_VENDOR === 'tencent' ||
-    process.env.SLS_GEO_LOCATION === 'cn'
-  ) {
-    result = true;
-  } else if (process.env.SERVERLESS_PLATFORM_VENDOR === 'aws') {
-    result = false;
-  } else {
-    result = new Intl.DateTimeFormat('en', { timeZoneName: 'long' })
-      .format()
-      .includes('China Standard Time');
-  }
-  return result;
-}; 
-```
-
-从代码可知，我们可以注入环境变量的方式 , 来改变 `isChinaUser` 的判断逻辑结果，而且因为 Github 的容器啊，默认时区其实都是 UTC，所以会导致 `Intl.DateTimeFormat` 这种判断失败。
-
-那么就简单了，我们只需要部署时，在 `env` 中加一行 `SERVERLESS_PLATFORM_VENDOR: tencent`
-
-```
- env:
-          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
-          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
-          SERVERLESS_PLATFORM_VENDOR: tencent 
-```
-
-就可以顺利的部署了成功了
-
-[demo在此](https://github.com/sonofmagic/Jamstack-with-serverless-framework/blob/main/.github/workflows/main.yml)
-
-## [](#%E8%BF%9B%E9%98%B6)进阶
-
-### [](#%E7%BC%93%E5%AD%98)缓存
-
-我们可以利用 `actions/cache@v2` 把 `yarn cache dir` 中的包给缓存起来
-
-这样能够大大加速 yarn 安装包的一个时间
-
-缓存的 `key`，可以利用提交的 `yarn. lock` 文件的 `hash` 值组合而成的一个键, `package-lock. json` 同理
-
-具体配置项见 [actions/cache](https://github.com/actions/cache)
-
-### [](#%E6%97%B6%E5%8C%BA)时区
-
-由于容器默认时区是 UTC, 而中国属于东八区 `UTC+8`, 也就是 `Asia/Shanghai` , 假如我们不预先设置为这个时区，就会导致在构建打包时，nodejs 的时间产生问题, 进而影响到我们打包工具。
-
-这里就可以使用 `szenius/set-timezone@v1.0` 这个 `Action` 了
-
-只需要把 `runner os` 的时区设置为 `Asia/Shanghai`, 打包时时区问题就解决了
-
-### [](#%E6%A0%B7%E4%BE%8B)样例
-
-[样例在此](https://github.com/sonofmagic/Jamstack-with-serverless-framework/blob/main/.github/workflows/main-cache.yml)
-
-## [](#%E6%80%BB%E7%BB%93)总结
-
-其实所有的 `Serverless Framework` 的组件，都可以通过这种方式，进行持续化集成。
-
-这块我这篇文章，写的还是比较入门的，项目场景也很简单。
-
-如果有其他更好的解决方案，也欢迎一起进行探讨交流。
+至此，配置基本就完成了，现在每次写完文章提交至 github 时，都会自动构建并部署到我们的 COS 中。
