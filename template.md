@@ -64,6 +64,13 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 ```ad-success
 collapse: closed
 1111111
+```
+```ts
+111
+```
+
+```
+
 
 ```
 
