@@ -1,6 +1,7 @@
 ---
 title: 指南
 icon: creative
+article: false
 ---
 
 ## 功能亮点

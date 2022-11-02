@@ -1,6 +1,7 @@
 ---
 title: Foo 功能
 icon: config
+article: false
 ---
 
 ## 介绍
