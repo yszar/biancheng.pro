@@ -52,7 +52,7 @@ date: {{date}} {{time}}
 
 ## 页面内容
 
-```note
+```ad-note
 title: title
 Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. 
 ```
