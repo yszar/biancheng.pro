@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: WSL2 通过宿主机 Windows 使用代理
 # 这是页面的图标
 icon: page
 # 是否原创
@@ -16,7 +16,7 @@ author: Jiu Yang
 # 设置写作时间
 date: 2022-11-02 15:18:35
 # 页面内容描述
-description
+description: 
 # 一个页面可以有多个分类
 category: [工具软件]
 # 一个页面可以有多个标签
@@ -37,22 +37,15 @@ tag: [WSL2, 代理]
 #       content: 
 ---
 
-`more` 注释之前的内容被视为文章摘要。
+## WSL 中获取宿主机 IP
 
-<!-- more -->
+WSL 每次启动的时候都会有不同的 IP 地址，所以并不能直接用静态的方式来设置代理。WSL2 会把 IP 写在 `/etc/resolv.conf` 中，因此可以用 `cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }'` 这条指令获得宿主机 IP 。
 
-## 页面信息
+WSL2 自己的 IP 可以用 `hostname -I | awk '{print $1}'` 得到。
 
-你可以在 Markdown 的 Frontmatter 中设置页面信息。
+## 设置代理
 
-- 作者设置为 Ms.Hope。
-- 写作日期为 2020 年 1 月 1 日
-- 分类为 “使用指南”
-- 标签为 “页面配置” 和 “使用指南”
-
-## 页面内容
-
-你可以自由在这里书写你的 Markdown。
+有了宿主机 IP 之后，就可以通过设置环境变量的方式设置代理了。这里端口需要自己填写，而且别忘了**代理软件中设置允许来自局域网的连接**。
 
 ::: tip
 
