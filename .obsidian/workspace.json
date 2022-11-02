@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/super-article/WSL2-Windows-proxy.md",
+                "file": "src/this-website/obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/super-article/WSL2-Windows-proxy.md",
+                "file": "src/this-website/obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/super-article/WSL2-Windows-proxy.md",
+                "file": "src/this-website/obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/super-article/WSL2-Windows-proxy.md"
+                "file": "src/this-website/obsidian.md"
               }
             }
           },
@@ -146,8 +146,8 @@
   },
   "active": "ddfea9c68bc55d3a",
   "lastOpenFiles": [
-    "template.md",
     "src/super-article/WSL2-Windows-proxy.md",
+    "template.md",
     "src/this-website/github-actions.md",
     "src/this-website/obsidian.md",
     "src/this-website/vuepress.md",

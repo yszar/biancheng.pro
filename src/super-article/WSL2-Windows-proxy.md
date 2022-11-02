@@ -129,32 +129,13 @@ git config --global --unset https.proxy
 直接运行例如 `./proxy.sh set` 或者 `sh proxy.sh set`，这样会是运行在一个子 shell 中，对当前 shell 没有效果
 :::
 
-第二句话就是在每次 shell 启动的时候运行该脚本实现自动设置代理，这样以后不用额外操作就默认设置好代理啦~
+可以在 `~/.bashrc` 中选择性的加上下面两句话，记得**将里面的路径修改成你放这个脚本的路径**。
 
-::: tip
+```bash
+alias proxy="source /path/to/proxy.sh"
+. /path/to/proxy.sh set
+```
 
-- 你可以将图片和 Markdown 文件放置在一起，但是你需要使用**相对链接**`./` 进行引用。
+第一句话可以为这个脚本设置别名 `proxy`，这样在任何路径下都可以通过 `proxy` 命令使用这个脚本了，之后在任何路径下，都可以随时都可以通过输入 `proxy unset` 来暂时取消代理。
 
-- 对于 `.vuepress/public` 文件夹的图片，请使用绝对链接 `/` 进行引用。
-
-:::
-
-主题包含了一个自定义徽章可以使用:
-
-> 文字结尾应该有深蓝色的 徽章文字 徽章。 <Badge text="徽章文字" color="#242378" />
-
-## 页面结构
-
-此页面应当包含:
-
-- [路径导航](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/breadcrumb.html)
-- [标题和页面信息](https://vuepress-theme-hope.github.io/v2/zh/guide/feature/page-info.html)
-- [TOC (文章标题列表)](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/page.html#标题列表)
-- [贡献者、更新时间等页面元信息](https://vuepress-theme-hope.github.io/v2/guide/feature/meta.html)
-- [评论](https://vuepress-theme-hope.github.io/v2/zh/guide/feature/comment.html)
-- [导航栏](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/navbar.html)
-- [侧边栏](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/sidebar.html)
-- [页脚](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/footer.html)
-- 返回顶部按钮
-
-你可以通过主题选项和页面 Frontmatter 自定义它们。
+第二句话就是在每次 shell 启动的时候运行该脚本实现自动设置代理，这样以后不用额外操作就默认设置好代理
