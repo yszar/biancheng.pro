@@ -57,13 +57,13 @@ title: title
 Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. 
 ```
 
-```
+
 ???+ ad-<type> Title goes here!
 
 content
 
 --- admonition
-```
+
 
 你可以自由在这里书写你的 Markdown。
 
