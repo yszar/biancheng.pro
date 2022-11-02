@@ -54,7 +54,7 @@ date: {{date}} {{time}}
 
 ```ad-note
 title: title
-collapse: -
+collapse: false
 Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. 
 ```
 
