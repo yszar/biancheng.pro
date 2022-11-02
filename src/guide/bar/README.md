@@ -1,6 +1,7 @@
 ---
 title: Bar 功能
 icon: creative
+article: false
 ---
 
 ## 介绍

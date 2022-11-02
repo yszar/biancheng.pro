@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/demo/page.md",
+                "file": "src/guide/bar/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/demo/page.md",
+                "file": "src/guide/bar/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/demo/page.md",
+                "file": "src/guide/bar/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/demo/page.md"
+                "file": "src/guide/bar/README.md"
               }
             }
           },
@@ -146,15 +146,15 @@
   },
   "active": "5b696330819b2d73",
   "lastOpenFiles": [
+    "src/guide/bar/baz.md",
+    "src/slides.md",
+    "src/demo/disable.md",
+    "src/demo/encrypt.md",
+    "src/demo/markdown.md",
+    "src/demo/page.md",
     "src/demo/README.md",
     "src/README.md",
     "src/home.md",
-    "src/blog.md",
-    "src/demo/page.md",
-    "src/slides.md",
-    "template.md",
-    "src/super-article/WSL2-Windows-proxy.md",
-    "src/this-website/README.md",
-    "src/this-website/obsidian.md"
+    "src/blog.md"
   ]
 }
