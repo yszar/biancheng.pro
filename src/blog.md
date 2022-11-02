@@ -8,7 +8,7 @@ heroText: 九阳全栈博客
 heroFullScreen: false
 tagline: 好像什么都会，又好像什么都不会的——全干工程师。
 projects:
-  - icon: vue
+  - icon: /vue.svg
     name: Vue.js
     desc: 易学易用，性能出色，适用场景丰富的 Web 前端框架。
     link: https://cn.vuejs.org/
