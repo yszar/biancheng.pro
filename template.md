@@ -58,7 +58,7 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 ```
 
 
-???+ ad-<type> Title goes here!
+???+ ad-war Title goes here!
 
 content
 
