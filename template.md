@@ -75,7 +75,7 @@ collapse: closed
 ```
 
 > [!success]
-> None, no title
+> None, no title 
 
 
 
