@@ -117,9 +117,19 @@ git config --global --unset https.proxy
 
 代理软件中要打开允许局域网访问，我用的 Clash
 
+![](https://static.iamjy.com/blog-images/20221102154017.png-webp)
+
+## 启用
 
 之后运行 `. ./proxy.sh set` 就可以自动设置代理了。`unset` 可以取消代理，`test` 可以查看代理状态，能够用来检查环境变量是否被正确修改。
 
+::: info
+运行的时候不要忘记之前的 `.`，或者使用 `source ./proxy.sh set`，只有这样才能够修改环境变量
+
+直接运行例如 `./proxy.sh set` 或者 `sh proxy.sh set`，这样会是运行在一个子 shell 中，对当前 shell 没有效果
+:::
+
+第二句话就是在每次 shell 启动的时候运行该脚本实现自动设置代理，这样以后不用额外操作就默认设置好代理啦~
 
 ::: tip
 
