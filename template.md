@@ -53,7 +53,7 @@ date: {{date}} {{time}}
 ## 页面内容
 
 ```ad-note
-title: dmonition title. collapse: # Create a collapsible admonition. icon: # Override the icon. color: # Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. 
+title: title. collapse: # Create a collapsible admonition. icon: # Override the icon. color: # Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. 
 ```
 
 你可以自由在这里书写你的 Markdown。
