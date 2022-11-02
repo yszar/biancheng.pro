@@ -52,6 +52,10 @@ date: {{date}} {{time}}
 
 ## 页面内容
 
+```ad-note
+sss
+```
+
 你可以自由在这里书写你的 Markdown。
 
 ::: tip
