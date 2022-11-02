@@ -87,7 +87,7 @@ collapse: closed
 
 /ins
 
-/insert
+2022-11-02
 
 你可以自由在这里书写你的 Markdown。
 
