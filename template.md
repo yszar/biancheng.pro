@@ -74,8 +74,8 @@ collapse: closed
 > 111
 
 > [!note]+
-> ```
-> 
+> ```ts
+> 111
 > ```
 
 
