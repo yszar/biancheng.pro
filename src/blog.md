@@ -18,7 +18,7 @@ projects:
     desc: Vue 驱动的静态网站生成器
     link: https://v2.vuepress.vuejs.org/zh/
 
-  - icon: https://static.iamjy.com/blog-images/20221102160937.png-webp
+  - icon: https://static.iamjy.com/blog-images/VH.png-webp
     name: vuepress-theme-hope
     desc: 一个具有强大功能的 vuepress 主题✨
     link: https://vuepress-theme-hope.github.io/v2/zh/
