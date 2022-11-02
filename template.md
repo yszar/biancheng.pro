@@ -58,11 +58,7 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 ```
 
 
-??? ad-info Title goes here!
 
-content
-
---- admonition
 
 
 你可以自由在这里书写你的 Markdown。
