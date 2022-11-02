@@ -49,14 +49,18 @@ WSL2 自己的 IP 可以用 `hostname -I | awk '{print $1}'` 得到。
 
 ## 设置代理
 
+### 终端代理
+
 通过脚本的方式，每次重启终端代理不需要重新设置
 
-
+::: warning
+💡注意: 第四行改成自己的端口
+:::
 ```bash
 #!/bin/sh
 hostip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
 wslip=$(hostname -I | awk '{print $1}')
-port=<PORT>
+port=7890 # 这里一定要改成你的
 
 PROXY_HTTP="http://${hostip}:${port}"
 
@@ -96,6 +100,25 @@ else
     echo "Unsupported arguments."
 fi
 ```
+
+### Git 设置代理
+
+```bash
+// 添加代理
+git config --global http.proxy "${PROXY_HTTP}"
+git config --global https.proxy "${PROXY_HTTP}"
+
+// 移除代理
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+### 代理软件设置
+
+代理软件中要打开允许局域网访问，我用的 Clash
+
+
+之后运行 `. ./proxy.sh set` 就可以自动设置代理了。`unset` 可以取消代理，`test` 可以查看代理状态，能够用来检查环境变量是否被正确修改。
 
 
 ::: tip
