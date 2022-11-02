@@ -74,18 +74,9 @@ collapse: closed
 
 ```
 
-> [!success]
+> [!success] 111
 > 
 
-> [!note]-
-> 111
-
-> [!note]+
-> ```ts
-> 111
-> ```
-
-/ins
 
 
 
