@@ -27,14 +27,4 @@ projects:
     name: 学习路线
     desc: CS 学习指南
     link: /xuexiluxian/
-
-  - icon: friend
-    name: 面渣逆袭
-    desc: 面试找工作前必刷
-    link: /sidebar/sanfene/nixi.md
-
-  - icon: zhongyaotishi
-    name: 破解合集
-    desc: 程序员常用工具聚集地
-    link: /nice-article/itmind/
 ---
