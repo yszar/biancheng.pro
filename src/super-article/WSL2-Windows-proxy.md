@@ -49,7 +49,54 @@ WSL2 自己的 IP 可以用 `hostname -I | awk '{print $1}'` 得到。
 
 ## 设置代理
 
-有了宿主机 IP 之后，就可以通过设置环境变量的方式设置代理了。这里端口需要自己填写，而且别忘了**代理软件中设置允许来自局域网的连接**。
+通过脚本的方式，每次重启终端代理不需要重新设置
+
+
+```bash
+#!/bin/sh
+hostip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
+wslip=$(hostname -I | awk '{print $1}')
+port=<PORT>
+
+PROXY_HTTP="http://${hostip}:${port}"
+
+set_proxy(){
+    export http_proxy="${PROXY_HTTP}"
+    export HTTP_PROXY="${PROXY_HTTP}"
+
+    export https_proxy="${PROXY_HTTP}"
+    export HTTPS_proxy="${PROXY_HTTP}"
+}
+
+unset_proxy(){
+    unset http_proxy
+    unset HTTP_PROXY
+    unset https_proxy
+    unset HTTPS_PROXY
+}
+
+test_setting(){
+    echo "Host ip:" ${hostip}
+    echo "WSL ip:" ${wslip}
+    echo "Current proxy:" $https_proxy
+}
+
+if [ "$1" = "set" ]
+then
+    set_proxy
+
+elif [ "$1" = "unset" ]
+then
+    unset_proxy
+
+elif [ "$1" = "test" ]
+then
+    test_setting
+else
+    echo "Unsupported arguments."
+fi
+```
+
 
 ::: tip
 
