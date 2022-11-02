@@ -74,7 +74,7 @@ collapse: closed
 
 ```
 
-> [!note]
+> [!success]
 > 
 
 > [!note]-
