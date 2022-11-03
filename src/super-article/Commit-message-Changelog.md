@@ -309,7 +309,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 - 自动打 `tag`
 - 自动生成 `changelog`
 
-#### 版本构成
+-  版本构成
 版本号 `major. minor. patch`
 
 - 默认的版本更新规则
@@ -318,7 +318,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 `BREAKING CHANGES` 会更新 `major`
 
 #### 手动控制版本更新
-- 直接升级 `major`
+#### 直接升级 `major`
 
 `package.json`
 
@@ -328,7 +328,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-- 直接升级 `minor`
+#### 直接升级 `minor`
 
 `package.json`
 
@@ -338,7 +338,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-- 直接升级 `patch`
+#### 直接升级 `patch`
 
 `package. json`
 
