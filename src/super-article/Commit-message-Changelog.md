@@ -51,7 +51,9 @@ star: true
 
 这种 commit 信息对于想要从中获取有效信息的人来说无疑是一种致命的打击。
 
-我们再来看一个非常规范的 commit
+我们再来看一个非常规范的，也是社区里面比较流行的 `Angular规范` commit
+
+![](https://static.iamjy.com/blog-images/20221104022610.png-webp)
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
