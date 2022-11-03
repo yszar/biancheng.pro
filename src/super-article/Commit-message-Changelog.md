@@ -61,7 +61,36 @@ star: true
 
 上图中这种规范的 commit 信息首先提供了更多的历史信息，方便快速浏览。其次，可以过滤某些 commit（比如文档改动），便于快速查找信息。
 
-## 
+## Angular 团队的 commit 规范
+
+对于 `git` 提交规范来说，不同的团队可能会有不同的标准，推荐目前比较流行的 [Angular 团队规范]( https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fangular%2Fangular.js%2Fblob%2Fmaster%2FDEVELOPERS.md%23-git-commit-guidelines " https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines" ) 延伸出的[Conventional Commits specification（约定式提交）]( https://link.juejin.cn/?target=https%3A%2F%2Fwww.conventionalcommits.org%2Fzh-hans%2Fv1.0.0%2F " https://www.conventionalcommits.org/zh-hans/v1.0.0/" ) 。
+
+约定式提交规范要求如下：
+
+```js
+<type> [optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+翻译过来就是：
+
+```js
+<类型> [可选 范围]: <描述>
+
+[可选 正文]
+
+[可选 脚注]
+```
+
+  
+
+作者：IDuxFE  
+链接：https://juejin.cn/post/7098882036529643550  
+来源：稀土掘金  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
