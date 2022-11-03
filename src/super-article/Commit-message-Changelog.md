@@ -408,6 +408,30 @@ module.exports = {
   }
 ```
 
+贴上我最终的 `package.json`
+
+```json
+  "scripts": {
+
+    "commit": "git cz",
+
+    "release": "standard-version",
+
+    "release-beta": "standard-version -p release --skip.changelog false --skip.tag false",
+
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+
+    "release:major": "standard-version -r major -n",
+
+    "release:minor": "standard-version -r minor -n",
+
+    "release:patch": "standard-version -r patch -n",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+```
+
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
 - 作者设置为 Ms.Hope。
