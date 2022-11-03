@@ -138,7 +138,11 @@ Commit message 的三个部分：Header，Body 和 Footer。
 
 ## 准备工作
 
+- 先来创建一个演示项目
 
+![](https://static.iamjy.com/blog-images/20221104025342.png-webp)
+
+- 然后全局安装
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
