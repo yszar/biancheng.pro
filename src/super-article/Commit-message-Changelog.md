@@ -161,6 +161,14 @@ npm install -g commitizen
 npm install -g cz-git
 ```
 
+2. 全局配置适配器类型
+
+```shell
+echo '{ "path": "cz-git" }' > ~/.czrc
+```
+
+3. 添加自定义配置(可选，使用默认配置)
+
 
 ```js
 npm install cz - customizable--save - dev
