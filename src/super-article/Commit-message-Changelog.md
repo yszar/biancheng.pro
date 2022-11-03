@@ -136,7 +136,7 @@ Commit message 的三个部分：Header，Body 和 Footer。
 
 所以问题来了，如果每次 commit 都这么写，着实有点痛苦，比较麻烦。所以就诞生了 Commitizen 这样的工具，只需要使用 `git cz` 命令代替 `git commit` 就可以帮我们书写 commit 信息，非常强大！
 
-## 准备工作
+## 规范化提交
 
 - 先来创建一个演示项目
 
@@ -286,6 +286,12 @@ yarn husky install
 ```
 
 - 添加 hook
+
+```shell
+npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+```
+
+
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
