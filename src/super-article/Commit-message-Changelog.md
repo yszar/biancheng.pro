@@ -322,7 +322,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 #### 手动控制版本更新
 - 直接升级 `major`
 
-`package. json`
+`package.json`
 
 ```json
 "scripts": {
@@ -330,14 +330,22 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-- 直接升级 minor
-package. json
+- 直接升级 `minor`
+
+`package.json`
+
+```json
 "scripts": {
 "release-minor": "standard-version --release-as minor",
 }
-复制代码
-直接升级 patch
-package. json
+```
+
+- 直接升级 `patch`
+
+`package. json`
+
+```json
+```
 "scripts": {
 "release-patch": "standard-version --release-as patch",
 }
