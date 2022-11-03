@@ -194,160 +194,86 @@ npm install --save-dev @commitlint/config-conventional @commitlint/cli
 
 直接贴配置，照抄就行，命名为 `.commitlintrc.js`，放在项目根目录
 
-想了解配置的去 [cz-git](https://cz-git.qbb.sh/zh/config/)  
+想了解配置的去 [cz-git](https://cz-git.qbb.sh/zh/config/)  看
 
 ```js
 // .commitlintrc.js
-
 /** @type {import('cz-git').UserConfig} */
-
 module.exports = {
-
-  rules: {
-
-    // @see: https://commitlint.js.org/#/reference-rules
-
-  },
-
-  extends: ['@commitlint/config-conventional'],
-
-  prompt: {
-
-    alias: { fd: 'docs: fix typos' },
-
-    messages: {
-
-      type: '选择你要提交的类型 :',
-
-      scope: '选择一个提交范围（可选）:',
-
-      customScope: '请输入自定义的提交范围 :',
-
-      subject: '填写简短精炼的变更描述 :\n',
-
-      body: '填写更加详细的变更描述（可选）。使用 "|" 换行 :\n',
-
-      breaking: '列举非兼容性重大的变更（可选）。使用 "|" 换行 :\n',
-
-      footerPrefixsSelect: '选择关联issue前缀（可选）:',
-
-      customFooterPrefixs: '输入自定义issue前缀 :',
-
-      footer: '列举关联issue (可选) 例如: #31, #I3244 :\n',
-
-      confirmCommit: '是否提交或修改commit ?'
-
-    },
-
-    types: [
-
-      { value: 'feat', name: 'feat:     ✨  新增功能 | A new feature' },
-
-      { value: 'fix', name: 'fix:      🐛  修复缺陷 | A bug fix' },
-
-      { value: 'docs', name: 'docs:     📝  文档更新 | Documentation only changes' },
-
-      { value: 'style', name: 'style:    💄  代码格式 | Changes that do not affect the meaning of the code' },
-
-      { value: 'refactor', name: 'refactor: ♻️   代码重构 | A code change that neither fixes a bug nor adds a feature' },
-
-      { value: 'perf', name: 'perf:     ⚡️  性能提升 | A code change that improves performance' },
-
-      { value: 'test', name: 'test:     ✅  测试相关 | Adding missing tests or correcting existing tests' },
-
-      { value: 'build', name: 'build:    📦️   构建相关 | Changes that affect the build system or external dependencies' },
-
-      { value: 'ci', name: 'ci:       🎡  持续集成 | Changes to our CI configuration files and scripts' },
-
-      { value: 'revert', name: 'revert:   ⏪️  回退代码 | Revert to a commit' },
-
-      { value: 'chore', name: 'chore:    🔨  其他修改 | Other changes that do not modify src or test files' },
-
-    ],
-
-    useEmoji: true,
-
-    emojiAlign: 'center',
-
-    themeColorCode: '',
-
-    scopes: [
-
-      { value: 'app', name: 'app:       系统业务' },
-
-      { value: 'home', name: 'home:      首页相关' },
-
-      { value: 'user', name: 'user:   用户相关' },
-
-      { value: 'commodity', name: 'commodity:   商品相关' },
-
-      { value: 'deal', name: 'deal:   交易相关' },
-
-    ],
-
-    allowCustomScopes: true,
-
-    allowEmptyScopes: true,
-
-    customScopesAlign: 'bottom',
-
-    customScopesAlias: 'custom',
-
-    emptyScopesAlias: 'empty',
-
-    upperCaseSubject: false,
-
-    markBreakingChangeMode: false,
-
-    allowBreakingChanges: ['feat', 'fix'],
-
-    breaklineNumber: 100,
-
-    breaklineChar: '|',
-
-    skipQuestions: [],
-
-    issuePrefixs: [
-
-      // 如果使用 gitee 作为开发管理
-
-      { value: 'link', name: 'link:     链接 ISSUES 进行中' },
-
-      { value: 'closed', name: 'closed:   标记 ISSUES 已完成' }
-
-    ],
-
-    customIssuePrefixsAlign: 'top',
-
-    emptyIssuePrefixsAlias: 'skip',
-
-    customIssuePrefixsAlias: 'custom',
-
-    allowCustomIssuePrefixs: true,
-
-    allowEmptyIssuePrefixs: true,
-
-    confirmColorize: true,
-
-    maxHeaderLength: Infinity,
-
-    maxSubjectLength: Infinity,
-
-    minSubjectLength: 0,
-
-    scopeOverrides: undefined,
-
-    defaultBody: '',
-
-    defaultIssues: '',
-
-    defaultScope: '',
-
-    defaultSubject: ''
-
-  }
-
+  rules: {
+    // @see: https://commitlint.js.org/#/reference-rules
+  },
+  extends: ['@commitlint/config-conventional'],
+  prompt: {
+    alias: { fd: 'docs: fix typos' },
+    messages: {
+      type: '选择你要提交的类型 :',
+      scope: '选择一个提交范围（可选）:',
+      customScope: '请输入自定义的提交范围 :',
+      subject: '填写简短精炼的变更描述 :\n',
+      body: '填写更加详细的变更描述（可选）。使用 "|" 换行 :\n',
+      breaking: '列举非兼容性重大的变更（可选）。使用 "|" 换行 :\n',
+      footerPrefixsSelect: '选择关联issue前缀（可选）:',
+      customFooterPrefixs: '输入自定义issue前缀 :',
+      footer: '列举关联issue (可选) 例如: #31, #I3244 :\n',
+      confirmCommit: '是否提交或修改commit ?'
+    },
+    types: [
+      { value: 'feat', name: 'feat:     ✨  新增功能 | A new feature' },
+      { value: 'fix', name: 'fix:      🐛  修复缺陷 | A bug fix' },
+      { value: 'docs', name: 'docs:     📝  文档更新 | Documentation only changes' },
+      { value: 'style', name: 'style:    💄  代码格式 | Changes that do not affect the meaning of the code' },
+      { value: 'refactor', name: 'refactor: ♻️   代码重构 | A code change that neither fixes a bug nor adds a feature' },
+      { value: 'perf', name: 'perf:     ⚡️  性能提升 | A code change that improves performance' },
+      { value: 'test', name: 'test:     ✅  测试相关 | Adding missing tests or correcting existing tests' },
+      { value: 'build', name: 'build:    📦️   构建相关 | Changes that affect the build system or external dependencies' },
+      { value: 'ci', name: 'ci:       🎡  持续集成 | Changes to our CI configuration files and scripts' },
+      { value: 'revert', name: 'revert:   ⏪️  回退代码 | Revert to a commit' },
+      { value: 'chore', name: 'chore:    🔨  其他修改 | Other changes that do not modify src or test files' },
+    ],
+    useEmoji: true,
+    emojiAlign: 'center',
+    themeColorCode: '',
+    scopes: [
+      { value: 'app', name: 'app:       系统业务' },
+      { value: 'home', name: 'home:      首页相关' },
+      { value: 'user', name: 'user:   用户相关' },
+      { value: 'commodity', name: 'commodity:   商品相关' },
+      { value: 'deal', name: 'deal:   交易相关' },
+    ],
+    allowCustomScopes: true,
+    allowEmptyScopes: true,
+    customScopesAlign: 'bottom',
+    customScopesAlias: 'custom',
+    emptyScopesAlias: 'empty',
+    upperCaseSubject: false,
+    markBreakingChangeMode: false,
+    allowBreakingChanges: ['feat', 'fix'],
+    breaklineNumber: 100,
+    breaklineChar: '|',
+    skipQuestions: [],
+    issuePrefixs: [
+      // 如果使用 gitee 作为开发管理
+      { value: 'link', name: 'link:     链接 ISSUES 进行中' },
+      { value: 'closed', name: 'closed:   标记 ISSUES 已完成' }
+    ],
+    customIssuePrefixsAlign: 'top',
+    emptyIssuePrefixsAlias: 'skip',
+    customIssuePrefixsAlias: 'custom',
+    allowCustomIssuePrefixs: true,
+    allowEmptyIssuePrefixs: true,
+    confirmColorize: true,
+    maxHeaderLength: Infinity,
+    maxSubjectLength: Infinity,
+    minSubjectLength: 0,
+    scopeOverrides: undefined,
+    defaultBody: '',
+    defaultIssues: '',
+    defaultScope: '',
+    defaultSubject: ''
+  }
 }
+
 ```
 
 
