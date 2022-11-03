@@ -42,6 +42,13 @@ star: true
 
 让我们先来看一个不太规范的 commit 记录：
 
+![](https://static.iamjy.com/blog-images/20221104022133.png-webp)
+
+- 修改了哪部分文本？
+- 解决了哪几个问题？
+- 修复了哪个 bug？
+- 创建了哪个文件
+
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
 - 作者设置为 Ms.Hope。
