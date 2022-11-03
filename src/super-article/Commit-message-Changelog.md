@@ -178,14 +178,6 @@ npm install -D cz-git
 ```
 
 
-```js
-npm install cz - customizable--save - dev
-复制代码
-```
-
-新建 `.gitignore` 文件，防止将 `node_modules` 文件提交：
-
-
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
