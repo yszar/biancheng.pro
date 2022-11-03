@@ -38,7 +38,9 @@ star: true
 #       content: 
 ---
 
-## 
+## 为什么要规范 commit message
+
+让我们先来看一个不太规范的 commit 记录：
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
