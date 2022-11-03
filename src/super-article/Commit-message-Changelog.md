@@ -145,7 +145,7 @@ Commit message 的三个部分：Header，Body 和 Footer。
 - 然后全局安装 `commitizen`
 
 ```bash
-npm install - g commitizen
+npm install -g commitizen
 ```
 
 - 安装 [cz-git](https://cz-git.qbb.sh/zh/)
@@ -155,8 +155,9 @@ npm install - g commitizen
 
 - 全局使用
 
+1. 下载全局依赖
 
-```
+```shell
 npm install -g cz-git
 ```
 
