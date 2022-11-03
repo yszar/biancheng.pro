@@ -291,6 +291,12 @@ yarn husky install
 npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ```
 
+### 效果
+
+运行 `git cz` 看效果
+
+![](https://static.iamjy.com/blog-images/20221104031645.png-webp)
+
 
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
