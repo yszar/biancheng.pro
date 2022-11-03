@@ -192,10 +192,11 @@ npm install --save-dev @commitlint/config-conventional @commitlint/cli
 
 - 配置
 
-直接贴配置，照抄就行，命名为，放在项目根目录
+直接贴配置，照抄就行，命名为 `.commitlintrc.js`，放在项目根目录
 
 
-```
+
+```js
 // .commitlintrc.js
 
 /** @type {import('cz-git').UserConfig} */
