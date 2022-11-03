@@ -297,6 +297,8 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 ![](https://static.iamjy.com/blog-images/20221104031645.png-webp)
 
+### 自动生成 changelog 
+
 
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
