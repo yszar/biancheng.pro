@@ -372,20 +372,22 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ### 第一个版本 (该方式不会升级版本号)
 
 
+```shell
 # npm run script
 npm run release -- --first-release
 # global bin
 standard-version --first-release
 # npx
 npx standard-version --first-release
-复制代码
-配置哪些 commit 消息写入 changelog
-hidden 属性值控制是否将该类型的 commit 消息写入 changlog, 不填的情况下默认是:false
+```
 
-作者：悟空和大王
-链接： https://juejin.cn/post/7020289124993073189
-来源：稀土掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+### 配置哪些 commit 消息写入 changelog
+
+`hidden` 属性值控制是否将该类型的 commit 消息写入 `changlog`, 不填的情况下默认是:`false`
+
+### 配置文件
+
+
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
