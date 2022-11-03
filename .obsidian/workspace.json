@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "53faf520df3adb94",
+        "id": "cc74131be6f857c3",
         "type": "tabs",
         "children": [
           {
-            "id": "eed8b712e1a008af",
+            "id": "9fbddc922593cf65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67402430fa7cf686",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/super-article/Commit-message-Changelog.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,9 +136,10 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "67402430fa7cf686",
+  "active": "9fbddc922593cf65",
   "lastOpenFiles": [
     "template.md",
+    "src/super-article/Commit-message-Changelog.md",
     "src/demo/README.md",
     "src/slides.md",
     "src/guide/README.md",
@@ -167,7 +147,6 @@
     "src/guide/foo/ray.md",
     "src/guide/bar/README.md",
     "src/guide/bar/baz.md",
-    "src/demo/disable.md",
-    "src/demo/encrypt.md"
+    "src/demo/disable.md"
   ]
 }

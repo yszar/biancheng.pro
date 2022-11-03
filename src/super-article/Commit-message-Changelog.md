@@ -408,101 +408,16 @@ module.exports = {
   }
 ```
 
-贴上我最终的 `package.json`
+贴上我最终的 `package.json` 的 `scripts` 部分
 
 ```json
-  "scripts": {
-
-    "commit": "git cz",
-
-    "release": "standard-version",
-
-    "release-beta": "standard-version -p release --skip.changelog false --skip.tag false",
-
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
-
-    "release:major": "standard-version -r major -n",
-
-    "release:minor": "standard-version -r minor -n",
-
-    "release:patch": "standard-version -r patch -n",
-
-    "test": "echo \"Error: no test specified\" && exit 1"
-
-  },
+  "scripts": {
+    "commit": "git cz",
+    "release": "standard-version",
+    "release-beta": "standard-version -p release --skip.changelog false --skip.tag false",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "release:major": "standard-version -r major -n",
+    "release:minor": "standard-version -r minor -n",
+    "release:patch": "standard-version -r patch -n"
+  },
 ```
-
-你可以在 Markdown 的 Frontmatter 中设置页面信息。
-
-- 作者设置为 Ms.Hope。
-- 写作日期为 2020 年 1 月 1 日
-- 分类为 “使用指南”
-- 标签为 “页面配置” 和 “使用指南”
-
-## 页面内容
-
-```ad-info
-title: title
-Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. 
-```
-
-
-> [!info]+ test11111 
-> 
-
-```ad-success
-collapse: closed
-1111111
-```
-```ts
-111
-```
-
-```
-
-
-```
-
-> [!success] 222
-> None, no title 
-
-> [!success]+
-> Open no title
-
-> [!success]- 11
-> 11
-
-
-
-
-
-
-你可以自由在这里书写你的 Markdown。
-
-::: tip
-
-- 你可以将图片和 Markdown 文件放置在一起，但是你需要使用**相对链接**`./` 进行引用。
-
-- 对于 `.vuepress/public` 文件夹的图片，请使用绝对链接 `/` 进行引用。
-
-:::
-
-主题包含了一个自定义徽章可以使用:
-
-> 文字结尾应该有深蓝色的 徽章文字 徽章。 <Badge text="徽章文字" color="#242378" />
-
-## 页面结构
-
-此页面应当包含:
-
-- [路径导航](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/breadcrumb.html)
-- [标题和页面信息](https://vuepress-theme-hope.github.io/v2/zh/guide/feature/page-info.html)
-- [TOC (文章标题列表)](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/page.html#标题列表)
-- [贡献者、更新时间等页面元信息](https://vuepress-theme-hope.github.io/v2/guide/feature/meta.html)
-- [评论](https://vuepress-theme-hope.github.io/v2/zh/guide/feature/comment.html)
-- [导航栏](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/navbar.html)
-- [侧边栏](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/sidebar.html)
-- [页脚](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/footer.html)
-- 返回顶部按钮
-
-你可以通过主题选项和页面 Frontmatter 自定义它们。
