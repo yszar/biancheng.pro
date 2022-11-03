@@ -352,19 +352,26 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ### 按默认规则升级版本号
 
 `package. json`
+
 ```json
 "scripts": {
 "release": "standard-version",
 }
 ```
 
-强制打一个静态版本号
-package. json
+### 强制打一个静态版本号
+
+`package. json`
+
+```json
 "scripts": {
 "release-static": "standard-version --release-as 3.3.3",
 }
-复制代码
-第一个版本 (该方式不会升级版本号)
+```
+
+### 第一个版本 (该方式不会升级版本号)
+
+
 # npm run script
 npm run release -- --first-release
 # global bin
