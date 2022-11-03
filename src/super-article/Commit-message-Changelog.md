@@ -138,6 +138,8 @@ Commit message 的三个部分：Header，Body 和 Footer。
 
 ## 准备工作
 
+### 安装
+
 - 先来创建一个演示项目
 
 ![](https://static.iamjy.com/blog-images/20221104025342.png-webp)
@@ -183,12 +185,7 @@ npm install cz - customizable--save - dev
 
 新建 `.gitignore` 文件，防止将 `node_modules` 文件提交：
 
-  
 
-作者：IDuxFE  
-链接：https://juejin.cn/post/7098882036529643550  
-来源：稀土掘金  
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
