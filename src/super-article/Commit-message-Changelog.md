@@ -132,9 +132,9 @@ Commit message 的三个部分：Header，Body 和 Footer。
 
 ### Footer
 
-一些备注, 通常是 `BREAKING CHANGE`(当前代码与上一个版本不兼容) 或修复的 bug(关闭 Issue) 的链接。
+一些备注, 通常是 `BREAKING CHANGE`(当前代码与上一个版本不兼容) 或修复的 `bug`(关闭 Issue) 的链接。
 
-简单介绍完上面的规范，我们下面来说一下commit.template，也就是 git 提交信息模板。
+但是有个问题是，如果每次 commit 都这么写，着实有点痛苦，比较麻烦。所以就诞生了Commitizen这样的工具，只需要使用 git cz 命令代替 git commit 就可以帮我们书写 commit 信息，非常强大！
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
