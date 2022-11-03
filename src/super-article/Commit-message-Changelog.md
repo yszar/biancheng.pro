@@ -345,12 +345,13 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 `package. json`
 
 ```json
-```
 "scripts": {
 "release-patch": "standard-version --release-as patch",
 }
-复制代码
-按默认规则升级版本号
+```
+
+# 按默认规则升级版本号
+
 package. json
 "scripts": {
 "release": "standard-version",
