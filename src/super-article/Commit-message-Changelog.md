@@ -297,13 +297,13 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 ![](https://static.iamjy.com/blog-images/20221104031645.png-webp)
 
-### 自动生成 changelog 
+## 自动生成 changelog 
 
 ### standard -version
 
 用到的工具 [standard-version](https://github.com/conventional-changelog/standard-version)
 
-这个东西可以做什么?
+#### 这个东西可以做什么 ?
 
 自动升级版本
 自动打 tag
