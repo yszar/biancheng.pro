@@ -167,7 +167,13 @@ npm install -g cz-git
 echo '{ "path": "cz-git" }' > ~/.czrc
 ```
 
-3. 添加自定义配置(可选，使用默认配置)
+- 项目中使用
+
+1. 下载依赖
+
+```shell
+npm install -D cz-git
+```
 
 
 ```js
