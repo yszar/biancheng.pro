@@ -61,7 +61,7 @@ star: true
 
 上图中这种规范的 commit 信息首先提供了更多的历史信息，方便快速浏览。其次，可以过滤某些 commit（比如文档改动），便于快速查找信息。
 
-
+## 
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
