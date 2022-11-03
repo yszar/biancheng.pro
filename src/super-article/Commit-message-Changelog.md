@@ -299,9 +299,72 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 ### 自动生成 changelog 
 
+### standard -version
+
 用到的工具 [standard-version](https://github.com/conventional-changelog/standard-version)
 
+这个东西可以做什么?
 
+自动升级版本
+自动打 tag
+自动生成 changelog
+
+自动升级版本
+版本构成
+版本号 major. minor. patch
+默认的版本更新规则
+
+feature 会更新 minor
+bug fix 会更新 patch
+BREAKING CHANGES 会更新 major
+
+手动控制版本更新
+直接升级 major
+package. json
+package. json
+"scripts": {
+"release-major": "standard-version --release-as major",
+}
+复制代码
+直接升级 minor
+package. json
+"scripts": {
+"release-minor": "standard-version --release-as minor",
+}
+复制代码
+直接升级 patch
+package. json
+"scripts": {
+"release-patch": "standard-version --release-as patch",
+}
+复制代码
+按默认规则升级版本号
+package. json
+"scripts": {
+"release": "standard-version",
+}
+复制代码
+强制打一个静态版本号
+package. json
+"scripts": {
+"release-static": "standard-version --release-as 3.3.3",
+}
+复制代码
+第一个版本 (该方式不会升级版本号)
+# npm run script
+npm run release -- --first-release
+# global bin
+standard-version --first-release
+# npx
+npx standard-version --first-release
+复制代码
+配置哪些 commit 消息写入 changelog
+hidden 属性值控制是否将该类型的 commit 消息写入 changlog, 不填的情况下默认是:false
+
+作者：悟空和大王
+链接： https://juejin.cn/post/7020289124993073189
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
