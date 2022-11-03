@@ -317,7 +317,8 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 `bug fix` 会更新 `patch`
 `BREAKING CHANGES` 会更新 `major`
 
-#### 手动控制版本更新
+### 手动控制版本更新
+
 #### 直接升级 `major`
 
 `package.json`
@@ -348,13 +349,15 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-#### 按默认规则升级版本号
+### 按默认规则升级版本号
 
-package. json
+`package. json`
+```json
 "scripts": {
 "release": "standard-version",
 }
-复制代码
+```
+
 强制打一个静态版本号
 package. json
 "scripts": {
