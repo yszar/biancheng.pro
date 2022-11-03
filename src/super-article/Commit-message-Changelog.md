@@ -181,15 +181,18 @@ npm install -D cz-git
 
 ### commitlint
 
+- 安装 `commitlint`
 
-
-```
+```shell
 # Install commitlint cli and conventional config
 npm install --save-dev @commitlint/{config-conventional,cli}
 # For Windows:
 npm install --save-dev @commitlint/config-conventional @commitlint/cli
-
 ```
+
+- 配置
+
+
 
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
