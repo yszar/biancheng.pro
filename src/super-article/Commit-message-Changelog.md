@@ -387,7 +387,7 @@ npx standard-version --first-release
 
 ### 配置文件
 
-> 命名为
+> 命名为 `.versionrc.js` 放在项目根目录，美化你的 changelog
 
 ```js
 module.exports = {
