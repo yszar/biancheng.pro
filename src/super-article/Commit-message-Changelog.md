@@ -305,13 +305,12 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 #### 这个东西可以做什么 ?
 
-自动升级版本
-自动打 tag
-自动生成 changelog
-
-自动升级版本
+- 自动升级版本
+- 自动打 `tag`
+- 自动生成 `changelog`
+#### 自动升级版本
 版本构成
-版本号 major. minor. patch
+版本号 `major. minor. patch`
 默认的版本更新规则
 
 feature 会更新 minor
