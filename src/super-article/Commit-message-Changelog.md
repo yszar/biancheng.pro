@@ -119,15 +119,20 @@ Commit message 的三个部分：Header，Body 和 Footer。
 
 
 ###  Body
+
 对本次 commit 修改内容的具体描述, 可以分为多行。如下图:
 
+```text
 # body: 72-character wrapped. This should answer:
 # * Why was this change necessary?
 # * How does it address the problem?
 # * Are there any side effects?
 # initial commit
-Footer
-一些备注, 通常是 BREAKING CHANGE(当前代码与上一个版本不兼容) 或修复的 bug(关闭 Issue) 的链接。
+```
+
+### Footer
+
+一些备注, 通常是 `BREAKING CHANGE`(当前代码与上一个版本不兼容) 或修复的 bug(关闭 Issue) 的链接。
 
 简单介绍完上面的规范，我们下面来说一下commit.template，也就是 git 提交信息模板。
 
