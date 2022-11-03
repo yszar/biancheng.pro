@@ -320,14 +320,17 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 `BREAKING CHANGES` 会更新 `major`
 
 #### 手动控制版本更新
-直接升级 `major`
-package. json
-package. json
+- 直接升级 `major`
+
+`package. json`
+
+```json
 "scripts": {
 "release-major": "standard-version --release-as major",
 }
-复制代码
-直接升级 minor
+```
+
+- 直接升级 minor
 package. json
 "scripts": {
 "release-minor": "standard-version --release-as minor",
