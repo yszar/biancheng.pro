@@ -65,7 +65,9 @@ star: true
 
 对于 `git` 提交规范来说，不同的团队可能会有不同的标准，推荐目前比较流行的 [Angular 团队规范]( https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fangular%2Fangular.js%2Fblob%2Fmaster%2FDEVELOPERS.md%23-git-commit-guidelines " https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines" ) 延伸出的[Conventional Commits specification（约定式提交）]( https://link.juejin.cn/?target=https%3A%2F%2Fwww.conventionalcommits.org%2Fzh-hans%2Fv1.0.0%2F " https://www.conventionalcommits.org/zh-hans/v1.0.0/" ) 。
 
-约定式提交规范要求如下：
+### 约定式提交规范要求
+
+要求如下
 
 ```text
 <type> [optional scope]: <description>
@@ -91,8 +93,8 @@ star: true
   
 Commit message 的三个部分：Header，Body 和 Footer。
 
-- Header
-Header 部分只有一行，包括三个字段：type（必需）、scope（可选）和subject（必需）。
+### Header
+`Header` 部分只有一行，包括三个字段：type（必需）、scope（可选）和subject（必需）。
 
 type: 用于说明 commit 的类型。一般有以下几种:
 feat: 新增feature
