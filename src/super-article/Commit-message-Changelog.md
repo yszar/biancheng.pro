@@ -234,13 +234,7 @@ module.exports = {
     useEmoji: true,
     emojiAlign: 'center',
     themeColorCode: '',
-    scopes: [
-      { value: 'app', name: 'app:       系统业务' },
-      { value: 'home', name: 'home:      首页相关' },
-      { value: 'user', name: 'user:   用户相关' },
-      { value: 'commodity', name: 'commodity:   商品相关' },
-      { value: 'deal', name: 'deal:   交易相关' },
-    ],
+    scopes: [],
     allowCustomScopes: true,
     allowEmptyScopes: true,
     customScopesAlign: 'bottom',
@@ -273,10 +267,12 @@ module.exports = {
     defaultSubject: ''
   }
 }
-
 ```
 
+### Husky
 
+```
+```
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
