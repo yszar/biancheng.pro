@@ -271,8 +271,21 @@ module.exports = {
 
 ### Husky
 
+- 安装 Husky 用来校验我们的提交
+
+```shell
+# Install Husky v6
+npm install husky --save-dev
+# or
+yarn add husky --dev
+
+# Activate hooks
+npx husky install
+# or
+yarn husky install
 ```
-```
+
+- 添加 hook
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
