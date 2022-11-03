@@ -179,6 +179,17 @@ echo '{ "path": "cz-git" }' > ~/.czrc
 npm install -D cz-git
 ```
 
+### commitlint
+
+
+
+```
+# Install commitlint cli and conventional config
+npm install --save-dev @commitlint/{config-conventional,cli}
+# For Windows:
+npm install --save-dev @commitlint/config-conventional @commitlint/cli
+
+```
 
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
