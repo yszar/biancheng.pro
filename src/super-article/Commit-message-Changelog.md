@@ -299,7 +299,9 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 ### 自动生成 changelog 
 
-用到的工具 standard-version
+用到的工具 [standard-version](https://github.com/conventional-changelog/standard-version)
+
+
 
 你可以在 Markdown 的 Frontmatter 中设置页面信息。
 
