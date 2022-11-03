@@ -94,12 +94,13 @@ star: true
 Commit message 的三个部分：Header，Body 和 Footer。
 
 ### Header
-`Header` 部分只有一行，包括三个字段：type（必需）、scope（可选）和subject（必需）。
+`Header` 部分只有一行，包括三个字段：`type`（必需）、`scope`（可选）和 `subject`（必需）。
 
-type: 用于说明 commit 的类型。一般有以下几种:
-feat: 新增feature
-fix: 修复bug
-docs: 仅仅修改了文档，如readme.md
+##
+`type` : 用于说明 commit 的类型。一般有以下几种:
+- feat: 新增 feature
+- fix: 修复 bug
+- docs: 仅仅修改了文档，如 readme. md
 style: 仅仅是对格式进行修改，如逗号、缩进、空格等。不改变代码逻辑。
 refactor: 代码重构，没有新增功能或修复bug
 perf: 优化相关，如提升性能、用户体验等。
