@@ -96,7 +96,7 @@ Commit message 的三个部分：Header，Body 和 Footer。
 ### Header
 `Header` 部分只有一行，包括三个字段：`type`（必需）、`scope`（可选）和 `subject`（必需）。
 
-#### Type
+#### type
 
 `type` : 用于说明 commit 的类型。一般有以下几种:
 - feat: 新增 feature
@@ -108,8 +108,15 @@ Commit message 的三个部分：Header，Body 和 Footer。
 - test: 测试用例，包括单元测试、集成测试。
 - chore: 改变构建流程、或者增加依赖库、工具等。
 - revert: 版本回滚
-scope: 用于说明 commit 影响的范围，比如: views, component, utils, test...
-subject: commit 目的的简短描述
+
+#### scope
+
+`scope` : 用于说明 commit 影响的范围，比如: views, component, utils, test...
+
+#### subject
+
+`subject` : commit 目的的简短描述
+
 Body
 对本次 commit 修改内容的具体描述, 可以分为多行。如下图:
 
