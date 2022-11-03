@@ -15,10 +15,14 @@
   "nldates-obsidian",
   "calendar",
   "periodic-notes",
+  "obsidian-admonition",
   "note-refactor-obsidian",
   "various-complements",
   "consistent-attachments-and-links",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-local-rest-api",
-  "obsidian-admonition"
+  "obsidian42-brat",
+  "simpread",
+  "obsidian-banners",
+  "dataview",
+  "obsidian-local-rest-api"
 ]
