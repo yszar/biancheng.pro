@@ -61,17 +61,17 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 > [!note]+
 > Note
 
-> [!info]+ info 
+> [!abstract]+ 
+> abstract
+
+> [!info]+
 > Info
 
-> [!info]+ info 
-> Info
+> [!tip]+ tip 
+> Tip
 
-> [!info]+ info 
-> Info
-
-> [!info]+ info 
-> Info
+> [!success]+ 
+> Succes
 
 > [!info]+ info 
 > Info
