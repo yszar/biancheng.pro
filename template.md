@@ -58,20 +58,6 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 ```
 
 
-
-
-> [!abstract]+ 
-> abstract
-
-> [!info]+
-> Info
-
-> [!tip]+ tip 
-> Tip
-
-> [!success]+ 
-> Success
-
 > [!question]+ 
 > Question
 
