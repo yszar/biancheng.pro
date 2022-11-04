@@ -71,18 +71,18 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 > Tip
 
 > [!success]+ 
-> Succes
+> Success
 
-> [!info]+ info 
-> Info
+> [!question]+ 
+> Question
 
-> [!info]+ info 
-> Info
+> [!warning]+
+> Warning
 
-> [!info]+ info 
-> Info
+> [!failure]+
+> Failure
 
-> [!info]+ info 
+> [!]+
 > Info
 
 > [!info]+ info 
