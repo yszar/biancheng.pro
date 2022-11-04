@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "12a93df787cc3c0d",
+        "id": "8316b0b577932746",
         "type": "tabs",
         "children": [
           {
-            "id": "1877be8459f09301",
+            "id": "4336cd49fe11a4b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,7 +144,7 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "1877be8459f09301",
+  "active": "4336cd49fe11a4b5",
   "lastOpenFiles": [
     "template.md",
     "src/super-article/Commit-message-Changelog.md",
