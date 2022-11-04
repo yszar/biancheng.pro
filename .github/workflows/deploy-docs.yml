@@ -1,4 +1,3 @@
-
 name: deploy-docs
 
 on:
@@ -45,6 +44,14 @@ jobs:
       - name: 安装依赖
         run: pnpm install --frozen-lockfile
 
+      - name: 安装Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 替换文档格式
+        run: python obsidian-vuepress.py
+
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
@@ -65,4 +72,3 @@ jobs:
         run: |
           pnpm add -D @serverless/components
           pnpm components deploy
-
