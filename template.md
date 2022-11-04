@@ -82,17 +82,17 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 > [!failure]+
 > Failure
 
-> [!]+
-> Info
+> [!danger]+
+> Danger
 
-> [!info]+ info 
-> Info
+> [!bug]+
+> Bug
 
-> [!info]+ info 
-> Info
+> [!example]+
+> Example
 
-> [!info]+ info 
-> Info
+> [!quote]+
+> Quote
 
 
 
