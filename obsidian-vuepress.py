@@ -85,15 +85,24 @@ def main():
 
     directory = args.p  # 文件夹名称
     # 遍历 args.p 下的所有文件，找出 markdown 文件
+    print("========== 开始处理文件 ==========")
+    file_count = 0
+    text_count = 0
     for root, dirs, files in os.walk(directory):
         for f in files:
             p = Path(root + "/" + f)
             if p.suffix == ".md":
-                print("开始处理 ==>", p)
                 # 将找出的 markdown 传入解析函数
                 new_text = parse_md(p)
                 p.write_text(new_text[0], encoding="utf-8")
-                print(p, f"替换完成, 共替换{new_text[1]}处")
+                if new_text[1] != 0:
+                    file_count += 1
+                    text_count += new_text[1]
+                    print("=====", p, "=====")
+                    print(f"替换完成, 共替换{new_text[1]}处\n")
+                    
+    print("========== 文件处理完成 ==========")
+    print(f"本次共处理 {file_count} 个文件， {text_count} 处文本。")
 
 
 if __name__ == "__main__":
