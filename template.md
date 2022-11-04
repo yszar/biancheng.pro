@@ -58,11 +58,6 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 ```
 
 
-> [!question]+ 
-> Question
-
-> [!warning]+
-> Warning
 
 > [!failure]+
 > Failure
