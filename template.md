@@ -58,8 +58,8 @@ Override the color. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 ```
 
 
-> [!info]+ info 
-> Info
+> [!note]+
+> Note
 
 > [!info]+ info 
 > Info
