@@ -36,5 +36,13 @@ date: {{date}} {{time}}
 #     - name: description
 #       content: 
 ---
-> [!success] ob
+
+
+> [!success] obsidian-vuepress
 > 
+
+```
+> [!success] obsidian-vuepress
+> 
+```
+
