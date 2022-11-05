@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fca4ebae0401e6b2",
+        "id": "eec929ebe19ff2aa",
         "type": "tabs",
         "children": [
           {
-            "id": "a5b1cdbd919a2c4d",
+            "id": "64f6887eec6fc6ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/super-article/Commit-message-Changelog.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,10 +137,10 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "a5b1cdbd919a2c4d",
+  "active": "64f6887eec6fc6ee",
   "lastOpenFiles": [
-    "template.md",
     "src/super-article/Commit-message-Changelog.md",
+    "template.md",
     "src/demo/README.md",
     "src/slides.md",
     "src/guide/README.md",

@@ -453,7 +453,6 @@ npm i -D @release-it/conventional-changelog
 ```
 项目根目录新建 `.release-it.json`
 
-
 ```json
 {
   "github": {
