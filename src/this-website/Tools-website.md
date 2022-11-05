@@ -37,27 +37,8 @@ date: 2022-11-06 02:03:29
 #       content: 
 ---
 
+## 收集一些好用的工具网站
 
-> [!success] obsidian-vuepress
-> 
-
-```
-> [!success] obsidian-vuepress
-> 
-```
-
-> [!success]
+> [!info]
 > I'm obsidian-vuepress
 
-```
-> [!success]
-> I'm obsidian-vuepress
-```
-
-> [!success] obsidian-vuepress
-> I'm obsidian-vuepress
-
-```
-> [!success] obsidian-vuepress
-> I'm obsidian-vuepress
-```
