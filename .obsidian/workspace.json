@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "eec929ebe19ff2aa",
+        "id": "bfc21d77684d1c55",
         "type": "tabs",
         "children": [
           {
-            "id": "64f6887eec6fc6ee",
+            "id": "37949f2a7dcab475",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/super-article/python-project-structure.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/super-article/python-project-structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/super-article/python-project-structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/super-article/python-project-structure.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,8 +136,9 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "64f6887eec6fc6ee",
+  "active": "37949f2a7dcab475",
   "lastOpenFiles": [
+    "src/super-article/python-project-structure.md",
     "src/super-article/Commit-message-Changelog.md",
     "template.md",
     "src/demo/README.md",
@@ -154,7 +147,6 @@
     "src/guide/foo/README.md",
     "src/guide/foo/ray.md",
     "src/guide/bar/README.md",
-    "src/guide/bar/baz.md",
-    "src/demo/disable.md"
+    "src/guide/bar/baz.md"
   ]
 }

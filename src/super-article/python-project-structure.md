@@ -16,7 +16,7 @@ author: Jiu Yang
 # 设置写作时间
 date: 2022-11-05 15:57:52
 # 页面内容描述
-description: 
+description: 小伙伴做 Python 项目的时候推荐下面这种项目结构
 # 一个页面可以有多个分类
 category: [Python]
 # 一个页面可以有多个标签
