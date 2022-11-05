@@ -307,7 +307,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 用到的工具 [standard-version](https://github.com/conventional-changelog/standard-version)
 
-### 这个东西可以做什么 ?
+#### 这个东西可以做什么 ?
 
 - 自动升级版本
 - 自动打 `tag`
@@ -321,9 +321,9 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 `bug fix` 会更新 `patch`
 `BREAKING CHANGES` 会更新 `major`
 
-### 手动控制版本更新
+#### 手动控制版本更新
 
-#### 直接升级 `major`
+-  直接升级 `major`
 
 `package.json`
 
@@ -333,7 +333,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-#### 直接升级 `minor`
+-  直接升级 `minor`
 
 `package.json`
 
@@ -343,7 +343,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-#### 直接升级 `patch`
+-  直接升级 `patch`
 
 `package. json`
 
