@@ -353,7 +353,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-### 按默认规则升级版本号
+#### 按默认规则升级版本号
 
 `package. json`
 
@@ -363,7 +363,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-### 强制打一个静态版本号
+#### 强制打一个静态版本号
 
 `package. json`
 
@@ -373,7 +373,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
-### 第一个版本 (该方式不会升级版本号)
+#### 第一个版本 (该方式不会升级版本号)
 
 
 ```shell
@@ -385,11 +385,11 @@ standard-version --first-release
 npx standard-version --first-release
 ```
 
-### 配置哪些 commit 消息写入 changelog
+#### 配置哪些 commit 消息写入 changelog
 
 `hidden` 属性值控制是否将该类型的 commit 消息写入 `changlog`, 不填的情况下默认是:`false`
 
-### 配置文件
+#### 配置文件
 
 > 命名为 `.versionrc.js` 放在项目根目录，美化你的 changelog
 
