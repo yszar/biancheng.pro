@@ -39,6 +39,6 @@ date: 2022-11-06 02:03:29
 
 ## 收集一些好用的工具网站
 
-> [!info]
+> [!info] gitignore.io
 > I'm obsidian-vuepress
 
