@@ -36,3 +36,35 @@ star: true
 #     - name: description
 #       content: 
 ---
+
+## 前言
+
+小伙伴做 Python 项目的时候推荐下面这种项目结构
+
+
+```tree
+sampleproject
+├── data
+│   └── user.json
+├── docs
+│   └── history.md
+├── setup.cfg
+├── setup.py
+├── src
+│   ├── requests
+│   │   └── __init__.py
+│   └── sample
+│       ├── __init__.py
+│       ├── user
+│       │   └── __init__.py
+│       └── views
+│           └── __init__.py
+├── tests
+│   ├── __init__.py
+│   ├── user
+│   │   └── __init__.py
+│   └── views
+│       └── __init__.py
+└── tox.ini
+```
+
