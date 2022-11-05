@@ -43,4 +43,4 @@ date: 2022-11-06 02:03:29
 > [gitignore.io](https://www.toptal.com/developers/gitignore/)  为你的项目创建必要的 `.gitignore` 文件
 
 > [!info] gitignore. io
-> [gitignore.io](https://www.toptal.com/developers/gitignore/)  为你的项目创建必要的 `.gitignore` 文件
+> [RegExr](https://regexr-cn.com/) 为你的项目创建必要的 `.gitignore` 文件
