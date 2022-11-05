@@ -432,7 +432,12 @@ module.exports = {
 
 ### 安装
 
+- 本体
 ```shell
 npm i -D release-it
 ```
 
+- 插件
+```
+npm i -D @release-it/conventional-changelog
+```
