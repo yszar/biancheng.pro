@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "44ac20f60336ff0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/this-website/Tools-website.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/this-website/Tools-website.md",
+                "file": "template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/this-website/Tools-website.md",
+                "file": "template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/this-website/Tools-website.md"
+                "file": "template.md"
               }
             }
           },
@@ -157,8 +144,9 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "44ac20f60336ff0e",
+  "active": "37949f2a7dcab475",
   "lastOpenFiles": [
+    "src/this-website/Tools-website.md",
     "template.md",
     "src/super-article/WSL2-Windows-proxy.md",
     "src/super-article/python-project-structure.md",
@@ -167,7 +155,6 @@
     "src/slides.md",
     "src/guide/README.md",
     "src/guide/foo/README.md",
-    "src/guide/foo/ray.md",
-    "src/guide/bar/README.md"
+    "src/guide/foo/ray.md"
   ]
 }
