@@ -47,4 +47,17 @@ date: {{date}} {{time}}
 ```
 
 > [!success]
-> 
+> I'm obsidian-vuepress
+
+```
+> [!success]
+> I'm obsidian-vuepress
+```
+
+> [!success] obsidian-vuepress
+> I'm obsidian-vuepress
+
+```
+> [!success] obsidian-vuepress
+> I'm obsidian-vuepress
+```
