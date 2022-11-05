@@ -18,9 +18,9 @@ date: 2022-11-05 15:57:52
 # 页面内容描述
 # description: 
 # 一个页面可以有多个分类
-# category: []
+category: [Python]
 # 一个页面可以有多个标签
-# tag: []
+tag: [Python, 项目结构]
 # 此页面会在文章列表置顶
 # sticky: true
 # 此页面会出现在文章收藏中
