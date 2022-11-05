@@ -11,8 +11,12 @@
             "id": "37949f2a7dcab475",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "template.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "template.md"
+              }
             }
           },
           {
@@ -138,6 +146,7 @@
   },
   "active": "37949f2a7dcab475",
   "lastOpenFiles": [
+    "src/super-article/WSL2-Windows-proxy.md",
     "src/super-article/python-project-structure.md",
     "src/super-article/Commit-message-Changelog.md",
     "template.md",
@@ -146,7 +155,6 @@
     "src/guide/README.md",
     "src/guide/foo/README.md",
     "src/guide/foo/ray.md",
-    "src/guide/bar/README.md",
-    "src/guide/bar/baz.md"
+    "src/guide/bar/README.md"
   ]
 }

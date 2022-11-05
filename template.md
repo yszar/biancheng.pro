@@ -36,3 +36,5 @@ date: {{date}} {{time}}
 #     - name: description
 #       content: 
 ---
+> [!success]
+> 
