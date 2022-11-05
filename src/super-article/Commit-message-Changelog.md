@@ -444,3 +444,10 @@ npm i -D @release-it/conventional-changelog
 
 ### 配置
 
+`package.json` 加入
+
+```json
+"scripts": {  
+  "release": "release-it",  
+}
+```
