@@ -40,5 +40,5 @@ date: 2022-11-06 02:03:29
 ## 收集一些好用的工具网站
 
 > [!info] gitignore.io
-> I'm obsidian-vuepress
+> [gitignore.io](https://www.toptal.com/developers/gitignore/)  为你的项目创建必要的 `.gitignore` 文件
 
