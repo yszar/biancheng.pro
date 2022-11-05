@@ -299,8 +299,8 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 ## 自动生成 changelog 
 
-> [!warning] 
-> 
+> [!warning] 注意
+> 目前放弃这种方式，改用  #release -it 
 
 
 ### standard -version
