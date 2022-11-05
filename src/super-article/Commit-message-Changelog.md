@@ -427,3 +427,6 @@ module.exports = {
 ```
 
 ### Release-it 
+
+先简单记录一下过程
+
