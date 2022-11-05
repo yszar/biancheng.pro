@@ -1,12 +1,12 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: 好用网站收集
 # 这是页面的图标
 icon: page
 # 是否原创
 isOriginal: true
 # 是否加入文章列表
-article: true
+article: false
 # 展开深度
 headerDepth: 2
 # 这是侧边栏的顺序
