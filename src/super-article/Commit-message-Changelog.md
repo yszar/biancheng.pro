@@ -430,3 +430,9 @@ module.exports = {
 
 先简单记录一下过程
 
+### 安装
+
+```shell
+npm i -D release-it
+```
+
