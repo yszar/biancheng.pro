@@ -60,6 +60,11 @@
       "id": "quickadd:runQuickAdd",
       "name": "QuickAdd: Run QuickAdd",
       "icon": "remix-AddLine"
+    },
+    {
+      "id": "obsidian-admonition:insert-admonition",
+      "name": "Admonition: Insert Admonition",
+      "icon": "box-glyph"
     }
   ],
   "appendMethod": "workspace",
