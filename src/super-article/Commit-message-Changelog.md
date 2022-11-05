@@ -300,7 +300,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 ## 自动生成 changelog 
 
 > [!warning] 注意
-> 	目前放弃这种方式，改用  [relea] 
+> 目前放弃这种方式，改用  [release-it](#Release-it)
 
 
 ### standard -version
@@ -441,3 +441,4 @@ npm i -D release-it
 ```
 npm i -D @release-it/conventional-changelog
 ```
+
