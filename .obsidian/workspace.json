@@ -158,6 +158,7 @@
     "width": 240.5
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "active": "e313f0320f8a18a1",
   "lastOpenFiles": [
     "src/roadmap/python.md",
@@ -172,7 +173,11 @@
     "src/super-article/未命名.md"
 =======
   "active": "667fbb734af9d89a",
+=======
+  "active": "dfff803caac4f36d",
+>>>>>>> 017318e (vault backup: 2022-11-15 15:03:45)
   "lastOpenFiles": [
+    "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客@annote.md",
     "src/super-article/未命名.md",
     "template.md",
     "src/this-website/Tools-website.md",
@@ -181,8 +186,12 @@
     "src/super-article/Commit-message-Changelog.md",
     "src/demo/README.md",
     "src/slides.md",
+<<<<<<< HEAD
     "src/guide/README.md",
     "src/guide/foo/README.md"
 >>>>>>> b6f61cf (vault backup: 2022-11-15 15:01:45)
+=======
+    "src/guide/README.md"
+>>>>>>> 017318e (vault backup: 2022-11-15 15:03:45)
   ]
 }
