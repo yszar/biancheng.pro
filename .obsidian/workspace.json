@@ -31,8 +31,12 @@
             "id": "e313f0320f8a18a1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -102,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客.md"
+              }
             }
           },
           {
