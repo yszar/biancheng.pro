@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客.md",
+                "file": "src/output/Ubuntu22.10安装Docker并在VS Code搭建Docker环境.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客.md",
+                "file": "src/output/Ubuntu22.10安装Docker并在VS Code搭建Docker环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客.md",
+                "file": "src/output/Ubuntu22.10安装Docker并在VS Code搭建Docker环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客.md"
+                "file": "src/output/Ubuntu22.10安装Docker并在VS Code搭建Docker环境.md"
               }
             }
           },
@@ -185,14 +185,16 @@
   "active": "dfff803caac4f36d",
 >>>>>>> 017318e (vault backup: 2022-11-15 15:03:45)
   "lastOpenFiles": [
-    "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客@annote.md",
     "src/super-article/未命名.md",
+    "src/output/Ubuntu22.10安装Docker并在VS Code搭建Docker环境.md",
+    "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客@annote.md",
     "template.md",
     "src/this-website/Tools-website.md",
     "src/super-article/WSL2-Windows-proxy.md",
     "src/super-article/python-project-structure.md",
     "src/super-article/Commit-message-Changelog.md",
     "src/demo/README.md",
+<<<<<<< HEAD
     "src/slides.md",
 <<<<<<< HEAD
     "src/guide/README.md",
@@ -201,5 +203,8 @@
 =======
     "src/guide/README.md"
 >>>>>>> 017318e (vault backup: 2022-11-15 15:03:45)
+=======
+    "src/slides.md"
+>>>>>>> 39fc982 (vault backup: 2022-11-15 15:05:45)
   ]
 }

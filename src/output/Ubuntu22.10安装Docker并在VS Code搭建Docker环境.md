@@ -1,7 +1,3 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/Aprilyang42/article/details/124986028)
-
-> Ubuntu安装Docker并在VS Code搭建Docker环境
-
 ### 一、安装 [Docker](https://so.csdn.net/so/search?q=Docker&spm=1001.2101.3001.7020)
 
 1.  Docker 要求 CentOS 系统的内核版本高于 3.10 ，通过 uname -r 命令查看你当前的内核版本 。
