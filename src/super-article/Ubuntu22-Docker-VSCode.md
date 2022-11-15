@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: Ubuntu安装Docker并在VS Code搭建Docker环境
 # 这是页面的图标
 icon: page
 # 是否原创
@@ -16,11 +16,11 @@ author: Jiu Yang
 # 设置写作时间
 date: 2022-11-15 13:57:23
 # 页面内容描述
-description: 
+description: Ubuntu安装Docker并在VS Code搭建Docker环境
 # 一个页面可以有多个分类
-category: []
+category: [Linux]
 # 一个页面可以有多个标签
-tag: []
+tag: [Ubuntu, Docker, VSCode]
 # 此页面会在文章列表置顶
 sticky: true
 # 此页面会出现在文章收藏中
