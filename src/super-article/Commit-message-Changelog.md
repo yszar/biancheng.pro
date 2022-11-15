@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 ---
 # 这是文章的标题
 title: Git Commit规范化提交+自动验证+自动生成 
@@ -300,15 +303,22 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
 ## 自动生成 changelog 
 
+<<<<<<< HEAD
 > [!warning] 注意
 > 目前放弃这种方式，改用  [release-it](#Release-it)
 
 
+=======
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 ### standard -version
 
 用到的工具 [standard-version](https://github.com/conventional-changelog/standard-version)
 
+<<<<<<< HEAD
 #### 这个东西可以做什么 ?
+=======
+### 这个东西可以做什么 ?
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 
 - 自动升级版本
 - 自动打 `tag`
@@ -322,9 +332,15 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 `bug fix` 会更新 `patch`
 `BREAKING CHANGES` 会更新 `major`
 
+<<<<<<< HEAD
 #### 手动控制版本更新
 
 -  直接升级 `major`
+=======
+### 手动控制版本更新
+
+#### 直接升级 `major`
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 
 `package.json`
 
@@ -334,7 +350,11 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
+<<<<<<< HEAD
 -  直接升级 `minor`
+=======
+#### 直接升级 `minor`
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 
 `package.json`
 
@@ -344,7 +364,11 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
+<<<<<<< HEAD
 -  直接升级 `patch`
+=======
+#### 直接升级 `patch`
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 
 `package. json`
 
@@ -354,7 +378,11 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
+<<<<<<< HEAD
 #### 按默认规则升级版本号
+=======
+### 按默认规则升级版本号
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 
 `package. json`
 
@@ -364,7 +392,11 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
+<<<<<<< HEAD
 #### 强制打一个静态版本号
+=======
+### 强制打一个静态版本号
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 
 `package. json`
 
@@ -374,7 +406,11 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 }
 ```
 
+<<<<<<< HEAD
 #### 第一个版本 (该方式不会升级版本号)
+=======
+### 第一个版本 (该方式不会升级版本号)
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 
 
 ```shell
@@ -386,11 +422,19 @@ standard-version --first-release
 npx standard-version --first-release
 ```
 
+<<<<<<< HEAD
 #### 配置哪些 commit 消息写入 changelog
 
 `hidden` 属性值控制是否将该类型的 commit 消息写入 `changlog`, 不填的情况下默认是:`false`
 
 #### 配置文件
+=======
+### 配置哪些 commit 消息写入 changelog
+
+`hidden` 属性值控制是否将该类型的 commit 消息写入 `changlog`, 不填的情况下默认是:`false`
+
+### 配置文件
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
 
 > 命名为 `.versionrc.js` 放在项目根目录，美化你的 changelog
 
@@ -426,6 +470,7 @@ module.exports = {
     "release:patch": "standard-version -r patch -n"
   },
 ```
+<<<<<<< HEAD
 
 ### Release-it 
 
@@ -950,3 +995,5 @@ module.exports = {
   },
 ```
 >>>>>>> f6b1286 (vault backup: 2022-11-13 06:56:17)
+=======
+>>>>>>> 2ff62a4 (vault backup: 2022-11-15 15:06:45)
