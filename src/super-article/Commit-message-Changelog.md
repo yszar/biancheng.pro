@@ -23,7 +23,7 @@ category: [工具软件]
 # 一个页面可以有多个标签
 tag: [git, 规范化提交]
 # 此页面会在文章列表置顶
-sticky: true
+sticky: false
 # 此页面会出现在文章收藏中
 star: true
 # 你可以自定义页脚

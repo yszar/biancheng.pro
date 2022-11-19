@@ -38,9 +38,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0fba37883e01a643",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/python/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be0f0b3b706924e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/python/prepare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3643e162489fef13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/python/profile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -106,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
+                "file": "src/python/profile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
+                "file": "src/python/profile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/super-article/Commit-message-Changelog.md"
+                "file": "src/python/profile.md"
               }
             }
           },
@@ -165,17 +201,17 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "e313f0320f8a18a1",
+  "active": "3643e162489fef13",
   "lastOpenFiles": [
+    "src/python/prepare.md",
+    "src/python/README.md",
+    "src/super-article/Commit-message-Changelog.md",
+    "src/super-article/Ubuntu22-Docker-VSCode.md",
     "src/this-website/book-list.md",
     "src/this-website/github-actions.md",
     "src/roadmap/python.md",
     "src/home.md",
     "src/roadmap/README.md",
-    "src/roadmap/golang.md",
-    "src/pdf/README.md",
-    "src/about.md",
-    "src/this-website/README.md",
-    "src/super-article/Commit-message-Changelog.md"
+    "src/roadmap/golang.md"
   ]
 }
