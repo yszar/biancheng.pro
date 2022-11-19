@@ -1,29 +1,26 @@
 ---
 # 这是文章的标题
-title: 关于我这个站
+title: Go语言学习路线
 # 这是页面的图标
-icon: page
+icon: luxian
 # 是否原创
 isOriginal: true
 # 是否加入文章列表
-article: false
+article: true
 # 展开深度
-headerDepth: 1
+headerDepth: 2
 # 这是侧边栏的顺序
 # order: 1
 # 设置作者
 author: Jiu Yang
 # 设置写作时间
-date: 2022-11-02 00:35:45
+date: 2022-11-18 15:51:34
 # 页面内容描述
-# description
+# description: 
 # 一个页面可以有多个分类
-# category:
-#  - 
+# category: []
 # 一个页面可以有多个标签
-# tag:
-#   - 
-#   - 
+# tag: []
 # 此页面会在文章列表置顶
 # sticky: true
 # 此页面会出现在文章收藏中
@@ -40,20 +37,6 @@ date: 2022-11-02 00:35:45
 #       content: 
 ---
 
-这个站搭建过程，用到的工具，都记录到这里。
+## Go 语言学习路线
 
-## 用到的技术栈
-
--  [vuepress](./vuepress)
--  [Github Actions](./github-actions.md)
-- [Serverless Framework](./github-actions)
-- [COS](./github-actions)
-
-## 用到的工具
-
-- Obsidian
-
-## 搭建过程
-
--  [VuePress 安装与配置](./vuepress.md)
--  [Github Actions + Serverless + COS 持续集成自动部署文档](./github-actions.md)
+![](https://static.iamjy.com/blog-images/202211181609960.png-webp)

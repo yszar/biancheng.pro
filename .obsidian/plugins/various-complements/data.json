@@ -74,8 +74,8 @@
     "github-actions": {
       "github-actions": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1667338024431
+          "count": 2,
+          "lastUpdated": 1668832048185
         }
       }
     },
@@ -132,6 +132,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1667633624406
+        }
+      }
+    },
+    "Pyramid": {
+      "Pyramid": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1668837235055
         }
       }
     }

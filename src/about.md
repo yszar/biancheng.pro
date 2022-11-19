@@ -1,6 +1,7 @@
 ---
 icon: info
 article: false
+sidebar: heading
 date updated: 2022-10-31 15:20
 ---
 
@@ -33,12 +34,12 @@ date updated: 2022-10-31 15:20
 
 坚持写有用的、原创的技术文章并不是一件容易的事，如果你认为我的文章对你有帮助，欢迎将本站推荐给你的小伙伴！
 
-![微信公众号](https://static.iamjy.com/gzh-qr.jpg-webp)![打赏我](https://cloudbase-baas-1g2qg82f5ef557f8-1258306312.tcloudbaseapp.com/qr.png?imageMogr2/thumbnail/!30p)
+![微信公众号](https://static.iamjy.com/gzh-qr.png-webp?imageMogr2/thumbnail/x366)  ![打赏我](https://cloudbase-baas-1g2qg82f5ef557f8-1258306312.tcloudbaseapp.com/qr.png?imageMogr2/thumbnail/!30p)
 
 ---
 
 ### 关于本站
 
-本站是我的试验田，我会在本站进行各种试验。本站主要用到的技术及搭建教程，[点这里查看](https://biancheng.pro/building-tutorial/)。
+本站是我的试验田，我会在本站进行各种试验。本站主要用到的技术及搭建教程，[点这里查看](https://biancheng.pro/this-website/)。
 
 ---

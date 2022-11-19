@@ -9,13 +9,13 @@ actions:
   - text: 我要学习 👉
     link: /home.html
     type: primary
-  - text: 博客 🎁
-    link: /blog.html
+  - text: 免费资源 🎁
+    link: /pdf/
 features:
-  - title: 建设中...
+  - title: 学习资料
     icon: markdown
-    details: 敬请期待
-    link: https://iamjy.com
+    details: 超1500本PDF免费下载
+    link: /pdf/
   - title: 建设中...
     icon: markdown
     details: 敬请期待
