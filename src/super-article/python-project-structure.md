@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title:Python 项目结构推荐
+title: Python 项目结构推荐
 # 这是页面的图标
 icon: page
 # 是否原创
