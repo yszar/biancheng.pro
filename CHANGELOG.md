@@ -1,5 +1,12 @@
 
 
+### [1.1.2](https://github.com/yszar/biancheng.pro/compare/1.1.1...1.1.2) (2022-11-19)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* fix bug ([efb11da](https://github.com/yszar/obsidian-vuepress/commit/efb11da6c4686798e295f8494423ddd74f7892c8))
+
 ### [1.1.1](https://github.com/yszar/biancheng.pro/compare/1.1.0...1.1.1) (2022-11-19)
 
 
