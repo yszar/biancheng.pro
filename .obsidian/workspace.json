@@ -8,31 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37949f2a7dcab475",
+            "id": "6de1181c792e389a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template.md",
+                "file": "src/about.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dfff803caac4f36d",
+            "id": "2f60f8badda8501d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/this-website/book-list.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e313f0320f8a18a1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/this-website/book-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/this-website/book-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/this-website/book-list.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,17 +157,17 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "dfff803caac4f36d",
+  "active": "e313f0320f8a18a1",
   "lastOpenFiles": [
-    "template.md",
-    "src/this-website/Tools-website.md",
-    "src/super-article/WSL2-Windows-proxy.md",
-    "src/super-article/python-project-structure.md",
+    "src/roadmap/python.md",
+    "src/home.md",
+    "src/roadmap/README.md",
+    "src/roadmap/golang.md",
+    "src/pdf/README.md",
+    "src/about.md",
+    "src/this-website/README.md",
     "src/super-article/Commit-message-Changelog.md",
-    "src/demo/README.md",
-    "src/slides.md",
-    "src/guide/README.md",
-    "src/guide/foo/README.md",
-    "src/guide/foo/ray.md"
+    "src/pdf/python-pdf.md",
+    "src/super-article/未命名.md"
   ]
 }
