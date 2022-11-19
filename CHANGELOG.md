@@ -1,5 +1,12 @@
 
 
+### [1.1.4](https://github.com/yszar/biancheng.pro/compare/1.1.3...1.1.4) (2022-11-19)
+
+
+### 📝 Documentation | 文档
+
+* **Python:** 新增python文档 ([021d5e8](https://github.com/yszar/obsidian-vuepress/commit/021d5e887de3eeac0f498cc6d824c23784a5d3fd))
+
 ### [1.1.3](https://github.com/yszar/biancheng.pro/compare/1.1.2...1.1.3) (2022-11-19)
 
 
