@@ -13,10 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c09d334 (docs(doc): 新增文档)
                 "file": "src/about.md",
                 "mode": "source",
                 "source": false
@@ -27,17 +23,8 @@
             "id": "2f60f8badda8501d",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
               "type": "empty",
               "state": {}
-=======
-              "type": "markdown",
-              "state": {
-                "file": "src/pdf/README.md",
-                "mode": "source",
-                "source": false
-              }
->>>>>>> c09d334 (docs(doc): 新增文档)
             }
           },
           {
@@ -46,30 +33,14 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "src/super-article/Ubuntu22-Docker-VSCode.md",
-=======
                 "file": "src/super-article/Commit-message-Changelog.md",
->>>>>>> a34c20a (vault backup: 2022-11-15 15:08:45)
-=======
-                "file": "src/roadmap/python.md",
->>>>>>> c09d334 (docs(doc): 新增文档)
                 "mode": "source",
                 "source": false
               }
             }
           }
-<<<<<<< HEAD
-<<<<<<< HEAD
         ],
         "currentTab": 2
-=======
-        ]
->>>>>>> a34c20a (vault backup: 2022-11-15 15:08:45)
-=======
-        ],
-        "currentTab": 2
->>>>>>> c09d334 (docs(doc): 新增文档)
       }
     ],
     "direction": "vertical"
@@ -135,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/roadmap/python.md",
+                "file": "src/super-article/Commit-message-Changelog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/roadmap/python.md",
+                "file": "src/super-article/Commit-message-Changelog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/roadmap/python.md"
+                "file": "src/super-article/Commit-message-Changelog.md"
               }
             }
           },
@@ -194,12 +165,10 @@
     "direction": "horizontal",
     "width": 240.5
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   "active": "e313f0320f8a18a1",
   "lastOpenFiles": [
+    "src/this-website/book-list.md",
+    "src/this-website/github-actions.md",
     "src/roadmap/python.md",
     "src/home.md",
     "src/roadmap/README.md",
@@ -207,50 +176,6 @@
     "src/pdf/README.md",
     "src/about.md",
     "src/this-website/README.md",
-    "src/super-article/Commit-message-Changelog.md",
-    "src/pdf/python-pdf.md",
-    "src/super-article/未命名.md"
-=======
-  "active": "667fbb734af9d89a",
-=======
-  "active": "dfff803caac4f36d",
->>>>>>> 017318e (vault backup: 2022-11-15 15:03:45)
-=======
-  "active": "37949f2a7dcab475",
->>>>>>> a34c20a (vault backup: 2022-11-15 15:08:45)
-=======
-  "active": "e313f0320f8a18a1",
->>>>>>> c09d334 (docs(doc): 新增文档)
-  "lastOpenFiles": [
-    "src/home.md",
-    "src/roadmap/python.md",
-    "src/roadmap/README.md",
-    "src/roadmap/golang.md",
-    "src/pdf/README.md",
-    "src/about.md",
-    "src/this-website/README.md",
-    "src/super-article/Commit-message-Changelog.md",
-<<<<<<< HEAD
-    "src/output/5-(17条消息) Ubuntu安装Docker并在VS Code搭建Docker环境_Pre-Star的博客-CSDN博客@annote.md",
-    "src/this-website/Tools-website.md",
-    "src/super-article/WSL2-Windows-proxy.md",
-    "src/super-article/python-project-structure.md",
-    "src/demo/README.md",
-<<<<<<< HEAD
-    "src/slides.md",
-<<<<<<< HEAD
-    "src/guide/README.md",
-    "src/guide/foo/README.md"
->>>>>>> b6f61cf (vault backup: 2022-11-15 15:01:45)
-=======
-    "src/guide/README.md"
->>>>>>> 017318e (vault backup: 2022-11-15 15:03:45)
-=======
-    "src/slides.md"
->>>>>>> 39fc982 (vault backup: 2022-11-15 15:05:45)
-=======
-    "src/pdf/python-pdf.md",
-    "src/super-article/未命名.md"
->>>>>>> c09d334 (docs(doc): 新增文档)
+    "src/super-article/Commit-message-Changelog.md"
   ]
 }
