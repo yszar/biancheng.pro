@@ -1,5 +1,12 @@
 
 
+### [1.1.3](https://github.com/yszar/biancheng.pro/compare/1.1.2...1.1.3) (2022-11-19)
+
+
+### 👷‍ Build System | 构建
+
+* **package:** update package ([bc9bbe5](https://github.com/yszar/obsidian-vuepress/commit/bc9bbe52da589796827808312bcb0c4b01edc720))
+
 ### [1.1.2](https://github.com/yszar/biancheng.pro/compare/1.1.1...1.1.2) (2022-11-19)
 
 
