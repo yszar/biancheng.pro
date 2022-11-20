@@ -117,7 +117,7 @@ export default hopeTheme({
   // 结构化侧边栏排序器, 详见
   // https://vuepress-theme-hope.github.io/v2/zh/config/theme/layout.html#sidebarsorter
   // 默认值: ["readme", "order", "title"]
-  sidebarSorter: [],
+  // sidebarSorter: [],
 
   // 侧边栏和页面目录的标题深度, 设置 0 可禁用所有级别的标题
   // 类型: number
