@@ -101,7 +101,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/python/README.md",
+                "file": "src/python/1-before-study/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/python/README.md",
+                "file": "src/python/1-before-study/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/python/README.md",
+                "file": "src/python/1-before-study/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/python/README.md"
+                "file": "src/python/1-before-study/README.md"
               }
             }
           },
@@ -243,8 +243,8 @@
   },
   "active": "5fc388df62344988",
   "lastOpenFiles": [
-    "src/python/2-basics/README.md",
     "src/python/README.md",
+    "src/python/2-basics/README.md",
     "src/python/1-before-study/profile.md",
     "src/about.md",
     "src/python/1-before-study/README.md",
