@@ -127,7 +127,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "custom"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/about.md",
+                "file": "src/python/before-study/profile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/about.md",
+                "file": "src/python/before-study/profile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/about.md"
+                "file": "src/python/before-study/profile.md"
               }
             }
           },
@@ -241,8 +241,9 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "6b1adc99c3a05ba2",
+  "active": "5fc388df62344988",
   "lastOpenFiles": [
+    "src/about.md",
     "src/python/before-study/README.md",
     "src/python/2.基础知识/README.md",
     "src/python/未命名.md",
@@ -251,7 +252,6 @@
     "src/python/2.基础知识/bianliang.md",
     "src/python/README.md",
     "src/super-article/Commit-message-Changelog.md",
-    "src/super-article/Ubuntu22-Docker-VSCode.md",
-    "src/this-website/book-list.md"
+    "src/super-article/Ubuntu22-Docker-VSCode.md"
   ]
 }
