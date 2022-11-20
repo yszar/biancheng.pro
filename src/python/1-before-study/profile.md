@@ -2,7 +2,7 @@
 # 这是文章的标题
 title: 简介
 # 这是页面的图标
-icon: page
+icon: yemian
 # 是否原创
 isOriginal: true
 # 是否加入文章列表
