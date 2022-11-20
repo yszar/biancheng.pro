@@ -19,7 +19,7 @@ export const zhSidebar = sidebar({
   //     children: "structure"
   //   },
   // ],
-  "/python/": "structure",
+  // "/python/": "structure",
   "/this-website/": [{        // 必要的，分组的标题文字
     text: "关于我这个站",
     // 可选的, 分组标题对应的图标
