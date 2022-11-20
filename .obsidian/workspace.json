@@ -51,12 +51,8 @@
             "id": "be0f0b3b706924e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/python/before-study/prepare.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
