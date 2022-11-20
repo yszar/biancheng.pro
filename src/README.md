@@ -32,7 +32,7 @@ date updated: 2022-11-01 00:40
 我会逐步更新各编程语言，各方向的学习路线，敬请期待
 
 -  [Python 学习路线](roadmap/python.md)
-- 
+-  [Go 学习路线](roadmap/go.md)
 
 ## 公众号
 
