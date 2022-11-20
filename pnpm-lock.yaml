@@ -2060,7 +2060,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       '@vueuse/core': 9.5.0_vue@3.2.45
-      autosize: 5.0.1
+      autosize: 5.0.2
       marked: 4.2.2
       vue: 3.2.45
     transitivePeerDependencies:
@@ -2213,8 +2213,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /autosize/5.0.1:
-    resolution: {integrity: sha512-UIWUlE4TOVPNNj2jjrU39wI4hEYbneUypEqcyRmRFIx5CC2gNdg3rQr+Zh7/3h6egbBvm33TDQjNQKtj9Tk1HA==}
+  /autosize/5.0.2:
+    resolution: {integrity: sha512-FPVt5ynkqUAA9gcMZnJHka1XfQgr1WNd/yRfIjmj5WGmjua+u5Hl9hn8M2nU5CNy2bEIcj1ZUwXq7IOHsfZG9w==}
     dev: true
 
   /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.20.2:
