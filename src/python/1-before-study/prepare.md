@@ -10,8 +10,7 @@ article: false
 # 展开深度
 headerDepth: 2
 # 这是侧边栏的顺序
-dir:
-  order: 2
+order: 2
 # 设置作者
 author: Jiu Yang
 # 设置写作时间
