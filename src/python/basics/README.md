@@ -13,7 +13,7 @@ index: false
 dir:
   text: 基础知识
   collapsible: false
-  order: 1
+  order: 2
 # date: 2022-11-19 18:45:15
 # 页面内容描述
 # description: 
