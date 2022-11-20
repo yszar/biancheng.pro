@@ -29,7 +29,7 @@ date updated: 2022-11-01 00:40
 
 ## 学习路线
 
-待补充
+[Python 学习路线](roadmap/python.md)
 
 ## 公众号
 
