@@ -43,12 +43,8 @@
             "id": "0fba37883e01a643",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/python/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -57,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/python/prepare.md",
+                "file": "src/python/before-study/prepare.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,14 +65,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/python/profile.md",
+                "file": "src/python/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18de069621132eb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/python/2.基础知识/bianliang.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "991efe758ee41b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/python/before-study/profile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fc388df62344988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/python/before-study/profile.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -142,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/python/profile.md",
+                "file": "src/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/python/profile.md",
+                "file": "src/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/python/profile.md"
+                "file": "src/about.md"
               }
             }
           },
@@ -193,25 +225,33 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "6b1adc99c3a05ba2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "3643e162489fef13",
+  "active": "6b1adc99c3a05ba2",
   "lastOpenFiles": [
-    "src/python/prepare.md",
+    "src/python/before-study/README.md",
+    "src/python/2.基础知识/README.md",
+    "src/python/未命名.md",
+    "src/python/before-study/profile.md",
+    "src/python/before-study/prepare.md",
+    "src/python/2.基础知识/bianliang.md",
     "src/python/README.md",
     "src/super-article/Commit-message-Changelog.md",
     "src/super-article/Ubuntu22-Docker-VSCode.md",
-    "src/this-website/book-list.md",
-    "src/this-website/github-actions.md",
-    "src/roadmap/python.md",
-    "src/home.md",
-    "src/roadmap/README.md",
-    "src/roadmap/golang.md"
+    "src/this-website/book-list.md"
   ]
 }

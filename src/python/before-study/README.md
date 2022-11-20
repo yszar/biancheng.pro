@@ -1,20 +1,19 @@
 ---
 # 这是文章的标题
-title: 准备
+# title: 基础知识
 # 这是页面的图标
-icon: page
+icon: python
 # 是否原创
-isOriginal: true
+# isOriginal: true
 # 是否加入文章列表
-article: true
+# article: false
 # 展开深度
-headerDepth: 2
-# 这是侧边栏的顺序
-# order: 1
-# 设置作者
-author: Jiu Yang
-# 设置写作时间
-date: 2022-11-19 17:35:26
+# headerDepth: 2
+index: false
+dir:
+  text: 学习之前
+  collapsible: false
+# date: 2022-11-19 18:45:15
 # 页面内容描述
 # description: 
 # 一个页面可以有多个分类

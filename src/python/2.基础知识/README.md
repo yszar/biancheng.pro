@@ -1,21 +1,19 @@
 ---
 # 这是文章的标题
-title: Python 入门教程 
+# title: 基础知识
 # 这是页面的图标
-icon: python
+icon: page
 # 是否原创
-isOriginal: true
+# isOriginal: true
 # 是否加入文章列表
-article: false
+# article: false
 # 展开深度
-headerDepth: 2
+# headerDepth: 2
 index: false
-# 这是侧边栏的顺序
-# order: 1
-# 设置作者
-author: Jiu Yang
-# 设置写作时间
-date: 2022-11-19 18:25:13
+dir:
+  text: 基础知识
+  collapsible: false
+# date: 2022-11-19 18:45:15
 # 页面内容描述
 # description: 
 # 一个页面可以有多个分类

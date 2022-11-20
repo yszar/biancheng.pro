@@ -244,7 +244,7 @@ export default hopeTheme({
     },
 
     /* ---------- 版权信息插件 ---------- */
-    copyright:{
+    copyright: {
       // 部署的域名
       // 类型: string
       // 必填: 否
@@ -253,7 +253,7 @@ export default hopeTheme({
       // 作者信息
       // 类型: string | ((page: Page) => string)
       // 必填: 否
-      author:"Jiu Yang",
+      author: "Jiu Yang",
 
       // 协议信息
       // 类型: string | ((page: Page) => string)
@@ -321,7 +321,7 @@ export default hopeTheme({
       // 是否启用图片标注支持
       // 类型: ImageMarkOptions | boolean
       // 默认值: false
-      imageMark:false,
+      imageMark: false,
 
       // 是否启用图片标题支持
       // 类型: boolean
@@ -412,7 +412,7 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    copyCode: {showInMobile: true},
+    copyCode: { showInMobile: true },
 
     pwa: {
       favicon: "/favicon.ico",
@@ -476,5 +476,6 @@ export default hopeTheme({
         // ],
       },
     },
+    // photoSwipe: false
   },
 });

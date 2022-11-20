@@ -10,15 +10,16 @@ export const zhSidebar = sidebar({
       children: "structure"
     },
   ],
-  "/python/": [
-    {
-      icon: "python",
-      text: "Python 入门教程",
-      link: "/python/",
-      prefix: "python/",
-      children: "structure"
-    },
-  ],
+  // "/python/": [
+  //   {
+  //     icon: "python",
+  //     text: "Python 入门教程",
+  //     link: "/python/",
+  //     // prefix: "python/",
+  //     children: "structure"
+  //   },
+  // ],
+  "/python/": "structure",
   "/this-website/": [{        // 必要的，分组的标题文字
     text: "关于我这个站",
     // 可选的, 分组标题对应的图标
@@ -50,41 +51,6 @@ export const zhSidebar = sidebar({
       },
     ]
   },
-    // {
-    //   text: "关于我这个站",
-    //   link: "/this-website/index.html",
-    //   prefix: "/this-website/",
-    //   icon: "guanyuzhan",
-    // },
-    // {
-    //   text: "用到的工具",
-    //   prefix: "/this-website/",
-    //   icon: "gongju",
-    //   children: "structure"
-    // },
-    // {
-    //   text: "搭建过程",
-    //   link: "",
-    //   prefix: "/this-website/",
-    //   icon: "dajian",
-    //   collapsable: true,
-    //   // 仅在 `/zh/guide/` 激活
-    //   // activeMatch: "^/zh/guide/$",
-    //   children: [
-    //     {
-    //       text: "1. VuePress安装与配置",
-    //       link: "vuepress.md",
-    //       icon: "peizhi",
-    //       // 仅在 `/zh/guide/` 激活
-    //       // activeMatch: "^/zh/guide/$",
-    //     },
-    //     {
-    //       text: "2. Github Actions 持续集成部署",
-    //       link: "github-actions.md",
-    //       icon: "github",
-    //     },
-    //   ]
-    // },
   ]
 },
 );

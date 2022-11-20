@@ -10,7 +10,7 @@ article: false
 # 展开深度
 headerDepth: 2
 # 这是侧边栏的顺序
-# order: 1
+order: 1
 # 设置作者
 author: Jiu Yang
 # 设置写作时间
@@ -57,4 +57,9 @@ Python 设计哲学是“优雅”、“明确”、“简单”，Guido 将“�
 -   2018 年，Python 斩获 TIOBE『2018 年度最佳编程语言』第 1 名；
 -   2020 年和 2021 年，Python 更是连续两年摘得 TIOBE『年度最佳编程语』言桂冠。
 
-![](https://static.iamjy.com/blog-images/202211191755250.png-webp)
+直至现在，根据 TIOBE 排行榜的显示，Python 依然占据第 1 名的位置，并且市场份额仍在持续提升
+
+![TIOBE 2022 年 11 月排行]( https://static.iamjy.com/blog-images/202211191755250.png "TIOBE 2022年11月排行")
+
+
+![Python 历年来的市场份额变化曲线（浅蓝色曲线表示 Python）]( https://static.iamjy.com/blog-images/202211201017263.png "Python 历年来的市场份额变化曲线（浅蓝色曲线表示 Python）")
