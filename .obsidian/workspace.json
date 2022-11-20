@@ -87,12 +87,8 @@
             "id": "991efe758ee41b41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/python/1-before-study/profile.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
