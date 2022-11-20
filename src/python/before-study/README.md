@@ -13,7 +13,7 @@ index: false
 dir:
   text: 学习之前
   collapsible: false
-  order: 1
+  order: 0
 # date: 2022-11-19 18:45:15
 # 页面内容描述
 # description: 
