@@ -37,5 +37,6 @@ date: 2022-11-19 17:35:26
 #       content: 
 ---
 
-## Windows 安装 Python
+## 下载
 
+首先前往[Python](https://www.python.org/)下载官方的python安装包，可选择目前最新的3.10版本。
