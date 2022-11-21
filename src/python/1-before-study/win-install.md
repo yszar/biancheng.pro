@@ -10,7 +10,7 @@ article: false
 # 展开深度
 headerDepth: 2
 # 这是侧边栏的顺序
-order: -1
+order: 4
 # 设置作者
 author: Jiu Yang
 # 设置写作时间
@@ -37,27 +37,3 @@ date: 2022-11-19 17:35:26
 #       content: 
 ---
 
-
-> [!success] obsidian-vuepress
-> 
-
-```
-> [!success] obsidian-vuepress
-> 
-```
-
-> [!success]
-> I'm obsidian-vuepress
-
-```
-> [!success]
-> I'm obsidian-vuepress
-```
-
-> [!success] obsidian-vuepress
-> I'm obsidian-vuepress
-
-```
-> [!success] obsidian-vuepress
-> I'm obsidian-vuepress
-```
