@@ -61,13 +61,15 @@ sudo apt-get install python3
 
 ### 编译安装
 
+#### 下载源码
+
 在 Ubuntu 构建 Python 3.10 源码是一个相对简单的过程，只需几分钟。在开始下载 python 源码之前请先检查是否存在新的 python 版本。
 
 你可以[点击这里](https://www.python.org/downloads/source/) 查看可下载的 python 源码版本，如果有，理论上可以使用较新版本的 python 源码 URL 替换 `curl` 命令的 URL。
 
-首先运行 `apt`  命令更新软件源并安装构建 Python 源码所需的依赖软件，例如 `build-essential`，`curl`，c/c++开发工具等。
+首先运行 `apt`  命令更新软件源并安装构建 Python 源码所需的依赖软件，例如 `build-essential`，`curl`，`c/c++`开发工具等。
 
-然后运行curl命令下载Python源码Python源码存档文件。在撰写本文时，最新版本是3.10.8。
+然后运行 `curl` 命令下载 Python 源码 Python 源码存档文件。在撰写本文时，最新版本是 3.10.8
 
 ```shell
 sudo apt update
@@ -79,3 +81,4 @@ libreadline-dev libffi-dev curl libbz2-dev curl -y
 curl -O https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tar.xz
 ```
 
+#### 构建
