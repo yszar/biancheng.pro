@@ -39,4 +39,5 @@ date: 2022-11-21 12:29:34
 
 大多数的 Linux 系统都默认自带了 Python。有的甚至同时自带 Python2. x 和 Python3.x。
 
-打开 Linux 发行版内置的终端（Terminal），输入python命令就可以检测是否安装了 Python，以及安装了哪个版本，如下所示：
+打开 Linux 的终端，输入 `python -V` 命令就可以检测当前系统安装了什么版本的 Python
+
