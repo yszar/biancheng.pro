@@ -118,7 +118,9 @@ Python3 的六个标准数据类型中：
 > [!tip]
 > 可变对象与不可变对象的区别在于对象本身是否可变。
 
+```python
 
+```
 
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
