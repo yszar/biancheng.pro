@@ -82,6 +82,7 @@ curl -O https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tar.xz
 ```
 
 #### 配置 Python 构建
+
 下载完成后，解压缩存档文件Python-3.10.8.tar.xz。运行cd命令切换到Python源码目录并运行configure脚本。
 
 脚本将会执行大量检查，以确保系统上的所有依赖项都存在。--enable-optimizations 选项将通过运行多个测试来优化 Python 二进制文件。>配置 Python 构建
