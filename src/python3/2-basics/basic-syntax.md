@@ -130,5 +130,8 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 ```
 
+上面例子很直观地展现了，可变对象是可以直接被改变的，而不可变对象则不可以
+
+
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
