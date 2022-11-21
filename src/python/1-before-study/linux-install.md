@@ -55,4 +55,4 @@ sudo apt-get update
 sudo apt-get install python3
 ```
 
-等待以上两条命令执行完成，再次在终端输入 `python3 -V`命令，就可以看到 Python 交互式编程环境已经更新到 Python 3.8
+等待以上两条命令执行完成，在终端输入 `python3 -V` 命令，就可以看到 Python3 的最新版本了。
