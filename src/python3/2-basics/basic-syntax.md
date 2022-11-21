@@ -149,7 +149,23 @@ TypeError: 'tuple' object does not support item assignment
 
 如果两个变量同时指向一个地址
 
-
+```python
+>>> foo = [1, 2, 3]
+>>> id(foo)
+140672830232448
+>>> bar = foo
+>>> id(bar)
+140672830232448
+>>> foo[0] = 4
+>>> foo
+[4, 2, 3]
+>>> bar
+[4, 2, 3]
+>>> id(foo)
+140672830232448
+>>> id(bar)
+140672830232448
+```
 
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
