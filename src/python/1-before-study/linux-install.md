@@ -61,3 +61,12 @@ sudo apt-get install python3
 
 ### 编译安装
 
+```shell
+sudo apt update
+# 下面这条命令是安装编译所需的依赖
+sudo apt install build-essential zlib1g-dev libncurses5-dev \
+libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev \
+libreadline-dev libffi-dev curl libbz2-dev curl -y
+# 这条命令是把 Python yuan
+curl -O https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tar.xz
+```
