@@ -173,6 +173,23 @@ TypeError: 'tuple' object does not support item assignment
 
 ### 不可变对象
 
+```python
+>>> foo = (1, 2, 3)
+>>> id(foo)
+140672831403712
+>>> bar = foo
+>>> foo = (4, 5, 6)
+>>> foo
+(4, 5, 6)
+>>> bar
+(1, 2, 3)
+>>> id(foo)
+140672828856768
+>>> id(bar)
+140672831403712
+```
+
+我们可以看到，`foo`改变后，它的地址也发生了变化，而`bar`则维持原来的地址，原来地址中的内容也没有发生变化
 
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
