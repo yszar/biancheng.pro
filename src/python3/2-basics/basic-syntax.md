@@ -232,5 +232,11 @@ print(type(x))
 -   Python 没有单独的字符类型，一个字符就是长度为 `1` 的字符串。
 -   字符串的截取的语法格式如下：`变量[头下标:尾下标:步长]`
 
+```python
+word = '字符串' 
+sentence = "这是一个句子。" 
+paragraph = """这是一个段落， 
+可以由多行组成"""
+```
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
