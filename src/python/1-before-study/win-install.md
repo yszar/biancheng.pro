@@ -40,3 +40,6 @@ date: 2022-11-19 17:35:26
 ## 下载
 
 首先前往 [Python 官网](https://www.python.org/) 下载官方的 python 安装包，可选择目前最新的 3.10 版本。
+
+![]( https://static.iamjy.com/blog-images/202211211222078.png "官网下载 3.10 版本")
+
