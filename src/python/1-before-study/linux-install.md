@@ -88,4 +88,18 @@ curl -O https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tar.xz
 脚本将会执行大量检查，以确保系统上的所有依赖项都存在。--enable-optimizations 选项将通过运行多个测试来优化 Python 二进制文件。>配置 Python 构建
 下载完成后，解压缩存档文件Python-3.10.8.tar.xz。运行cd命令切换到Python源码目录并运行configure脚本。
 
-脚本将会执行大量检查，以确保系统上的所有依赖项都存在。--enable-optimizations选项将通过运行多个测试来优化Python二进制文件。)
+脚本将会执行大量检查，以确保系统上的所有依赖项都存在。--enable-optimizations 选项将通过运行多个测试来优化 Python 二进制文件。)
+
+`--enable-optimizations` 选项将会使的 python 源码构建过程变慢。如果你需要添加更多选项，可以运行 `./configure --help` 命令查看可以配置的选项。
+
+```shell
+tar -xf Python-3.10.8.tar.xz
+cd Python-3.10.8/
+./configure --enable-optimizations
+```
+
+## 编译 Python
+
+运行`make -j 4`开始启动构建Python源码。你可以修改`-j` 后面的数字，该数值与你的计算机处理器核数一致。
+
+您可以在终端运行`nproc`命令来找到CPU核心数。构建完成后，请以具有[sudo权限](https://www.myfreax.com/how-to-create-a-sudo-user-on-debian/)的用户运行`make altinstall`命令，安装Python二进制文件。
