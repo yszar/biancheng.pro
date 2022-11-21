@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/python/1-before-study/pros-cons.md",
+                "file": "src/python/1-before-study/what-can-do.md",
                 "mode": "source",
                 "source": false
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/python/1-before-study/pros-cons.md",
+                "file": "src/python/1-before-study/what-can-do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/python/1-before-study/pros-cons.md",
+                "file": "src/python/1-before-study/what-can-do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/python/1-before-study/pros-cons.md"
+                "file": "src/python/1-before-study/what-can-do.md"
               }
             }
           },
@@ -259,15 +259,15 @@
   },
   "active": "68bf11d2a9879e0d",
   "lastOpenFiles": [
+    "src/python/1-before-study/pros-cons.md",
     "src/python/1-before-study/what-can-do.md",
-    "src/README.md",
-    "src/python/1-before-study/prepare.md",
-    "template.md",
-    "src/python/1-before-study/profile.md",
-    "src/python/2-basics/README.md",
     "src/python/1-before-study/README.md",
+    "src/python/1-before-study/profile.md",
+    "src/python/1-before-study/prepare.md",
+    "src/README.md",
+    "template.md",
+    "src/python/2-basics/README.md",
     "src/python/2-basics/bianliang.md",
-    "src/python/README.md",
-    "src/about.md"
+    "src/python/README.md"
   ]
 }
