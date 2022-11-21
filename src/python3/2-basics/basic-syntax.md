@@ -288,5 +288,15 @@ input("\n\n按下 enter 键后退出。")
 
 以上代码中 ，"`\n\n`"在结果输出前会输出两个新的空行。一旦用户按下 enter 键时，程序将退出。
 
+## 同一行显示多条语句
+
+Python 可以在同一行中使用多条语句，语句之间使用分号 (;) 分割，以下是一个简单的实例：
+
+```python
+#!/usr/bin/python3
+ 
+import sys; x = 'W3Cschool'; sys.stdout.write(x + '\n')
+```
+
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
