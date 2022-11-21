@@ -239,4 +239,13 @@ paragraph = """这是一个段落，
 可以由多行组成"""
 ```
 
+这里的 r 指 raw，即 raw string，会自动将反斜杠转义，例如：
+
+```python
+>>> print('\n')       # 输出空行
+>>> print(r'\n')      # 输出 \n
+>>>
+\n
+```
+
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
