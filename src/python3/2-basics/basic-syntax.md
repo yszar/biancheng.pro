@@ -301,5 +301,54 @@ import sys; x = 'W3Cschool'; sys.stdout.write(x + '\n')
 > [!warning]
 > 在一行中显示多条语句的这种行为会破坏python的可读性，不建议使用！
 
+## 多个语句构成代码组
+
+缩进相同的一组语句构成一个代码块，我们称之代码组。
+
+像 `if`、`while`、`def` 和 `class` 这样的复合语句，首行以关键字开始，以冒号 ( `:`) 结束，该行之后的一行或多行代码构成代码组。
+
+我们将首行及后面的代码组称为一个子句 (`clause`)。
+
+如下实例：
+
+```python
+if expression:
+	suiteelif expression:    suite else :     suite
+```
+
+---
+
+## print 输出
+
+print函数是python的基本输出函数，他可以将变量输出（或者说，打印）到控制台。在第一个python程序中，我们就用到了print函数：
+
+```
+#!/usr/bin/python3
+print("Hello, World!") #"Hello,World!"是一个字符串变量
+str = "Hello,World!"
+print(str) #上一种helloworld的另一种写法
+```
+
+print 默认输出是换行的，如果要实现不换行需要在变量末尾加上 end=""：
+
+**实例:**
+
+```
+#!/usr/bin/python3
+ 
+x="a"
+y="b"
+# 换行输出
+print( x )
+print( y )
+ 
+print('---------')
+# 不换行输出
+print( x, end=" " )
+print( y, end=" " )
+print()
+```
+
+
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
