@@ -65,5 +65,13 @@ date: 2022-11-19 18:43:43
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 ```
 
+::: tip
+上面 `>>>` 开头的代码是在解释器执行的结果，写成 python 脚本代码应该写成如下样式（后续代码可能会有两种版本的代码块，但并不会多做解释，望读者周知！）：
+
+```
+import keyword
+print(keyword.kwlist)
+```
+:::
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
