@@ -8,38 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6de1181c792e389a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/about.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f60f8badda8501d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e313f0320f8a18a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/super-article/Commit-message-Changelog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0fba37883e01a643",
             "type": "leaf",
             "state": {
@@ -136,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
