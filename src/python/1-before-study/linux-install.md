@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: Linux 安装 Python
 # 这是页面的图标
 icon: yemian
 # 是否原创
