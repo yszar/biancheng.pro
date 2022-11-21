@@ -98,8 +98,18 @@ cd Python-3.10.8/
 ./configure --enable-optimizations
 ```
 
-## 编译 Python
+#### 编译 Python
 
-运行`make -j 4`开始启动构建Python源码。你可以修改`-j` 后面的数字，该数值与你的计算机处理器核数一致。
+运行 `make -j4` 开始启动构建 Python 源码。你可以修改 `-j` 后面的数字，该数值与你的计算机处理器核数一致。
 
-您可以在终端运行`nproc`命令来找到CPU核心数。构建完成后，请以具有[sudo权限](https://www.myfreax.com/how-to-create-a-sudo-user-on-debian/)的用户运行`make altinstall`命令，安装Python二进制文件。
+您可以在终端运行 `nproc` 命令来找到 CPU 核心数。构建完成后，请以具有 [sudo权限](https://www.myfreax.com/how-to-create-a-sudo-user-on-debian/)的用户运行 `make altinstall` 命令，安装 Python 二进制文件。
+
+这里不使用标准 `make install` ，是因为它将覆盖系统默认 `python3` 二进制文件。至此，你已在 Ubuntu 20.04 安装 Python 3.10。
+
+您可以运行 `python3.10 --version` 命令确定是否安装成功，该命令将会打印 python 的版本号。
+
+```bash
+make -j 4
+sudo make altinstall
+python3.10 --version
+```
