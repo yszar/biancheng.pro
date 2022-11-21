@@ -50,3 +50,7 @@ Python 3.10.7
 
 ## 安装
 
+```bash
+$sudo apt-get update  
+$sudo apt-get install python3.8
+```
