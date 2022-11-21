@@ -225,16 +225,6 @@
             }
           },
           {
-            "id": "fae27a32ca9b157c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "src/python/1-before-study/linux-install.md"
-              }
-            }
-          },
-          {
             "id": "c1ec896f1a4d0f7c",
             "type": "leaf",
             "state": {
@@ -247,6 +237,14 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3a1aaf19578ab714",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
               "state": {}
             }
           }
