@@ -1,8 +1,8 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: Python 能做什么
 # 这是页面的图标
-icon: page
+icon: yemian
 # 是否原创
 isOriginal: true
 # 是否加入文章列表
