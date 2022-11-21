@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 准备
+title: Windows 安装 Python
 # 这是页面的图标
 icon: yemian
 # 是否原创
@@ -36,4 +36,6 @@ date: 2022-11-19 17:35:26
 #     - name: description
 #       content: 
 ---
+
+## Windows 安装 Python
 
