@@ -112,8 +112,8 @@ Python 中有六个标准的数据类型：
 
 Python3 的六个标准数据类型中：
 
--   不可变数据（3 个）：`Number`（数字）、`String`（字符串）、`Tuple`（元组）；
--   可变数据（3 个）：`List`（列表）、`Dictionary`（字典）、`Set`（集合）。
+-   不可变对象（3 个）：`Number`（数字）、`String`（字符串）、`Tuple`（元组）；
+-   可变对象（3 个）：`List`（列表）、`Dictionary`（字典）、`Set`（集合）。
 
 > [!tip]
 > 可变对象与不可变对象的区别在于对象本身是否可变。
@@ -168,6 +168,11 @@ TypeError: 'tuple' object does not support item assignment
 >>> id(bar)
 140672830232448
 ```
+
+我们可以看到，改变 `foo` 则 `bar` 也跟着变，因为他们始终指向同一个地址
+
+### 不可变对象
+
 
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
