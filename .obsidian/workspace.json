@@ -232,7 +232,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -262,14 +262,13 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "b8955836759fe813",
+  "active": "c5d638bad99c3faf",
   "lastOpenFiles": [
     "src/python/1-before-study/win-install.md",
     "src/python/1-before-study/profile.md",
