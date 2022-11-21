@@ -221,9 +221,9 @@ print(type(x))
 
 -   Python 中单引号和双引号使用完全相同，但单引号和双引号不能匹配。
 -   使用三对引号 `'''` 或 `"""` 可以囊括一个多行字符串。
--   与其他语言相似，python也使用 '\'作为转义字符
--   自然字符串， 通过在字符串前加 r 或 R。 如 r"this is a line with \n" 则\n会显示，并不是换行。
--   Python 允许处理 unicode 字符串，加前缀 u 或 U， 如 u"this is an unicode string"。
+-   与其他语言相似，python 也使用 `\` 作为转义字符
+-   自然字符串，通过在字符串前加 `r`  或 `R`。如 `r"this is a line with \n"` 则`\n` 会显示，并不是换行。
+-   Python 允许处理 unicode 字符串，加前缀 `u` 或 `U`， 如 u"this is an unicode string"。
 -   字符串是不可变的。
 -   按字面意义级联字符串，如"this " "is " "string"会被自动转换为this is string。
 -   字符串可以用 + 运算符连接在一起，用 * 运算符重复。
