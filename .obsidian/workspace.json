@@ -250,14 +250,13 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "7c22c68ca8188024",
+  "active": "c5d638bad99c3faf",
   "lastOpenFiles": [
     "src/python/1-before-study/win-install.md",
     "src/python/1-before-study/linux-install.md",
