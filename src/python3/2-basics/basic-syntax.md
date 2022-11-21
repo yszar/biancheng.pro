@@ -322,9 +322,9 @@ else:
 
 ## print 输出
 
-`print` 函数是 python 的基本输出函数，他可以将变量输出（或者说，打印）到控制台。在第一个 python 程序中，我们就用到了 print 函数：
+`print` 函数是 python 的基本输出函数，他可以将变量输出（或者说，打印）到控制台。
 
-```
+```python
 #!/usr/bin/python3
 print("Hello, World!") #"Hello,World!"是一个字符串变量
 str = "Hello,World!"
