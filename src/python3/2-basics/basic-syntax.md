@@ -298,5 +298,8 @@ Python 可以在同一行中使用多条语句，语句之间使用分号 (;) �
 import sys; x = 'W3Cschool'; sys.stdout.write(x + '\n')
 ```
 
+> [!warning]
+> 在一行中显示多条语句的这种行为会破坏python的可读性，不建议使用！
+
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
