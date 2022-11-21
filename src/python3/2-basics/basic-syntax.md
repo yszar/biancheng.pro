@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 变量
+title: 基础语法
 # 这是页面的图标
 icon: page
 # 是否原创
@@ -10,7 +10,7 @@ article: false
 # 展开深度
 headerDepth: 2
 # 这是侧边栏的顺序
-# order: 1
+order: 1
 # 设置作者
 author: Jiu Yang
 # 设置写作时间

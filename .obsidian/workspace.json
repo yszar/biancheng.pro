@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/python3/2-basics/bianliang.md",
+                "file": "src/python3/2-basics/basic-syntax.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/python3/1-before-study/README.md",
+                "file": "src/python3/2-basics/basic-syntax.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/python3/1-before-study/README.md",
+                "file": "src/python3/2-basics/basic-syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/python3/1-before-study/README.md",
+                "file": "src/python3/2-basics/basic-syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/python3/1-before-study/README.md"
+                "file": "src/python3/2-basics/basic-syntax.md"
               }
             }
           }
@@ -270,15 +270,15 @@
   },
   "active": "afd4ea0d8e728efd",
   "lastOpenFiles": [
+    "src/python3/1-before-study/README.md",
     "src/python3/2-basics/README.md",
     "src/python3/README.md",
-    "src/python3/2-basics/bianliang.md",
+    "src/python3/2-basics/basic-syntax.md",
     "src/python3/1-before-study/mac-install.md",
     "src/python3/1-before-study/linux-install.md",
     "src/about.md",
     "src/python3/1-before-study/win-install.md",
     "src/python3/1-before-study/profile.md",
-    "src/python3/1-before-study/what-can-do.md",
-    "src/python3/1-before-study/pros-cons.md"
+    "src/python3/1-before-study/what-can-do.md"
   ]
 }
