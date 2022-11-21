@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/python/1-before-study/未命名.md",
+                "file": "src/python/1-before-study/linux-install.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/python/1-before-study/未命名.md",
+                "file": "src/python/1-before-study/linux-install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/python/1-before-study/未命名.md",
+                "file": "src/python/1-before-study/linux-install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/python/1-before-study/未命名.md"
+                "file": "src/python/1-before-study/linux-install.md"
               }
             }
           },
