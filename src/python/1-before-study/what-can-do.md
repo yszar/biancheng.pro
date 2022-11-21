@@ -37,27 +37,3 @@ date: 2022-11-21 09:51:18
 #       content: 
 ---
 
-
-> [!success] obsidian-vuepress
-> 
-
-```
-> [!success] obsidian-vuepress
-> 
-```
-
-> [!success]
-> I'm obsidian-vuepress
-
-```
-> [!success]
-> I'm obsidian-vuepress
-```
-
-> [!success] obsidian-vuepress
-> I'm obsidian-vuepress
-
-```
-> [!success] obsidian-vuepress
-> I'm obsidian-vuepress
-```
