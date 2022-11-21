@@ -41,3 +41,7 @@ date: 2022-11-21 12:29:34
 
 打开 Linux 的终端，输入 `python -V` 命令就可以检测当前系统安装了什么版本的 Python
 
+```bash
+❯ python -V
+Python 3.10.7
+```
