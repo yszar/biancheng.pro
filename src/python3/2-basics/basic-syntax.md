@@ -331,11 +331,9 @@ str = "Hello,World!"
 print(str) #上一种helloworld的另一种写法
 ```
 
-print 默认输出是换行的，如果要实现不换行需要在变量末尾加上 end=""：
+`print` 默认输出是换行的，如果要实现不换行需要在变量末尾加上 `end=""`：
 
-**实例:**
-
-```
+```python
 #!/usr/bin/python3
  
 x="a"
@@ -351,6 +349,27 @@ print( y, end=" " )
 print()
 ```
 
+## import 与 from... import  
 
+在 Python 用 `import` 或者 `from...import` 来导入相应的模块。
+
+将整个模块 (somemodule) 导入，格式为： `import somemodule`​
+
+从某个模块中导入某个函数,格式为：​ `from somemodule import somefunction`​
+
+从某个模块中导入多个函数,格式为：​ `from somemodule import firstfunc, secondfunc, thirdfunc`​
+
+将某个模块中的全部函数导入，格式为：​ `from somemodule import *`​
+
+### 导入 sys 模块
+
+```
+import sys
+print('================Python import mode==========================')
+print ('命令行参数为:')
+for i in sys.argv:
+    print (i)
+print ('\n python 路径为',sys.path)
+```
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
