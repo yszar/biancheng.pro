@@ -266,7 +266,7 @@ input函数可以用来接受输入，它可以传入一个字符串，当input�
 
 >  input函数会读取输入内容直到读到回车，也就是说，内容输入完毕后要按回车键才能执行。
 
-```
+```python
 input("这是一个简单的input信息") # 这是一个简单的input样例，他输出input信息并接受一个字符串
 x=input("请输入X的值：") # 这是一个常见的input样例，他输出提示信息，然后接受一个字符串并将值传递给一个变量X
 print(x) # 打印变量，可以看到输入的x的值
@@ -286,7 +286,7 @@ input("\n\n按下 enter 键后退出。")
 # 其实这里并没有接受任何内容，input函数以enter作为结尾，所以只有输入回车后才会结束input函数
 ```
 
-以上代码中 ，"\n\n"在结果输出前会输出两个新的空行。一旦用户按下 enter 键时，程序将退出。
+以上代码中 ，"`\n\n`"在结果输出前会输出两个新的空行。一旦用户按下 enter 键时，程序将退出。
 
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
