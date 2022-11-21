@@ -55,4 +55,6 @@ date: 2022-11-19 18:43:43
 - 标识符对==大小写敏感==。
 - 在 Python 3 中，可以用中文作为变量名<Badge text="不建议使用中文" type="warning" />，非 `ASCII` 标识符也是允许的了。
 
+
+
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
