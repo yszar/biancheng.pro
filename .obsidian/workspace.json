@@ -122,9 +122,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "afd4ea0d8e728efd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/python/1-before-study/mac-install.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -190,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/python/1-before-study/linux-install.md",
+                "file": "src/python/1-before-study/mac-install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/python/1-before-study/linux-install.md",
+                "file": "src/python/1-before-study/mac-install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +257,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/python/1-before-study/mac-install.md"
+              }
             }
           }
         ]
@@ -254,11 +268,11 @@
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "68bf11d2a9879e0d",
+  "active": "afd4ea0d8e728efd",
   "lastOpenFiles": [
+    "src/python/1-before-study/linux-install.md",
     "src/about.md",
     "src/python/1-before-study/win-install.md",
-    "src/python/1-before-study/linux-install.md",
     "src/python/1-before-study/profile.md",
     "src/python/1-before-study/what-can-do.md",
     "src/python/1-before-study/pros-cons.md",
