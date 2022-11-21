@@ -50,9 +50,14 @@ Python 3.10.7
 
 ## 安装
 
+### apt
+
 ```bash
 sudo apt-get update
 sudo apt-get install python3
 ```
 
 等待以上两条命令执行完成，在终端输入 `python3 -V` 命令，就可以看到 Python3 的最新版本了。
+
+### 编译安装
+
