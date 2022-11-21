@@ -37,3 +37,6 @@ date: 2022-11-21 12:29:34
 #       content: 
 ---
 
+大多数的 Linux 发行版（Ubuntu、CentOS 等）都默认自带了 Python。有的 Linux 发行版甚至还会自带两个版本的 Python，例如最新版的 Ubuntu 会自带 Python 2. x 和 Python 3. x。
+
+打开 Linux 发行版内置的终端（Terminal），输入python命令就可以检测是否安装了 Python，以及安装了哪个版本，如下所示：
