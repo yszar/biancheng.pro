@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/python/1-before-study/linux-install.md",
+                "file": "src/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/python/1-before-study/linux-install.md",
+                "file": "src/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/python/1-before-study/linux-install.md"
+                "file": "src/about.md"
               }
             }
           },
@@ -251,13 +251,13 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 240.5
   },
-  "active": "2f919ca0ef96dc97",
+  "active": "7c22c68ca8188024",
   "lastOpenFiles": [
     "src/python/1-before-study/win-install.md",
     "src/python/1-before-study/linux-install.md",
