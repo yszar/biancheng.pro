@@ -10,11 +10,11 @@ export const zhSidebar = sidebar({
       children: "structure"
     },
   ],
-  "/python/": [
+  "/python3/": [
     {
       icon: "python",
       text: "Python 入门教程",
-      link: "/python/",
+      link: "/python3/",
       // prefix: "python/",
       children: "structure"
     },
