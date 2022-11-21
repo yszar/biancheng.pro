@@ -39,4 +39,4 @@ date: 2022-11-19 17:35:26
 
 ## 下载
 
-首先前往[Python](https://www.python.org/)下载官方的python安装包，可选择目前最新的3.10版本。
+首先前往 [Python 官网](https://www.python.org/) 下载官方的 python 安装包，可选择目前最新的 3.10 版本。
