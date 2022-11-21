@@ -392,7 +392,8 @@ Options and arguments (and corresponding environment variables):
 -c cmd : program passed in as string (terminates option list)
 -d     : debug output from parser (also PYTHONDEBUG=x)
 -E     : ignore environment variables (such as PYTHONPATH)
--h     : print this help message and exit​[ etc. ]
+-h     : print this help message and exit 
+[ etc. ]
 ```
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
