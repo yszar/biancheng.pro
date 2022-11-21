@@ -313,14 +313,16 @@ import sys; x = 'W3Cschool'; sys.stdout.write(x + '\n')
 
 ```python
 if expression:
-	suiteelif expression:    suite else :     suite
+    suiteel
+if expression:
+    suite
+else:
+    suite
 ```
-
----
 
 ## print 输出
 
-print函数是python的基本输出函数，他可以将变量输出（或者说，打印）到控制台。在第一个python程序中，我们就用到了print函数：
+`print` 函数是 python 的基本输出函数，他可以将变量输出（或者说，打印）到控制台。在第一个 python 程序中，我们就用到了 print 函数：
 
 ```
 #!/usr/bin/python3
