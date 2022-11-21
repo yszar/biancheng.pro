@@ -39,4 +39,6 @@ date: 2022-11-21 12:29:34
 
 ## 下载
 
-m
+macOS 安装也相对比较简单，因为是图形化的
+
+[下载地址](https://www.python.org/downloads/macos/)
