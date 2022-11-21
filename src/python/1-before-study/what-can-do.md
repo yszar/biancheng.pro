@@ -85,34 +85,28 @@ Python有上百种Web开发框架，有很多成熟的模板技术，选择Pytho
 
 数据分析处理方面，Python有很完备的生态环境。“大数据”分析中涉及到的分布式计算、数据可视化、数据库操作等，Python中都有成熟的模块可以选择完成其功能。对于Hadoop-MapReduce和Spark，都可以直接使用Python完成计算逻辑，这无论对于数据科学家还是对于数据工程师而言都是十分便利的。
 
-五、自动化运维
+## 五、自动化运维
 
 Python对于服务器运维而言也有十分重要的用途。由于目前几乎所有Linux发行版中都自带了Python解释器，使用Python脚本进行批量化的文件部署和运行调整都成了Linux服务器上很不错的选择。Python中也包含许多方便的工具，从调控ssh/sftp用的paramiko，到监控服务用的supervisor，再到bazel等构建工具，甚至conan等用于C++的包管理工具，Python提供了全方位的工具集合，而在这基础上，结合Web，开发方便运维的工具会变得十分简单。
 
-六、Python的其他应用举例
+## 六、Python 的其他应用
 
-系统编程： 提供API，能方便进行系统维护和管理，Linux下标志性语言之一，是很多系统管理员理想的编程工具。
+- 系统编程： 提供 API，能方便进行系统维护和管理，Linux 下标志性语言之一，是很多系统管理员理想的编程工具。
 
-图形处理： 有PIL、Tkinter等图形库支持，能方便进行图形处理。
+- 图形处理： 有 PIL、Tkinter 等图形库支持，能方便进行图形处理。
 
-数学处理： NumPy扩展提供大量与许多标准数学库的接口。
+- 数学处理： NumPy 扩展提供大量与许多标准数学库的接口。
 
-文本处理： Python提供的re模块能支持正则表达式，还提供SGML，XML分析模块，许多程序员利用Python进行XML程序的开发。
+- 文本处理： Python 提供的 re 模块能支持正则表达式，还提供 SGML，XML 分析模块，许多程序员利用 Python 进行 XML 程序的开发。
 
-数据库编程： 程序员可通过遵循PythonDB-API（数据库应用程序编程接口）规范的模块与MicrosoftSQLServer，Oracle，Sybase，DB2，MySQL、SQLite等数据库通信。Python自带有一个Gadfly模块，提供了一个完整的SQL环境。
+- 数据库编程： 程序员可通过遵循 PythonDB-API（数据库应用程序编程接口）规范的模块与 MicrosoftSQLServer，Oracle，Sybase，DB2，MySQL、SQLite 等数据库通信。Python 自带有一个 Gadfly 模块，提供了一个完整的 SQL 环境。
 
-网络编程： 提供丰富的模块支持sockets编程，能方便快速地开发分布式应用程序。很多大规模软件开发计划例如Zope，Mnet及BitTorrent.Google都在广泛地使用它。
+- 网络编程： 提供丰富的模块支持 sockets 编程，能方便快速地开发分布式应用程序。很多大规模软件开发计划例如 Zope，Mnet 及 BitTorrent. Google 都在广泛地使用它。
 
-Web编程： 应用的开发语言，支持最新的XML技术。
+- Web 编程： 应用的开发语言，支持最新的 XML 技术。
 
-多媒体应用： Python的PyOpenGL模块封装了“OpenGL应用程序编程接口”，能进行二维和三维图像处理。PyGame模块可用于编写游戏软件。
+- 多媒体应用： Python 的 PyOpenGL 模块封装了“OpenGL 应用程序编程接口”，能进行二维和三维图像处理。PyGame 模块可用于编写游戏软件。
 
-黑客编程： Python有一个hack的库，内置了你熟悉的或不熟悉的函数，但是缺少成就感。
-
-七、总结：
-
-看到这么多应用场景是不是觉得Python非常厉害，但是Python通常不作为工程语言出现，换言之正规的软件生产不使用它，主要用java, c#, xml, c，至于为什么，因为这是软件工程的需要。
-
-而且Python不具有完整的语法检查，但这也不影响Python现在的地位，因为Python入门快，简单，学习成本相对低，有很丰富的支持库可以被直接调用以高效地完成不同需求的工作，所以越来越多的人开始加入Python大军。
+- 黑客编程： Python 有一个 hack 的库，内置了你熟悉的或不熟悉的函数，但是缺少成就感。
 
 Python简单易懂的语法，使Python成为最适合初学者使用的语言，即使不是程序员，学会Python，也可以大大提升工作效率。
