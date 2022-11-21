@@ -48,3 +48,7 @@ macOS 安装也相对比较简单，因为是图形化的
 下载之后，双击安装包，一路点“继续”完成安装
 
 ![](https://static.iamjy.com/blog-images/202211211358747.png)
+
+安装完默认路径是 `/Library/Frameworks/Python.framework/Versions/3.10`
+
+终端执行 `python -V` 测试安装结果
