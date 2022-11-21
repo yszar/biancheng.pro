@@ -2,13 +2,14 @@
 # 这是文章的标题
 title: 基础语法
 # 这是页面的图标
-icon: page
+icon: yemian
 # 是否原创
 isOriginal: true
 # 是否加入文章列表
 article: false
 # 展开深度
 headerDepth: 2
+sidebar: heading
 # 这是侧边栏的顺序
 order: 1
 # 设置作者
@@ -37,27 +38,3 @@ date: 2022-11-19 18:43:43
 #       content: 
 ---
 
-
-> [!success] obsidian-vuepress
-> 
-
-```
-> [!success] obsidian-vuepress
-> 
-```
-
-> [!success]
-> I'm obsidian-vuepress
-
-```
-> [!success]
-> I'm obsidian-vuepress
-```
-
-> [!success] obsidian-vuepress
-> I'm obsidian-vuepress
-
-```
-> [!success] obsidian-vuepress
-> I'm obsidian-vuepress
-```
