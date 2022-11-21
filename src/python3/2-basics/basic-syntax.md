@@ -119,7 +119,15 @@ Python3 的六个标准数据类型中：
 > 可变对象与不可变对象的区别在于对象本身是否可变。
 
 ```python
-
+>>> foo = [1, 2, 3]
+>>> foo[0] = 4
+>>> foo
+[4, 2, 3]
+>>> bar = (3, 2, 1)
+>>> bar[0] = 4
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
 ```
 
 
