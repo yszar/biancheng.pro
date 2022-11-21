@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: Python 入门教程 
+title: Python3 入门教程 
 # 这是页面的图标
 icon: python
 # 是否原创
