@@ -42,3 +42,9 @@ date: 2022-11-21 12:29:34
 macOS 安装也相对比较简单，因为是图形化的
 
 [下载地址](https://www.python.org/downloads/macos/)
+
+## 安装
+
+下载之后，双击安装包，一路点“继续”完成安装
+
+![](https://static.iamjy.com/blog-images/202211211358747.png)
