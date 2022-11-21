@@ -306,7 +306,7 @@ export default hopeTheme({
       // 是否启用脚注格式支持
       // 类型: boolean
       // 默认值: false
-      footnote: false,
+      footnote: true,
 
       // 是否支持完整的 GFM 语法
       // 类型: boolean
