@@ -191,5 +191,30 @@ TypeError: 'tuple' object does not support item assignment
 
 我们可以看到，`foo`改变后，它的地址也发生了变化，而`bar`则维持原来的地址，原来地址中的内容也没有发生变化
 
+## 类型判断
+
+python 可以用 `type` 函数来检查一个变量的类型，使用方法如下：
+
+```python
+>>> x = "foobar"
+>>> type(x)
+<type 'str'>
+>>> x=10
+>>> type(x)
+<type 'int'>
+>>> x=('1','2','3')
+>>> type(x)
+<type 'tuple'>
+>>> x = ['1','2','3']
+>>> type(x)
+<type 'list'>
+```
+
+在脚本代码中的使用：
+
+```
+x = "W3Cschool"
+print(type(x))
+```
 
 [^first]:  UTF-8 和  unicode 的解释请看阮一峰老师的文章 [字符编码笔记：ASCII，Unicode 和 UTF-8 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
